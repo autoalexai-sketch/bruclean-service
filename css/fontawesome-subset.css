@@ -1,0 +1,77 @@
+/* FontAwesome subset — solid + brands, 46 icons used across brucleanservice.pl */
+@font-face {
+  font-family: 'Font Awesome 6 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(data:font/woff2;base64,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) format('woff2');
+}
+@font-face {
+  font-family: 'Font Awesome 6 Brands';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(data:font/woff2;base64,d09GMk9UVE8AAAOQAAkAAAAABiQAAANMA4MBAAAAAAAAAAAAAAAAAAAAAAAAAAAADYR8BmAAPAE2AiQDDAQGBYNeByAbgQUAjsK2vfGckCQryR7P/3Oo9/3sbcGccCjUzbWxqARLvYYF7t+3aT9N2b66Uapua1KXQPOWrIoc9S7isMOBvz+VszgXC8gjidKeVF7TQ/9KLU+tWLE2FuBYWCvgmMAFhD4vWnOEeeSq1M/LzGgWSRT2GUsWdyX3thtoR/4m5fj/YySy1FeIjkSkFW1dA/LvpCUyStFGm35rF2igpN33ywbatG2pWd0OxPnZDHTQkH6/L2u8kf6ort7UI9Nteo10Vk1WWCIl7DFe9V/PTDhgSmZFQenGlnew84Kjg+aFhIU9j+qjoqMDgoJCD4oRIeGMl30OkxzGvyExTGRAaECQtyMDXq3eDDcqGUcyjlFMY4bdEpKwCtIoEk2vqZaCjEROKLBEydnHQ3JFkBxRUgpKFBxhNIQlH/82hAd4p+N8K2TlUKEvpOhclJwAwx6lv0D4iiefrDoBkjNS+JISxpDiR/hRHACjQNFU+G3ZfK50dxGCZISenigZAbata98xDxZIOpSgd5g60n9y4iQCIiUY4c9vKBgD3u+403wOpGDpk+V8nL92yVaYWkGl91PbH1Lsaqrv4PgxPA7489nTnwhX8XLfsblwfO6ueqwBdI+Ickf4IdCWKs2STarloOLZ5ZwK2OmxUY4FjuVwmocFW7s39pyA6XXrcf1O4DXqFTM8qDVjB1TrgV2nUnMIHLLIlkubVk9Pg0o1PIxLAZfuWKrhgGdPlt7uhBNDG2e2aWA9v2v9io2wciNuUPMww3P8NA9G4loL8aQl0c4vxUrSohRcpPFhZ4oorQYh9NQolw+l+YqbP3f+CumsfBNeXi6avtIeoYp6SktKmTPaDlg7FdXTskxA2qjZ8FFYE6HxoyC/z8eUjcZxf0Ffi8BfS5QnrJD/y9trTPGW0FWSslWJ+pRF+Z/WBCLkNI2MEcUwNwnukQY6nimlqUs4IWuIozAoY+/QcGchNJ2dhpYPXw7VdkoRSbXEUv06zDPHXF0YXlp5Y2RYYvHu9SXr1a7TEou0n/1ajEiMFB2aLdamU4l2c3RbqFmHbCsGH5W/SAFCBQjSlKzQrkOneVoKjCjRlAkQ9K2hogWJECIcw+um5p7QH4Oxz/NGFPiMZi7/9pUI) format('woff2');
+}
+.fa-solid, .fas {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+}
+.fa-brands, .fab {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+[class^="fa-"], [class*=" fa-"] {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-rendering: auto;
+}
+
+.fa-arrow-left-long::before { content: "\f177"; }
+.fa-arrow-right-long::before { content: "\f178"; }
+.fa-bars::before { content: "\f0c9"; }
+.fa-bolt::before { content: "\f0e7"; }
+.fa-broom::before { content: "\f51a"; }
+.fa-building::before { content: "\f1ad"; }
+.fa-certificate::before { content: "\f0a3"; }
+.fa-chevron-down::before { content: "\f078"; }
+.fa-chevron-left::before { content: "\f053"; }
+.fa-chevron-right::before { content: "\f054"; }
+.fa-circle-check::before { content: "\f058"; }
+.fa-clock::before { content: "\f017"; }
+.fa-cookie-bite::before { content: "\f564"; }
+.fa-droplet::before { content: "\f043"; }
+.fa-droplet-slash::before { content: "\f5c7"; }
+.fa-envelope::before { content: "\f0e0"; }
+.fa-faucet-drip::before { content: "\e006"; }
+.fa-file-contract::before { content: "\f56c"; }
+.fa-filter::before { content: "\f0b0"; }
+.fa-hammer::before { content: "\f6e3"; }
+.fa-helmet-safety::before { content: "\f807"; }
+.fa-house-chimney::before { content: "\e3af"; }
+.fa-house-flag::before { content: "\e50d"; }
+.fa-industry::before { content: "\f275"; }
+.fa-landmark::before { content: "\f66f"; }
+.fa-leaf::before { content: "\f06c"; }
+.fa-location-dot::before { content: "\f3c5"; }
+.fa-map-location-dot::before { content: "\f5a0"; }
+.fa-paint-roller::before { content: "\f5aa"; }
+.fa-palette::before { content: "\f53f"; }
+.fa-person-falling::before { content: "\e546"; }
+.fa-person-rays::before { content: "\e54d"; }
+.fa-phone::before { content: "\f095"; }
+.fa-road::before { content: "\f018"; }
+.fa-screwdriver-wrench::before { content: "\f7d9"; }
+.fa-seedling::before { content: "\f4d8"; }
+.fa-shield-halved::before { content: "\f3ed"; }
+.fa-soap::before { content: "\e06e"; }
+.fa-spray-can-sparkles::before { content: "\f5d0"; }
+.fa-star::before { content: "\f005"; }
+.fa-swatchbook::before { content: "\f5c3"; }
+.fa-warehouse::before { content: "\f494"; }
+.fa-window-restore::before { content: "\f2d2"; }
+.fa-xmark::before { content: "\f00d"; }
+.fa-google::before { content: "\f1a0"; }
+.fa-whatsapp::before { content: "\f232"; }
