@@ -152,7 +152,7 @@ src="https://www.facebook.com/tr?id=1792681042143896&ev=PageView&noscript=1"
             </div>
         </div>
 
-        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-gray-100 px-4 pt-2 pb-6 space-y-3 shadow-inner">
+        <div id="mobile-menu" class="hidden md:hidden fixed inset-x-0 top-20 bottom-0 z-40 bg-white overflow-y-auto overscroll-contain px-4 pt-4 pb-8 space-y-3">
             <a href="../index.html#oferta" class="mobile-link block py-2 text-base font-medium text-brand-dark hover:text-brand-orange">Oferta</a>
             <details class="group" open>
                 <summary class="flex items-center justify-between gap-2 py-2 text-base font-medium text-brand-dark">
@@ -350,9 +350,26 @@ src="https://www.facebook.com/tr?id=1792681042143896&ev=PageView&noscript=1"
     <script>
         const mobileMenuBtn = document.getElementById('mobile-menu-btn');
         const mobileMenu = document.getElementById('mobile-menu');
-        mobileMenuBtn.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+
+        function openMobileMenu() {
+            mobileMenu.classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+        function closeMobileMenu() {
+            mobileMenu.classList.add('hidden');
+            document.body.style.overflow = '';
+        }
+
+        mobileMenuBtn.addEventListener('click', () => {
+            if (mobileMenu.classList.contains('hidden')) {
+                openMobileMenu();
+            } else {
+                closeMobileMenu();
+            }
+        });
+
         document.querySelectorAll('.mobile-link').forEach(link => {
-            link.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+            link.addEventListener('click', closeMobileMenu);
         });
     </script>
 </body>
