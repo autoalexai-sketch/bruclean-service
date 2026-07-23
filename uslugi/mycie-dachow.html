@@ -1,13 +1,38 @@
 <!DOCTYPE html>
 <html lang="pl-PL">
 <head>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    <!-- Google Tag Manager + Meta Pixel: deferred load (perf optimization) -->
+    <!-- Loads on first user interaction (scroll/click/touch/key) or after 3.5s fallback, whichever first -->
+    <!-- Reduces main-thread blocking time (TBT) on initial page load; noscript fallbacks below remain unaffected -->
+    <script>
+    (function(){
+    var loaded=false;
+    function loadTrackers(){
+    if(loaded)return;loaded=true;
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-THM8WPJ3');</script>
-    <!-- End Google Tag Manager -->
+    })(window,document,'script','dataLayer','GTM-THM8WPJ3');
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1792681042143896');
+    fbq('track', 'PageView');
+    events.forEach(function(evt){window.removeEventListener(evt,loadTrackers,{passive:true});});
+    clearTimeout(fallbackTimer);
+    }
+    var events=['scroll','mousemove','keydown','touchstart','click'];
+    events.forEach(function(evt){window.addEventListener(evt,loadTrackers,{passive:true,once:true});});
+    var fallbackTimer=setTimeout(loadTrackers,3500);
+    })();
+    </script>
+    <!-- End deferred Google Tag Manager + Meta Pixel -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mycie dachów Kraków | BruClean Service</title>
@@ -23,10 +48,14 @@
     <meta property="og:description" content="Profesjonalne mycie i czyszczenie dachów w Krakowie i Małopolsce. Usuwanie mchu, porostów i nalotu, impregnacja, praca na wysokości. Darmowa wycena.">
     <meta property="og:url" content="https://brucleanservice.pl/uslugi/mycie-dachow.html">
     <meta property="og:image" content="https://brucleanservice.pl/image_34e979.png">
-    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAANUklEQVR42u2be5BlVXXGf2vtc8599fQMKISBQORl8UiEciBaATFEMRFNEcFogOjAEEwlVqqgSuSpwkjBUFJaAWNFkNcMYETKEBSoimgiREFBDI4kgFAQeUTJODCP7nvvOWevlT/26Qdm6JkeuwcIs7u6Tnffe8/e+zvr8a1v7RZ3d17DQ3mNj+0AbAfg5R7u4Ab4KxOAeY2R7iACooCk3+d8Ct86ANydsbExhsPhvOzd3HER+vfdytpbLoNyPQ6YR5I9GI4RAScSqRI+s8RoOBxS1/VLvp7NBECe5xRFMS9PXkWoV38LW/lJirVP0+8/T+dPP4ZlXTBHFBxBHMQV0Wb3IrOaqt1uz/i6bEse4BP+roGxx39MeflHWLj2UTQLjFUgf/I3dI49E8hRc0zBUIILrmn/Kq/iICgIIMn18xzpdXERINDLnHjb5xm/5fOIG7UoYo5imDpgID7noXKbAuA45o640dtjfxaecgnlrvtj1RCRnFGriLdezuCOvydonygBNUFxBGuur0QAfNrVp/3QXCxFN0SEgBARvDZ0r0MpTr6EjTvvTyxrnBajjFF+7RLG//kKVA1DwQQje1EQ3OSUm4R8W1mATZ9WJn+NZhiGM6Rc+yyudYrx4lBHsjceRvfUFYztvCe1lQgZC8tx6psuo/yXlUhwIhDMqMXTfT25hE/ONoWKN18ppchms8acAOACpoAYLlMejzjiNUGU8ge388KlJ1H9+7fJVBF3TIXSKsJ+R9A55WLGF+1CHcchbzFajRNvuJDq7utQrai9JHi6LRjiaaPiBm54Ex+MCqNOtEK2kQs0oa3x0AohouZgNZoVDH90O+UNn+J1T/4bw5XnEB+5C80yxAxRobaacOA76C77HOMLFuPleiRAtxyjvP4iqntuIoQMjYI6IIJJYgkmU6nRxVGEYAEiiEQQm9EKdK6Cm7ggDeQVSiwjaE758J0Mrz2L3vqfISOjdNc8Rv+qM4hP3gtZhhooAlUkP/gP6Sy7mI29XbB6gBeBTv95ylUXUt97C2RKbY65kowhgkN0xV1QagTBRTHxJu3OHAfmLAbExt3EckLthHZG9eg9DK/4JAuefxbNCqw2tGjRfvpRBld/ivjsQ6hmadEZeBySLzmGfNkKxnu7IsMSKXLaG5+lv+p8yvvvIARBLBI8EDxDCYh7AsMUXBAZIloCAfMA4vNPhKxxAyyCZsT/up8NX/g4C372Y7JuAVYTqyGSFahmVP2KsQMOZ+FHPws77oXHIWgACxCE6u5/oL72fLrxF5jkSA0bdtyD1imX0n7T7xOjoaIpzojgT65m+I0vAiUx1vi+h9B711KqrEfhL80gdcvNPKbgMj3/4EAEc9QMMwPNsGceYnDVWYw+tZqs0yXWJePFKOUb38qYdMAiebtF75G72XjNJ2D900gQxGsEx2KkdfgHyE44l36+iOARb7dYsPYJymvOpHroO0hQ3CMxQgTs+WfIvnsDre/dSHHXl6n/87sINfncZQHFCVSSJpxK9YJjmINqwJ97jPGrzqZ4/AGkrSAD+tHxo06mc/pK7O1/Rr8sQSJ5KMjuv5N1q5Zj/bWgbZwUE9wjxTtOxI8/h/W6ECnHkCLQW/Mw/S+dQfzpPclgqNLzaHWg20U6I0ing7RbIPlmidMWAyAuBE+sTPEXpRnBkaCw9inGrjyTziN3kbcKxCL9WKHvXkbvmNNgwW8w+oGziYe/n2E5AJRODvk9N9O/8XPIcAMoaLOs2iLdI09GjzudjVkLMUdaPXrPPcLwyrOoHvsheZYT3JMPmoNZ+t5Cz95yCxDHxQhNsjMxnArxCtMMX/8LNq48h9ZPvklWdECFQQX2thPovv9cPOtBjEhnB7onLGfw5qMTCJnSLYTiX69h+NWLUOsTBcQDilN7YOToU8ne93EGdRetItIZpf3fq6muPBt7YnXy71inp+0+mZjnFABL3k4qT1IK8igpQI09x7pVF1DcdxtFtwPq9Ad9yiOOo3f8cqxYiJuDBMwMXbQrIx9eQf+3/4DY7yMORR7hjlWMff2LBI3J5SQDcYyC7rs/ir3vL9ngjsZIyDLaT3+fsS+dTvzl40i718QmS/FO2CLxYMtdACckFt+QMQXN0f4LbLhxOZ17v0IrC2A5/eE49aHvZcGHLiR2X4e742ogNS6O1UZ4/R6MLruIwb6HUtYRDyO0MsP+8W8p77gCDxXqRoahXoEEOsecBu/9K8bqgLigrS6dJ77P2BWn4U//BAlh1oKJbp7i+BTf8wAmiDlOQOt1rP/KCvSum2lnAiqU1Tjx4KNZsPQzSGcn3GtEBHUhiiAoBCF6RBbvS2vZhWzc7SDKwQt4pozEPvXNn6H8zpcRTYzOCcm9pUvvuDPgPacwKBWikrcW0H74e8RbL0VjmeS1WWR23ZzhO/Uk08OlgURQGzL42uXot66mmwm4UsWKsQOOpLt0BSxaDDYkiCPUuDkeSa7ghnjErSa84S30TjqfjTvvi/f7SNahOyyJ16+g/MFNSJYRCbgowR0NI/SOPYN41FL6VQ1eEfKC8PyaFASVyTVO1CkzhQPdXJmrSCNkTBUh4hVjX78Mve3v6BY5EoxYDRi+4QhGly2HnXZHakPIEA8YGTELaAiETFENIAVKwKwk2+/tjH74Avo77Ib7ON4yWv01DFZdQL36djIVxAwLRvQSz3v0PngOHLmMsoYQa1SKrVILss2WOa6kh2+IOQRn7LYr8X+6nEJrxHKqqs/GvQ5hwanLsV0OhIalmRiCEPp9+j+6jbD+GTILWKdL/pbjoLuIYBm1GdlB78GWDlh/1ZmMDNdAWxhZ93P6Vy+n/ZERwv5vwyyikkNteGuU9p+fQ78ewN3XUbR0y8q/WQHQ3DDVXUIeAuW3r4VbLqbrQ0RHqKtfMr7b/iw46dOE3Q/CrOEEk6FD8MFGht/4Au0n7sVpU+2wmOyAI6C3CHCCKkSn9bvHYmMbGF7/CbrlC5h26fzPf7Bx5Xn0/vqz6G8uSelIFREjdhbR/tB5DMoau++rtDPd4vS3ZS7QlJ1CJJea8u4bqG9YTm84QIqMGDcyvtN+dE9eQdj795JPizTqbUS9WU4WKVoF3bxD0Q50iuRUDkSNjVroRCvpHHk8cty5bGjtiDiEVpfiqQexRx9oeghJMTbVpAOM7Ez75POIS/6YGG22+58ZgChgGCLK4Id3Mrx+OUW5DrIu3q9Zt3AP2ssuJN/vSKLFlH+bNfg06cqlxqRKqdMEw3HRZgGKIUlQcahjRuuP/oKw5CjqYd2UuRlJTJvan7qjQG0lNrqYzjtPhLydVGeZIwBSPZ3e1v/pA7TX/ZwQOtRVyZqFe9Nb+mmK33kXZjWqikyWnoJIaEhMSmNqE1RKknojDV9rGJ+4EKSFiiCakS9cjBMRaiKeqkRoBBBPQodUBIzMwSRrNi6T+jNb4BDZ5tFJfpVrnSo2aqJF8neeSOuQo9PmJXsRnDLtDprIGe75FKf0VNNPKmfI5Ge1sZxYV4lzqhIwRGIDWEPLJKT8JNZI6ymtpsDdTMo0TVDmQhBpbiYqdBeONI1NZ8616ib+zF6Y2xayeNPDrC2mRfq89DRfge1xb+xPNflw06MSEV7NYxZ6wAQI05oR89pHkwTuxHWeRvbr9ALmtY1W19RViVaBuqrJzV5eABIdlslILZMI6NzGwKaayw77IPVvHZxqCHN07zc3AVdfJgAmNbDEDWRKD5uXNmq+zxLyfZb8yp+tAegV4ALzPiz1EJOSJIjqVqTG+QBgIu/PZwwQAQmNR/i8TpbNZk3Tk/709sDcL09+bYIzf0To/9nYDsB2ALYDsB2A1/R4+YiQT2tizpbgTDsrlNhhc301ASCtLujWG6BMq0MEkKKzVQw5mwlkprUaJs7tYlNNEnBkCxQhF02nRzyC5KhH6ge/ibx+D4hxlhYw/b3pUIZkOTzxIEFiU6c0LXxkUnvcKguQiZYYAGECa6JOA4CZAUiHuFJd7xogayFj66ivO28rSZ68+DE1um2Gow4uOU6V1tscppqJT2YzTuMBl2QFWYzpj1qj0THPAMUEBEtNz00+fQdqhDxJ214TvKSrITVbZ814fROxYOIeAdTxrOkbNKDMdP9sc3OZQCCm7WkASae3I3nzFpsmQv/fpRqCuDEsK1r9AWolLnXqC1hgmo/NXmeS6X1LJzbuaP0SG5aYlpgUZDOgm23e2hLMQzNag7VkdCiHOXUcNBtk6szAJgooBQhd8gOPwHbaHS8gYjhKMN+sbD0b1zAJmBoyLGnt81akzpBMmupyKwAwaQIXObrnm7DDTqDOu1ht5LvsmW7gMsPak4Rc93Zg9ISPAQGXQDEhrMhcKovpCIdJRBkinmPkqZU4QyCc8Zxg7RGhQrxAMVyz5kPjOBlOgXhsVKrwEuk+Ummyk9wDE6eqTSLqYQuD3UvEgF/VrCw9U1NPruHWAKAvmWhmBMAnjTxMRXxSFyb9C4du3ny9Oc+LoD7VvU1N19lucroWuYnPiDfrmnhzc054Bh1xG/zLzJw5+auVCr+yGyfbq8HtALzGx/8C0cOOQ+3M92QAAAAASUVORK5CYII=">
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAANUklEQVR42u2be5BlVXXGf2vtc8599fQMKISBQORl8UiEciBaATFEMRFNEcFogOjAEEwlVqqgSuSpwkjBUFJaAWNFkNcMYETKEBSoimgiREFBDI4kgFAQeUTJODCP7nvvOWevlT/26Qdm6JkeuwcIs7u6Tnffe8/e+zvr8a1v7RZ3d17DQ3mNj+0AbAfg5R7u4Ab4KxOAeY2R7iACooCk3+d8Ct86ANydsbExhsPhvOzd3HER+vfdytpbLoNyPQ6YR5I9GI4RAScSqRI+s8RoOBxS1/VLvp7NBECe5xRFMS9PXkWoV38LW/lJirVP0+8/T+dPP4ZlXTBHFBxBHMQV0Wb3IrOaqt1uz/i6bEse4BP+roGxx39MeflHWLj2UTQLjFUgf/I3dI49E8hRc0zBUIILrmn/Kq/iICgIIMn18xzpdXERINDLnHjb5xm/5fOIG7UoYo5imDpgID7noXKbAuA45o640dtjfxaecgnlrvtj1RCRnFGriLdezuCOvydonygBNUFxBGuur0QAfNrVp/3QXCxFN0SEgBARvDZ0r0MpTr6EjTvvTyxrnBajjFF+7RLG//kKVA1DwQQje1EQ3OSUm4R8W1mATZ9WJn+NZhiGM6Rc+yyudYrx4lBHsjceRvfUFYztvCe1lQgZC8tx6psuo/yXlUhwIhDMqMXTfT25hE/ONoWKN18ppchms8acAOACpoAYLlMejzjiNUGU8ge388KlJ1H9+7fJVBF3TIXSKsJ+R9A55WLGF+1CHcchbzFajRNvuJDq7utQrai9JHi6LRjiaaPiBm54Ex+MCqNOtEK2kQs0oa3x0AohouZgNZoVDH90O+UNn+J1T/4bw5XnEB+5C80yxAxRobaacOA76C77HOMLFuPleiRAtxyjvP4iqntuIoQMjYI6IIJJYgkmU6nRxVGEYAEiiEQQm9EKdK6Cm7ggDeQVSiwjaE758J0Mrz2L3vqfISOjdNc8Rv+qM4hP3gtZhhooAlUkP/gP6Sy7mI29XbB6gBeBTv95ylUXUt97C2RKbY65kowhgkN0xV1QagTBRTHxJu3OHAfmLAbExt3EckLthHZG9eg9DK/4JAuefxbNCqw2tGjRfvpRBld/ivjsQ6hmadEZeBySLzmGfNkKxnu7IsMSKXLaG5+lv+p8yvvvIARBLBI8EDxDCYh7AsMUXBAZIloCAfMA4vNPhKxxAyyCZsT/up8NX/g4C372Y7JuAVYTqyGSFahmVP2KsQMOZ+FHPws77oXHIWgACxCE6u5/oL72fLrxF5jkSA0bdtyD1imX0n7T7xOjoaIpzojgT65m+I0vAiUx1vi+h9B711KqrEfhL80gdcvNPKbgMj3/4EAEc9QMMwPNsGceYnDVWYw+tZqs0yXWJePFKOUb38qYdMAiebtF75G72XjNJ2D900gQxGsEx2KkdfgHyE44l36+iOARb7dYsPYJymvOpHroO0hQ3CMxQgTs+WfIvnsDre/dSHHXl6n/87sINfncZQHFCVSSJpxK9YJjmINqwJ97jPGrzqZ4/AGkrSAD+tHxo06mc/pK7O1/Rr8sQSJ5KMjuv5N1q5Zj/bWgbZwUE9wjxTtOxI8/h/W6ECnHkCLQW/Mw/S+dQfzpPclgqNLzaHWg20U6I0ing7RbIPlmidMWAyAuBE+sTPEXpRnBkaCw9inGrjyTziN3kbcKxCL9WKHvXkbvmNNgwW8w+oGziYe/n2E5AJRODvk9N9O/8XPIcAMoaLOs2iLdI09GjzudjVkLMUdaPXrPPcLwyrOoHvsheZYT3JMPmoNZ+t5Cz95yCxDHxQhNsjMxnArxCtMMX/8LNq48h9ZPvklWdECFQQX2thPovv9cPOtBjEhnB7onLGfw5qMTCJnSLYTiX69h+NWLUOsTBcQDilN7YOToU8ne93EGdRetItIZpf3fq6muPBt7YnXy71inp+0+mZjnFABL3k4qT1IK8igpQI09x7pVF1DcdxtFtwPq9Ad9yiOOo3f8cqxYiJuDBMwMXbQrIx9eQf+3/4DY7yMORR7hjlWMff2LBI3J5SQDcYyC7rs/ir3vL9ngjsZIyDLaT3+fsS+dTvzl40i718QmS/FO2CLxYMtdACckFt+QMQXN0f4LbLhxOZ17v0IrC2A5/eE49aHvZcGHLiR2X4e742ogNS6O1UZ4/R6MLruIwb6HUtYRDyO0MsP+8W8p77gCDxXqRoahXoEEOsecBu/9K8bqgLigrS6dJ77P2BWn4U//BAlh1oKJbp7i+BTf8wAmiDlOQOt1rP/KCvSum2lnAiqU1Tjx4KNZsPQzSGcn3GtEBHUhiiAoBCF6RBbvS2vZhWzc7SDKwQt4pozEPvXNn6H8zpcRTYzOCcm9pUvvuDPgPacwKBWikrcW0H74e8RbL0VjmeS1WWR23ZzhO/Uk08OlgURQGzL42uXot66mmwm4UsWKsQOOpLt0BSxaDDYkiCPUuDkeSa7ghnjErSa84S30TjqfjTvvi/f7SNahOyyJ16+g/MFNSJYRCbgowR0NI/SOPYN41FL6VQ1eEfKC8PyaFASVyTVO1CkzhQPdXJmrSCNkTBUh4hVjX78Mve3v6BY5EoxYDRi+4QhGly2HnXZHakPIEA8YGTELaAiETFENIAVKwKwk2+/tjH74Avo77Ib7ON4yWv01DFZdQL36djIVxAwLRvQSz3v0PngOHLmMsoYQa1SKrVILss2WOa6kh2+IOQRn7LYr8X+6nEJrxHKqqs/GvQ5hwanLsV0OhIalmRiCEPp9+j+6jbD+GTILWKdL/pbjoLuIYBm1GdlB78GWDlh/1ZmMDNdAWxhZ93P6Vy+n/ZERwv5vwyyikkNteGuU9p+fQ78ewN3XUbR0y8q/WQHQ3DDVXUIeAuW3r4VbLqbrQ0RHqKtfMr7b/iw46dOE3Q/CrOEEk6FD8MFGht/4Au0n7sVpU+2wmOyAI6C3CHCCKkSn9bvHYmMbGF7/CbrlC5h26fzPf7Bx5Xn0/vqz6G8uSelIFREjdhbR/tB5DMoau++rtDPd4vS3ZS7QlJ1CJJea8u4bqG9YTm84QIqMGDcyvtN+dE9eQdj795JPizTqbUS9WU4WKVoF3bxD0Q50iuRUDkSNjVroRCvpHHk8cty5bGjtiDiEVpfiqQexRx9oeghJMTbVpAOM7Ez75POIS/6YGG22+58ZgChgGCLK4Id3Mrx+OUW5DrIu3q9Zt3AP2ssuJN/vSKLFlH+bNfg06cqlxqRKqdMEw3HRZgGKIUlQcahjRuuP/oKw5CjqYd2UuRlJTJvan7qjQG0lNrqYzjtPhLydVGeZIwBSPZ3e1v/pA7TX/ZwQOtRVyZqFe9Nb+mmK33kXZjWqikyWnoJIaEhMSmNqE1RKknojDV9rGJ+4EKSFiiCakS9cjBMRaiKeqkRoBBBPQodUBIzMwSRrNi6T+jNb4BDZ5tFJfpVrnSo2aqJF8neeSOuQo9PmJXsRnDLtDprIGe75FKf0VNNPKmfI5Ge1sZxYV4lzqhIwRGIDWEPLJKT8JNZI6ymtpsDdTMo0TVDmQhBpbiYqdBeONI1NZ8616ib+zF6Y2xayeNPDrC2mRfq89DRfge1xb+xPNflw06MSEV7NYxZ6wAQI05oR89pHkwTuxHWeRvbr9ALmtY1W19RViVaBuqrJzV5eABIdlslILZMI6NzGwKaayw77IPVvHZxqCHN07zc3AVdfJgAmNbDEDWRKD5uXNmq+zxLyfZb8yp+tAegV4ALzPiz1EJOSJIjqVqTG+QBgIu/PZwwQAQmNR/i8TpbNZk3Tk/709sDcL09+bYIzf0To/9nYDsB2ALYDsB2A1/R4+YiQT2tizpbgTDsrlNhhc301ASCtLujWG6BMq0MEkKKzVQw5mwlkprUaJs7tYlNNEnBkCxQhF02nRzyC5KhH6ge/ibx+D4hxlhYw/b3pUIZkOTzxIEFiU6c0LXxkUnvcKguQiZYYAGECa6JOA4CZAUiHuFJd7xogayFj66ivO28rSZ68+DE1um2Gow4uOU6V1tscppqJT2YzTuMBl2QFWYzpj1qj0THPAMUEBEtNz00+fQdqhDxJ214TvKSrITVbZ814fROxYOIeAdTxrOkbNKDMdP9sc3OZQCCm7WkASae3I3nzFpsmQv/fpRqCuDEsK1r9AWolLnXqC1hgmo/NXmeS6X1LJzbuaP0SG5aYlpgUZDOgm23e2hLMQzNag7VkdCiHOXUcNBtk6szAJgooBQhd8gOPwHbaHS8gYjhKMN+sbD0b1zAJmBoyLGnt81akzpBMmupyKwAwaQIXObrnm7DDTqDOu1ht5LvsmW7gMsPak4Rc93Zg9ISPAQGXQDEhrMhcKovpCIdJRBkinmPkqZU4QyCc8Zxg7RGhQrxAMVyz5kPjOBlOgXhsVKrwEuk+Ummyk9wDE6eqTSLqYQuD3UvEgF/VrCw9U1NNruHWAKAvmWhmBMAnjTxMRXxSFyb9C4du3ny9Oc+LoD7VvU1N19lucroWuYnPiDfrmnhzc054Bh1xG/zLzJw5+auVCr+yGyfbq8HtALzGx/8C0cOOQ+3M92QAAAAASUVORK5CYII=">
     <link rel="stylesheet" href="../css/tailwind.min.css?v=20260722">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.gstatic.com/s/rubik/v31/iJWKBXyIfDnIV7nBrXyw023e.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="https://fonts.gstatic.com/s/rubik/v31/iJWKBXyIfDnIV7nPrXyw023e1Ik.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="https://fonts.gstatic.com/s/exo/v25/4UaOrEtFpBISc36j2jDu5w.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="https://fonts.gstatic.com/s/exo/v25/4UaOrEtFpBISfX6j2jDu55XI.woff2" as="font" type="font/woff2" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;600;700;800&family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/fontawesome-subset.css?v=20260722">
     <style>
@@ -57,19 +86,7 @@
         ]
     }
     </script>
-<!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1792681042143896');
-fbq('track', 'PageView');
-</script>
+<!-- Meta Pixel Code (noscript fallback; script now loaded via deferred loader above) -->
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=1792681042143896&ev=PageView&noscript=1"
 /></noscript>
@@ -85,7 +102,7 @@ src="https://www.facebook.com/tr?id=1792681042143896&ev=PageView&noscript=1"
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-20">
                 <a href="../index.html" class="flex items-center gap-3 group">
-                    <img src="../image_34e979.png" alt="BruClean Service – logo firmy sprzątającej i wysokościowej Kraków" width="48" height="48" class="h-12 w-auto object-contain group-hover:scale-105 transition-transform shrink-0">
+                    <img src="data:image/webp;base64,UklGRjQFAABXRUJQVlA4ICgFAAAwGQCdASpgAGAAPjEWiEMiISEStswgAwS2CXjhYncekFvR/yK543a3vT+I/OxFT9R/UT8F90v1J5wD9EP83/U+sB5iP5p/jP2y7CPoAfyL+3/+zsTPQO8sf9ovgy/bf9g/gM/WbVXk7K8ngNlig+ky/x9agrBdCEn24/rDhCdbluHDlSQGwF/9ujArc29Y+q0LJ2pzmMVuwHdxs1Z+Z8wN5kRuUvfqXgmB28dcXCyYO4ZqGzXqdoUamRZeV3zLGNbCmfVqUtDAh7kckzXnSNxDdAAA/v8+OkAX1/6yLpcq1Qc9dfAo6BqC00G7LOy3mDB1XipTfC6ZQdGO9OnnViu9d5FMueLVt/v7qP+kuv16PxL+6bN8haKzkcLc28mrnXTcUZcqSOZ6TQ9LZeQRhbahBzI81AMWe0v7I8hP4p0rtc2IdPjtpBon6snHpOXbMZpi/tUkLxNdnfGZykcWnUgPcicNn+nfa5Q7F0GhepzilUQUBke7x0wvA09zLjR1PhoNFjFMiPdPic4W0fFXq5yVdOpC+oEz/lhBRoPu8pZ9DYgjP5kf8m5I28VMMQw1cyKGbn3a7/LFva2OFYrEODnurXARb2JVS3mIg4emC1gKmT7mu7EFLdDTzo4eKNMbkHNkME+6QzW3QDbcQRBDvgZQHh2iWV05WKqNVBc4xCaeidX2sTJqi3L9HuqeaKBEli1TW3zM6BxFhjsY/7sf/pXxhovyUNWOwdbeCzwXjIN77zXRLKr1YobC1o/K/xKi/YgNkvwlbNm8vTDI1pf6MQbIJdvQB9Nt0roaq9qiACqByWLoSj1n2dsW21rIRyJZk358qT0m3C0RvskrI8a0xQ4my/AYQaBXWeWke62ZDXI0Nvr3l2TgAq0xMXKkY3u2hG2VWHDCbyB2ev90PDbZ1dBkRLPAS4WPWrJiCCUu8D+oHNrDYx6eWYXNCfFGRN8XCFBKGxMG3tSEl3I0JpFPSzd3CHZG8bVH0EyJYIcL8n0JvBXc6cXyqTycKhydxl2ZyBKoE2H2H1B+L37aiXVBY2x/8h+2Ro7avtLGYwFFiHeT5QK2PT/+tjYPWk1hp7od0KtxhAMspK+En6HXN3ng7eWDqSUN+H4xPb9jdFJV1DhYZ27dEPJq/KFHcE6tNAJPfgPqe5D6a0kvVBqFrxjlsvp0GJD683+t3MJKBt+U3eP5nMqqMLaGP/e2kOt4ZC3L3z1wm9cQ685liYojy96AfORfmZV3V4wGT7OlT2+ZG2nbecTxAPtQBQm9/KOoMbeGtLUYeYM+07QdMLgHAtOicRMykqhe4SpriDEukNtqsREuCB5smm/oeITP/fHygxvjMhSJBgygOAhwCAQ+j2Ak43i6V5wNV4+bnMdcxl7C1G7ydZk7M0hASb5+kUcV/TlW4N63MMgj9+bYXK31RemJe98QmNNELAs7q9Q+PH8wlK8eLLXrzuGFQo6Ljy7DJBYy8AjlNZtjeFDOjBBEqCiK+OI6K/0x5bjdspb+QXn5DcKKnnuGa9XxBNUqy6dpq6bb7U5S6NaFvdmkYvvKK7xSNzdDmwvbJM/H22/jykE15/kofKOH5XMP6X/3ozxr+EM/vaAo3ax9fUVCJ0akxf+1/yXDjqriFvv7BJ8v6pN3J3QGsO76hHYkMEfQa119/cJfKp9a/kEi3kg+++XlJCf//CgUM6M6XS7w+rf//JXak8EPgTiIRwG2hMiNz0NQIw/0+XurcRHg5nYZoJWibj6F0O5dJzcgdpbAAAA=" alt="BruClean Service – logo firmy sprzątającej i wysokościowej Kraków" width="48" height="48" class="h-12 w-auto object-contain group-hover:scale-105 transition-transform shrink-0">
                     <div class="flex flex-col items-start justify-center pt-1">
                         <span class="text-2xl font-extrabold tracking-tight text-black leading-none">BruClean</span>
                         <span class="text-sm font-bold text-brand-orange tracking-widest uppercase mt-1 leading-none">SERVICE</span>
@@ -310,7 +327,7 @@ src="https://www.facebook.com/tr?id=1792681042143896&ev=PageView&noscript=1"
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-12 pb-12 border-b border-white/5">
             <div class="space-y-6">
                 <a href="../index.html" class="flex items-center gap-3 group">
-                    <img src="../image_34e979.png" alt="BruClean Service – logo" width="40" height="40" loading="lazy" decoding="async" class="h-10 w-auto object-contain group-hover:scale-105 transition-transform shrink-0">
+                    <img src="data:image/webp;base64,UklGRjQFAABXRUJQVlA4ICgFAAAwGQCdASpgAGAAPjEWiEMiISEStswgAwS2CXjhYncekFvR/yK543a3vT+I/OxFT9R/UT8F90v1J5wD9EP83/U+sB5iP5p/jP2y7CPoAfyL+3/+zsTPQO8sf9ovgy/bf9g/gM/WbVXk7K8ngNlig+ky/x9agrBdCEn24/rDhCdbluHDlSQGwF/9ujArc29Y+q0LJ2pzmMVuwHdxs1Z+Z8wN5kRuUvfqXgmB28dcXCyYO4ZqGzXqdoUamRZeV3zLGNbCmfVqUtDAh7kckzXnSNxDdAAA/v8+OkAX1/6yLpcq1Qc9dfAo6BqC00G7LOy3mDB1XipTfC6ZQdGO9OnnViu9d5FMueLVt/v7qP+kuv16PxL+6bN8haKzkcLc28mrnXTcUZcqSOZ6TQ9LZeQRhbahBzI81AMWe0v7I8hP4p0rtc2IdPjtpBon6snHpOXbMZpi/tUkLxNdnfGZykcWnUgPcicNn+nfa5Q7F0GhepzilUQUBke7x0wvA09zLjR1PhoNFjFMiPdPic4W0fFXq5yVdOpC+oEz/lhBRoPu8pZ9DYgjP5kf8m5I28VMMQw1cyKGbn3a7/LFva2OFYrEODnurXARb2JVS3mIg4emC1gKmT7mu7EFLdDTzo4eKNMbkHNkME+6QzW3QDbcQRBDvgZQHh2iWV05WKqNVBc4xCaeidX2sTJqi3L9HuqeaKBEli1TW3zM6BxFhjsY/7sf/pXxhovyUNWOwdbeCzwXjIN77zXRLKr1YobC1o/K/xKi/YgNkvwlbNm8vTDI1pf6MQbIJdvQB9Nt0roaq9qiACqByWLoSj1n2dsW21rIRyJZk358qT0m3C0RvskrI8a0xQ4my/AYQaBXWeWke62ZDXI0Nvr3l2TgAq0xMXKkY3u2hG2VWHDCbyB2ev90PDbZ1dBkRLPAS4WPWrJiCCUu8D+oHNrDYx6eWYXNCfFGRN8XCFBKGxMG3tSEl3I0JpFPSzd3CHZG8bVH0EyJYIcL8n0JvBXc6cXyqTycKhydxl2ZyBKoE2H2H1B+L37aiXVBY2x/8h+2Ro7avtLGYwFFiHeT5QK2PT/+tjYPWk1hp7od0KtxhAMspK+En6HXN3ng7eWDqSUN+H4xPb9jdFJV1DhYZ27dEPJq/KFHcE6tNAJPfgPqe5D6a0kvVBqFrxjlsvp0GJD683+t3MJKBt+U3eP5nMqqMLaGP/e2kOt4ZC3L3z1wm9cQ685liYojy96AfORfmZV3V4wGT7OlT2+ZG2nbecTxAPtQBQm9/KOoMbeGtLUYeYM+07QdMLgHAtOicRMykqhe4SpriDEukNtqsREuCB5smm/oeITP/fHygxvjMhSJBgygOAhwCAQ+j2Ak43i6V5wNV4+bnMdcxl7C1G7ydZk7M0hASb5+kUcV/TlW4N63MMgj9+bYXK31RemJe98QmNNELAs7q9Q+PH8wlK8eLLXrzuGFQo6Ljy7DJBYy8AjlNZtjeFDOjBBEqCiK+OI6K/0x5bjdspb+QXn5DcKKnnuGa9XxBNUqy6dpq6bb7U5S6NaFvdmkYvvKK7xSNzdDmwvbJM/H22/jykE15/kofKOH5XMP6X/3ozxr+EM/vaAo3ax9fUVCJ0akxf+1/yXDjqriFvv7BJ8v6pN3J3QGsO76hHYkMEfQa119/cJfKp9a/kEi3kg+++XlJCf//CgUM6M6XS7w+rf//JXak8EPgTiIRwG2hMiNz0NQIw/0+XurcRHg5nYZoJWibj6F0O5dJzcgdpbAAAA=" alt="BruClean Service – logo" width="40" height="40" loading="lazy" decoding="async" class="h-10 w-auto object-contain group-hover:scale-105 transition-transform shrink-0">
                     <div class="flex flex-col items-start justify-center pt-1">
                         <span class="text-xl font-extrabold tracking-tight text-white leading-none">BruClean</span>
                         <span class="text-xs font-bold text-brand-orange tracking-widest uppercase mt-1 leading-none">SERVICE</span>
