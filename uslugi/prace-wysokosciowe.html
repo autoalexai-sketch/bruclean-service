@@ -1,13 +1,38 @@
 <!DOCTYPE html>
 <html lang="pl-PL">
 <head>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    <!-- Google Tag Manager + Meta Pixel: deferred load (perf optimization) -->
+    <!-- Loads on first user interaction (scroll/click/touch/key) or after 3.5s fallback, whichever first -->
+    <!-- Reduces main-thread blocking time (TBT) on initial page load; noscript fallbacks below remain unaffected -->
+    <script>
+    (function(){
+    var loaded=false;
+    function loadTrackers(){
+    if(loaded)return;loaded=true;
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-THM8WPJ3');</script>
-    <!-- End Google Tag Manager -->
+    })(window,document,'script','dataLayer','GTM-THM8WPJ3');
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1792681042143896');
+    fbq('track', 'PageView');
+    events.forEach(function(evt){window.removeEventListener(evt,loadTrackers,{passive:true});});
+    clearTimeout(fallbackTimer);
+    }
+    var events=['scroll','mousemove','keydown','touchstart','click'];
+    events.forEach(function(evt){window.addEventListener(evt,loadTrackers,{passive:true,once:true});});
+    var fallbackTimer=setTimeout(loadTrackers,3500);
+    })();
+    </script>
+    <!-- End deferred Google Tag Manager + Meta Pixel -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prace wysokościowe Kraków | Alpinizm przemysłowy</title>
@@ -27,6 +52,10 @@
     <link rel="stylesheet" href="../css/tailwind.min.css?v=20260722">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.gstatic.com/s/rubik/v31/iJWKBXyIfDnIV7nBrXyw023e.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="https://fonts.gstatic.com/s/rubik/v31/iJWKBXyIfDnIV7nPrXyw023e1Ik.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="https://fonts.gstatic.com/s/exo/v25/4UaOrEtFpBISc36j2jDu5w.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="https://fonts.gstatic.com/s/exo/v25/4UaOrEtFpBISfX6j2jDu55XI.woff2" as="font" type="font/woff2" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;600;700;800&family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/fontawesome-subset.css?v=20260722">
     <style>
@@ -57,19 +86,7 @@
         ]
     }
     </script>
-<!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1792681042143896');
-fbq('track', 'PageView');
-</script>
+<!-- Meta Pixel Code (noscript fallback; script now loaded via deferred loader above) -->
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=1792681042143896&ev=PageView&noscript=1"
 /></noscript>
@@ -85,7 +102,7 @@ src="https://www.facebook.com/tr?id=1792681042143896&ev=PageView&noscript=1"
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-20">
                 <a href="../index.html" class="flex items-center gap-3 group">
-                    <img src="../image_34e979.png" alt="BruClean Service – logo firmy sprzątającej i wysokościowej Kraków" width="48" height="48" class="h-12 w-auto object-contain group-hover:scale-105 transition-transform shrink-0">
+                    <img src="data:image/webp;base64,UklGRjQFAABXRUJQVlA4ICgFAAAwGQCdASpgAGAAPjEWiEMiISEStswgAwS2CXjhYncekFvR/yK543a3vT+I/OxFT9R/UT8F90v1J5wD9EP83/U+sB5iP5p/jP2y7CPoAfyL+3/+zsTPQO8sf9ovgy/bf9g/gM/WbVXk7K8ngNlig+ky/x9agrBdCEn24/rDhCdbluHDlSQGwF/9ujArc29Y+q0LJ2pzmMVuwHdxs1Z+Z8wN5kRuUvfqXgmB28dcXCyYO4ZqGzXqdoUamRZeV3zLGNbCmfVqUtDAh7kckzXnSNxDdAAA/v8+OkAX1/6yLpcq1Qc9dfAo6BqC00G7LOy3mDB1XipTfC6ZQdGO9OnnViu9d5FMueLVt/v7qP+kuv16PxL+6bN8haKzkcLc28mrnXTcUZcqSOZ6TQ9LZeQRhbahBzI81AMWe0v7I8hP4p0rtc2IdPjtpBon6snHpOXbMZpi/tUkLxNdnfGZykcWnUgPcicNn+nfa5Q7F0GhepzilUQUBke7x0wvA09zLjR1PhoNFjFMiPdPic4W0fFXq5yVdOpC+oEz/lhBRoPu8pZ9DYgjP5kf8m5I28VMMQw1cyKGbn3a7/LFva2OFYrEODnurXARb2JVS3mIg4emC1gKmT7mu7EFLdDTzo4eKNMbkHNkME+6QzW3QDbcQRBDvgZQHh2iWV05WKqNVBc4xCaeidX2sTJqi3L9HuqeaKBEli1TW3zM6BxFhjsY/7sf/pXxhovyUNWOwdbeCzwXjIN77zXRLKr1YobC1o/K/xKi/YgNkvwlbNm8vTDI1pf6MQbIJdvQB9Nt0roaq9qiACqByWLoSj1n2dsW21rIRyJZk358qT0m3C0RvskrI8a0xQ4my/AYQaBXWeWke62ZDXI0Nvr3l2TgAq0xMXKkY3u2hG2VWHDCbyB2ev90PDbZ1dBkRLPAS4WPWrJiCCUu8D+oHNrDYx6eWYXNCfFGRN8XCFBKGxMG3tSEl3I0JpFPSzd3CHZG8bVH0EyJYIcL8n0JvBXc6cXyqTycKhydxl2ZyBKoE2H2H1B+L37aiXVBY2x/8h+2Ro7avtLGYwFFiHeT5QK2PT/+tjYPWk1hp7od0KtxhAMspK+En6HXN3ng7eWDqSUN+H4xPb9jdFJV1DhYZ27dEPJq/KFHcE6tNAJPfgPqe5D6a0kvVBqFrxjlsvp0GJD683+t3MJKBt+U3eP5nMqqMLaGP/e2kOt4ZC3L3z1wm9cQ685liYojy96AfORfmZV3V4wGT7OlT2+ZG2nbecTxAPtQBQm9/KOoMbeGtLUYeYM+07QdMLgHAtOicRMykqhe4SpriDEukNtqsREuCB5smm/oeITP/fHygxvjMhSJBgygOAhwCAQ+j2Ak43i6V5wNV4+bnMdcxl7C1G7ydZk7M0hASb5+kUcV/TlW4N63MMgj9+bYXK31RemJe98QmNNELAs7q9Q+PH8wlK8eLLXrzuGFQo6Ljy7DJBYy8AjlNZtjeFDOjBBEqCiK+OI6K/0x5bjdspb+QXn5DcKKnnuGa9XxBNUqy6dpq6bb7U5S6NaFvdmkYvvKK7xSNzdDmwvbJM/H22/jykE15/kofKOH5XMP6X/3ozxr+EM/vaAo3ax9fUVCJ0akxf+1/yXDjqriFvv7BJ8v6pN3J3QGsO76hHYkMEfQa119/cJfKp9a/kEi3kg+++XlJCf//CgUM6M6XS7w+rf//JXak8EPgTiIRwG2hMiNz0NQIw/0+XurcRHg5nYZoJWibj6F0O5dJzcgdpbAAAA=" alt="BruClean Service – logo firmy sprzątającej i wysokościowej Kraków" width="48" height="48" class="h-12 w-auto object-contain group-hover:scale-105 transition-transform shrink-0">
                     <div class="flex flex-col items-start justify-center pt-1">
                         <span class="text-2xl font-extrabold tracking-tight text-black leading-none">BruClean</span>
                         <span class="text-sm font-bold text-brand-orange tracking-widest uppercase mt-1 leading-none">SERVICE</span>
@@ -310,7 +327,7 @@ src="https://www.facebook.com/tr?id=1792681042143896&ev=PageView&noscript=1"
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-12 pb-12 border-b border-white/5">
             <div class="space-y-6">
                 <a href="../index.html" class="flex items-center gap-3 group">
-                    <img src="../image_34e979.png" alt="BruClean Service – logo" width="40" height="40" loading="lazy" decoding="async" class="h-10 w-auto object-contain group-hover:scale-105 transition-transform shrink-0">
+                    <img src="data:image/webp;base64,UklGRjQFAABXRUJQVlA4ICgFAAAwGQCdASpgAGAAPjEWiEMiISEStswgAwS2CXjhYncekFvR/yK543a3vT+I/OxFT9R/UT8F90v1J5wD9EP83/U+sB5iP5p/jP2y7CPoAfyL+3/+zsTPQO8sf9ovgy/bf9g/gM/WbVXk7K8ngNlig+ky/x9agrBdCEn24/rDhCdbluHDlSQGwF/9ujArc29Y+q0LJ2pzmMVuwHdxs1Z+Z8wN5kRuUvfqXgmB28dcXCyYO4ZqGzXqdoUamRZeV3zLGNbCmfVqUtDAh7kckzXnSNxDdAAA/v8+OkAX1/6yLpcq1Qc9dfAo6BqC00G7LOy3mDB1XipTfC6ZQdGO9OnnViu9d5FMueLVt/v7qP+kuv16PxL+6bN8haKzkcLc28mrnXTcUZcqSOZ6TQ9LZeQRhbahBzI81AMWe0v7I8hP4p0rtc2IdPjtpBon6snHpOXbMZpi/tUkLxNdnfGZykcWnUgPcicNn+nfa5Q7F0GhepzilUQUBke7x0wvA09zLjR1PhoNFjFMiPdPic4W0fFXq5yVdOpC+oEz/lhBRoPu8pZ9DYgjP5kf8m5I28VMMQw1cyKGbn3a7/LFva2OFYrEODnurXARb2JVS3mIg4emC1gKmT7mu7EFLdDTzo4eKNMbkHNkME+6QzW3QDbcQRBDvgZQHh2iWV05WKqNVBc4xCaeidX2sTJqi3L9HuqeaKBEli1TW3zM6BxFhjsY/7sf/pXxhovyUNWOwdbeCzwXjIN77zXRLKr1YobC1o/K/xKi/YgNkvwlbNm8vTDI1pf6MQbIJdvQB9Nt0roaq9qiACqByWLoSj1n2dsW21rIRyJZk358qT0m3C0RvskrI8a0xQ4my/AYQaBXWeWke62ZDXI0Nvr3l2TgAq0xMXKkY3u2hG2VWHDCbyB2ev90PDbZ1dBkRLPAS4WPWrJiCCUu8D+oHNrDYx6eWYXNCfFGRN8XCFBKGxMG3tSEl3I0JpFPSzd3CHZG8bVH0EyJYIcL8n0JvBXc6cXyqTycKhydxl2ZyBKoE2H2H1B+L37aiXVBY2x/8h+2Ro7avtLGYwFFiHeT5QK2PT/+tjYPWk1hp7od0KtxhAMspK+En6HXN3ng7eWDqSUN+H4xPb9jdFJV1DhYZ27dEPJq/KFHcE6tNAJPfgPqe5D6a0kvVBqFrxjlsvp0GJD683+t3MJKBt+U3eP5nMqqMLaGP/e2kOt4ZC3L3z1wm9cQ685liYojy96AfORfmZV3V4wGT7OlT2+ZG2nbecTxAPtQBQm9/KOoMbeGtLUYeYM+07QdMLgHAtOicRMykqhe4SpriDEukNtqsREuCB5smm/oeITP/fHygxvjMhSJBgygOAhwCAQ+j2Ak43i6V5wNV4+bnMdcxl7C1G7ydZk7M0hASb5+kUcV/TlW4N63MMgj9+bYXK31RemJe98QmNNELAs7q9Q+PH8wlK8eLLXrzuGFQo6Ljy7DJBYy8AjlNZtjeFDOjBBEqCiK+OI6K/0x5bjdspb+QXn5DcKKnnuGa9XxBNUqy6dpq6bb7U5S6NaFvdmkYvvKK7xSNzdDmwvbJM/H22/jykE15/kofKOH5XMP6X/3ozxr+EM/vaAo3ax9fUVCJ0akxf+1/yXDjqriFvv7BJ8v6pN3J3QGsO76hHYkMEfQa119/cJfKp9a/kEi3kg+++XlJCf//CgUM6M6XS7w+rf//JXak8EPgTiIRwG2hMiNz0NQIw/0+XurcRHg5nYZoJWibj6F0O5dJzcgdpbAAAA=" alt="BruClean Service – logo" width="40" height="40" loading="lazy" decoding="async" class="h-10 w-auto object-contain group-hover:scale-105 transition-transform shrink-0">
                     <div class="flex flex-col items-start justify-center pt-1">
                         <span class="text-xl font-extrabold tracking-tight text-white leading-none">BruClean</span>
                         <span class="text-xs font-bold text-brand-orange tracking-widest uppercase mt-1 leading-none">SERVICE</span>
