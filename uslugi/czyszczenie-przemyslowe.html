@@ -90,6 +90,38 @@
         ]
     }
     </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Czy pracujecie bez przerywania działalności obiektu?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Tak, elastycznie dopasowujemy godziny pracy do funkcjonowania obiektu — realizujemy zlecenia również poza godzinami szczytu, nocą lub w weekendy, aby nie zakłócać codziennej działalności klienta."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Czy oferujecie umowy na stałą obsługę czyszczenia obiektu?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Tak, dla klientów przemysłowych i komercyjnych proponujemy harmonogram regularnego czyszczenia (np. kwartalnego lub rocznego) dopasowany do specyfiki obiektu i warunków eksploatacji."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Jakie obiekty przemysłowe i komercyjne obsługujecie?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Czyścimy hale produkcyjne, magazyny, stacje paliw, centra handlowe i inne obiekty komercyjne, spełniając wymagania BHP obowiązujące u danego klienta."
+                }
+            }
+        ]
+    }
+    </script>
 <!-- Meta Pixel Code (noscript fallback; script now loaded via deferred loader above) -->
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=1792681042143896&ev=PageView&noscript=1"
@@ -305,6 +337,33 @@ src="https://www.facebook.com/tr?id=1792681042143896&ev=PageView&noscript=1"
                 </div>
             </div>
 
+            <div class="space-y-6">
+                <h2 class="text-2xl sm:text-3xl font-extrabold text-brand-dark tracking-tight">Najczęstsze pytania</h2>
+                <div class="space-y-4">
+                <details class="bg-white rounded-2xl border border-gray-100 shadow-sm p-6 group" open>
+                    <summary class="flex items-center justify-between gap-4 font-bold text-brand-dark">
+                        <span>Czy pracujecie bez przerywania działalności obiektu?</span>
+                        <i class="fa-solid fa-chevron-down text-brand-orange faq-chevron transition-transform"></i>
+                    </summary>
+                    <p class="text-brand-gray leading-relaxed mt-4">Tak, elastycznie dopasowujemy godziny pracy do funkcjonowania obiektu — realizujemy zlecenia również poza godzinami szczytu, nocą lub w weekendy, aby nie zakłócać codziennej działalności klienta.</p>
+                </details>
+                <details class="bg-white rounded-2xl border border-gray-100 shadow-sm p-6 group">
+                    <summary class="flex items-center justify-between gap-4 font-bold text-brand-dark">
+                        <span>Czy oferujecie umowy na stałą obsługę czyszczenia obiektu?</span>
+                        <i class="fa-solid fa-chevron-down text-brand-orange faq-chevron transition-transform"></i>
+                    </summary>
+                    <p class="text-brand-gray leading-relaxed mt-4">Tak, dla klientów przemysłowych i komercyjnych proponujemy harmonogram regularnego czyszczenia (np. kwartalnego lub rocznego) dopasowany do specyfiki obiektu i warunków eksploatacji.</p>
+                </details>
+                <details class="bg-white rounded-2xl border border-gray-100 shadow-sm p-6 group">
+                    <summary class="flex items-center justify-between gap-4 font-bold text-brand-dark">
+                        <span>Jakie obiekty przemysłowe i komercyjne obsługujecie?</span>
+                        <i class="fa-solid fa-chevron-down text-brand-orange faq-chevron transition-transform"></i>
+                    </summary>
+                    <p class="text-brand-gray leading-relaxed mt-4">Czyścimy hale produkcyjne, magazyny, stacje paliw, centra handlowe i inne obiekty komercyjne, spełniając wymagania BHP obowiązujące u danego klienta.</p>
+                </details>
+                </div>
+            </div>
+
         </div>
     </section>
 
@@ -375,7 +434,7 @@ src="https://www.facebook.com/tr?id=1792681042143896&ev=PageView&noscript=1"
 
         function openMobileMenu() {
             mobileMenu.classList.remove('hidden');
-            document.body.style.overflow = 'hidden';
+            document.body.style.overflow = '';
         }
         function closeMobileMenu() {
             mobileMenu.classList.add('hidden');
