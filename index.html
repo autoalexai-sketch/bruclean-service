@@ -423,35 +423,32 @@ src="https://www.facebook.com/tr?id=1792681042143896&ev=PageView&noscript=1"
                         </h2>
                     </div>
 
-                    <div class="flex border-b border-gray-200">
-                        <button onclick="switchTab(0)" id="tab-btn-0" class="tab-btn active-tab flex-1 py-4 text-center font-bold text-sm sm:text-base border-b-2 border-brand-orange text-brand-orange focus:outline-none transition-all">
-                            Kompetencja
-                        </button>
-                        <button onclick="switchTab(1)" id="tab-btn-1" class="tab-btn flex-1 py-4 text-center font-bold text-sm sm:text-base border-b-2 border-transparent text-brand-gray hover:text-brand-dark focus:outline-none transition-all">
-                            Terminowość
-                        </button>
-                        <button onclick="switchTab(2)" id="tab-btn-2" class="tab-btn flex-1 py-4 text-center font-bold text-sm sm:text-base border-b-2 border-transparent text-brand-gray hover:text-brand-dark focus:outline-none transition-all">
-                            Doświadczenie
-                        </button>
-                    </div>
-
-                    <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-sm border border-gray-100 min-h-[160px]">
-                        <div id="tab-content-0" class="tab-content block space-y-4">
-                            <h3 class="text-xl font-bold text-brand-dark">Tylko certyfikowani eksperci</h3>
-                            <p class="text-brand-gray leading-relaxed">
-                                Zatrudniamy tylko najlepszych fachowców, a do każdego zlecenia podchodzimy indywidualnie i z należytym zaangażowaniem. Dokładamy wszelkich starań, aby nasze realizacje spełniały oczekiwania wszystkich Klientów. Jesteśmy staranni oraz dokładni i działamy bez zbędnego pośpiechu, dzięki czemu możemy być dumni z naszych realizacji.
+                    <div class="grid sm:grid-cols-3 gap-4">
+                        <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 space-y-3">
+                            <div class="w-11 h-11 rounded-xl bg-brand-orange/10 text-brand-orange flex items-center justify-center text-xl">
+                                <i class="fa-solid fa-shield-halved"></i>
+                            </div>
+                            <h3 class="text-base font-bold text-brand-dark">Bezpiecznie</h3>
+                            <p class="text-brand-gray text-sm leading-relaxed">
+                                Certyfikowani alpiniści przemysłowi, pełne zabezpieczenie BHP i ubezpieczenie OC na każdym zleceniu.
                             </p>
                         </div>
-                        <div id="tab-content-1" class="tab-content hidden space-y-4">
-                            <h3 class="text-xl font-bold text-brand-dark">Zawsze na czas, bez wyjątków</h3>
-                            <p class="text-brand-gray leading-relaxed">
-                                Pracujemy na wysokich obrotach, ale zawsze na czas i w terminie. Dokładamy wszelkich starań, aby nasz Klient był usatysfakcjonowany i spokojny o realizację. Zawsze bierzemy pod uwagę czynniki, które mogą wpływać na czas realizacji zlecenia. Zamawiając nasze usługi remontowo-budowlane w Małopolsce możesz mieć pewność, że prace skończą się zgodnie z umową.
+                        <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 space-y-3">
+                            <div class="w-11 h-11 rounded-xl bg-brand-orange/10 text-brand-orange flex items-center justify-center text-xl">
+                                <i class="fa-solid fa-screwdriver-wrench"></i>
+                            </div>
+                            <h3 class="text-base font-bold text-brand-dark">Odpowiednia metoda</h3>
+                            <p class="text-brand-gray text-sm leading-relaxed">
+                                Dobieramy technikę do powierzchni — mycie ciśnieniowe, piaskowanie lub impregnacja, nie na skróty.
                             </p>
                         </div>
-                        <div id="tab-content-2" class="tab-content hidden space-y-4">
-                            <h3 class="text-xl font-bold text-brand-dark">Lata spędzone na wymagających realizacjach</h3>
-                            <p class="text-brand-gray leading-relaxed">
-                                Wieloletnie doświadczenie zapewnia naszą fachowość i najwyższą jakość świadczonych usług. Mieliśmy okazję realizować wiele różnych projektów – zawsze z powodzeniem, o czym świadczą pozytywne opinie naszych Klientów. Jeśli masz gotowy projekt – nasi pracownicy z powodzeniem się nim zajmą! Jeśli masz na razie tylko zarys pomysłu – nic nie szkodzi, z chęcią ubierzemy go w konkretne ramy!
+                        <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 space-y-3">
+                            <div class="w-11 h-11 rounded-xl bg-brand-orange/10 text-brand-orange flex items-center justify-center text-xl">
+                                <i class="fa-solid fa-clock"></i>
+                            </div>
+                            <h3 class="text-base font-bold text-brand-dark">Efekt widoczny od razu</h3>
+                            <p class="text-brand-gray text-sm leading-relaxed">
+                                Rezultat czystości i estetyki widać natychmiast po zakończeniu prac — bez czekania na "osiadanie" efektu.
                             </p>
                         </div>
                     </div>
@@ -1203,18 +1200,6 @@ src="https://www.facebook.com/tr?id=1792681042143896&ev=PageView&noscript=1"
             link.addEventListener('click', closeMobileMenu);
         });
 
-        function switchTab(index) {
-            document.querySelectorAll('.tab-content').forEach(content => content.classList.add('hidden'));
-            document.querySelectorAll('.tab-btn').forEach(btn => {
-                btn.classList.remove('active-tab', 'border-brand-orange', 'text-brand-orange');
-                btn.classList.add('border-transparent', 'text-brand-gray');
-            });
-
-            document.getElementById(`tab-content-${index}`).classList.remove('hidden');
-            const activeBtn = document.getElementById(`tab-btn-${index}`);
-            activeBtn.classList.add('active-tab', 'border-brand-orange', 'text-brand-orange');
-            activeBtn.classList.remove('border-transparent', 'text-brand-gray');
-        }
 
         let activeReview = 0;
         const totalReviews = 6;
