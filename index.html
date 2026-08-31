@@ -795,33 +795,37 @@ src="https://www.facebook.com/tr?id=1792681042143896&ev=PageView&noscript=1"
 
                     <div class="relative flex items-center justify-center min-h-[300px] sm:min-h-[420px] bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-inner">
 
-                        <div id="review-img-0" class="review-image absolute inset-0 opacity-100 transition-opacity duration-500 flex items-center justify-center p-2 bg-gray-50 z-10">
+                        <div id="review-img-0" data-service="Czyszczenie kostki brukowej" class="review-image absolute inset-0 opacity-100 transition-opacity duration-500 flex items-center justify-center p-2 bg-gray-50 z-10">
                             <img src="images/reviews/wojciech-majorek.png" alt="Opinia Google – Wojciech Majorek: pięknie wyczyszczona i zaimpregnowana kostka brukowa" width="1200" height="623" loading="lazy" decoding="async" class="max-w-full max-h-[380px] object-contain rounded-lg shadow-sm">
                         </div>
 
-                        <div id="review-img-1" class="review-image absolute inset-0 opacity-0 transition-opacity duration-500 flex items-center justify-center p-2 bg-gray-50 z-0">
+                        <div id="review-img-1" data-service="Czyszczenie kostki brukowej" class="review-image absolute inset-0 opacity-0 transition-opacity duration-500 flex items-center justify-center p-2 bg-gray-50 z-0">
                             <img src="images/reviews/paulina-handke.png" alt="Opinia Google – Paulina Handke: czyszczenie kostki wykonane bardzo ładnie, przystępna cena" width="1200" height="623" loading="lazy" decoding="async" class="max-w-full max-h-[380px] object-contain rounded-lg shadow-sm">
                         </div>
 
-                        <div id="review-img-2" class="review-image absolute inset-0 opacity-0 transition-opacity duration-500 flex items-center justify-center p-2 bg-gray-50 z-0">
+                        <div id="review-img-2" data-service="Mycie okien" class="review-image absolute inset-0 opacity-0 transition-opacity duration-500 flex items-center justify-center p-2 bg-gray-50 z-0">
                             <img src="images/reviews/dom-samotnej-matki.png" alt="Opinia Google – Dom Samotnej Matki im. Kard. Karola Wojtyły: bardzo rzetelna firma, mycie okien" width="1200" height="623" loading="lazy" decoding="async" class="max-w-full max-h-[380px] object-contain rounded-lg shadow-sm">
                         </div>
 
-                        <div id="review-img-3" class="review-image absolute inset-0 opacity-0 transition-opacity duration-500 flex items-center justify-center p-2 bg-gray-50 z-0">
+                        <div id="review-img-3" data-service="Mycie kostki brukowej" class="review-image absolute inset-0 opacity-0 transition-opacity duration-500 flex items-center justify-center p-2 bg-gray-50 z-0">
                             <img src="images/reviews/tes-podgorski.png" alt="Opinia Google – Tes Podgorski: mycie kostki brukowej na czas, zgodnie z umową" width="1200" height="623" loading="lazy" decoding="async" class="max-w-full max-h-[380px] object-contain rounded-lg shadow-sm">
                         </div>
 
-                        <div id="review-img-4" class="review-image absolute inset-0 opacity-0 transition-opacity duration-500 flex items-center justify-center p-2 bg-gray-50 z-0">
+                        <div id="review-img-4" data-service="Prace wysokościowe" class="review-image absolute inset-0 opacity-0 transition-opacity duration-500 flex items-center justify-center p-2 bg-gray-50 z-0">
                             <img src="images/reviews/yaro-slava.png" alt="Opinia Google – Yaro Slava: usługi alpinistyczne, szybka naprawa 10/10" width="1200" height="623" loading="lazy" decoding="async" class="max-w-full max-h-[380px] object-contain rounded-lg shadow-sm">
                         </div>
 
-                        <div id="review-img-5" class="review-image absolute inset-0 opacity-0 transition-opacity duration-500 flex items-center justify-center p-2 bg-gray-50 z-0">
+                        <div id="review-img-5" data-service="Zrealizowana usługa" class="review-image absolute inset-0 opacity-0 transition-opacity duration-500 flex items-center justify-center p-2 bg-gray-50 z-0">
                             <img src="images/reviews/janusz-stasik.png" alt="Opinia Google – Janusz Stasik: bardzo profesjonalnie wykonane prace" width="1200" height="623" loading="lazy" decoding="async" class="max-w-full max-h-[380px] object-contain rounded-lg shadow-sm">
                         </div>
 
                     </div>
 
-                    <div class="flex flex-col sm:flex-row items-center justify-between mt-6 px-2 gap-4">
+                    <div class="mt-4 px-2">
+                        <span id="review-caption" class="inline-block bg-brand-orange/10 text-brand-orange text-xs font-bold uppercase tracking-wide px-3 py-1 rounded-full">Czyszczenie kostki brukowej</span>
+                    </div>
+
+                    <div class="flex flex-col sm:flex-row items-center justify-between mt-2 px-2 gap-4">
                         <div class="flex items-center gap-2">
                             <i class="fa-brands fa-google text-2xl text-[#4285F4]"></i>
                             <span class="text-xs font-bold text-brand-dark tracking-wide uppercase">Zweryfikowana opinia z Google Maps · 5,0★ (14)</span>
@@ -1228,6 +1232,7 @@ src="https://www.facebook.com/tr?id=1792681042143896&ev=PageView&noscript=1"
             activeImg.classList.remove('opacity-0', 'z-0');
             activeImg.classList.add('opacity-100', 'z-10');
             document.getElementById('slide-indicator').textContent = `${index + 1} / ${totalReviews}`;
+            document.getElementById('review-caption').textContent = activeImg.dataset.service;
         }
 
         function nextReview() {
