@@ -1357,9 +1357,28 @@ src="https://www.facebook.com/tr?id=1792681042143896&ev=PageView&noscript=1"
   #bc-widget-attach { background: #eceef1; color: #333; }
   #bc-widget-photopreview { display: flex; gap: 6px; padding: 0 10px; flex-wrap: wrap; }
   #bc-widget-photopreview img { width: 44px; height: 44px; object-fit: cover; border-radius: 6px; border: 1px solid #ddd; }
+
+  #bc-widget-hint {
+    position: fixed; bottom: 32px; right: 92px; z-index: 9998;
+    max-width: 220px; background: #fff; color: #1a1a1a;
+    padding: 12px 30px 12px 14px; border-radius: 14px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+    font-family: -apple-system, Segoe UI, Roboto, sans-serif;
+    font-size: 13px; line-height: 1.4; cursor: pointer;
+    display: none;
+  }
+  #bc-widget-hint.show { display: block; }
+  #bc-widget-hint-close {
+    position: absolute; top: 6px; right: 8px; border: none; background: none;
+    color: #999; font-size: 15px; line-height: 1; cursor: pointer; padding: 4px;
+  }
 </style>
 
 <button id="bc-widget-btn" aria-label="Chat">💬</button>
+<div id="bc-widget-hint" role="button" aria-label="Otwórz czat">
+  Masz pytania? Chętnie pomożemy 👋
+  <button id="bc-widget-hint-close" aria-label="Zamknij podpowiedź">✕</button>
+</div>
 <div id="bc-widget-window">
   <div id="bc-widget-header">
     BruClean Service
@@ -1379,9 +1398,12 @@ src="https://www.facebook.com/tr?id=1792681042143896&ev=PageView&noscript=1"
 (function () {
   const WORKER_URL = "https://bruclean-chat-proxy.autoalexai.workers.dev/chat";
   const MAX_IMAGE_DIM = 1024; // ресайз фото перед отправкой — экономит трафик и токены
+  const IDLE_HINT_MS = 40000; // proactive bubble после 40с бездействия посетителя
 
   const btn = document.getElementById("bc-widget-btn");
   const win = document.getElementById("bc-widget-window");
+  const hintEl = document.getElementById("bc-widget-hint");
+  const hintCloseBtn = document.getElementById("bc-widget-hint-close");
   const messagesEl = document.getElementById("bc-widget-messages");
   const inputEl = document.getElementById("bc-widget-input");
   const sendBtn = document.getElementById("bc-widget-send");
@@ -1393,11 +1415,54 @@ src="https://www.facebook.com/tr?id=1792681042143896&ev=PageView&noscript=1"
   let pendingImages = []; // base64 картинки, ждущие отправки со следующим текстом
 
   btn.addEventListener("click", () => {
+    hideHint();
     win.classList.toggle("open");
     if (win.classList.contains("open") && history.length === 0) {
       greet();
     }
   });
+
+  // Proactive idle-триггер: если посетитель 40с не взаимодействует со страницей,
+  // показываем ненавязчивую подсказку рядом с кнопкой чата (один раз за визит).
+  let idleTimer = null;
+  let hintShown = false;
+
+  function scheduleIdleHint() {
+    if (hintShown || win.classList.contains("open")) return;
+    clearTimeout(idleTimer);
+    idleTimer = setTimeout(showHint, IDLE_HINT_MS);
+  }
+
+  function showHint() {
+    if (hintShown || win.classList.contains("open")) return;
+    hintShown = true;
+    hintEl.classList.add("show");
+  }
+
+  function hideHint() {
+    hintEl.classList.remove("show");
+  }
+
+  hintEl.addEventListener("click", () => {
+    hideHint();
+    if (!win.classList.contains("open")) {
+      win.classList.add("open");
+      if (history.length === 0) greet();
+    }
+  });
+
+  hintCloseBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    hideHint();
+  });
+
+  ["mousemove", "scroll", "keydown", "touchstart", "click"].forEach((evt) => {
+    window.addEventListener(evt, scheduleIdleHint, { passive: true });
+  });
+  document.addEventListener("visibilitychange", () => {
+    if (!document.hidden) scheduleIdleHint();
+  });
+  scheduleIdleHint();
 
   function greet() {
     addBotMessage(
