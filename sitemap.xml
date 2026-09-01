@@ -14,7 +14,7 @@
   </url>
   <url>
     <loc>https://brucleanservice.pl/blog/</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -91,6 +91,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://brucleanservice.pl/blog/plamy-z-oleju-na-kostce-brukowej.html</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://brucleanservice.pl/uslugi/mycie-dachow.html</loc>
     <lastmod>2026-08-31</lastmod>
     <changefreq>monthly</changefreq>
@@ -104,7 +110,7 @@
   </url>
   <url>
     <loc>https://brucleanservice.pl/uslugi/mycie-kostki-brukowej.html</loc>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
