@@ -11,6 +11,7 @@
 - [Czyszczenie rynien](https://brucleanservice.pl/uslugi/czyszczenie-rynien.html): Czyszczenie, udrażnianie i uszczelnianie rynien oraz rur spustowych, montaż siatek zabezpieczających przed liśćmi.
 - [Czyszczenie przemysłowe / hal](https://brucleanservice.pl/uslugi/czyszczenie-przemyslowe.html): Czyszczenie hal przemysłowych, magazynów, stacji paliw i obiektów komercyjnych, praca bez przestojów, zgodność z BHP klienta.
 - [Malowanie i impregnacja](https://brucleanservice.pl/uslugi/malowanie-impregnacja.html): Malowanie elewacji i obiektów przemysłowych oraz impregnacja hydrofobowa dachów, kostki brukowej i kamienia.
+- [Sprzątanie pomieszczeń](https://brucleanservice.pl/uslugi/sprzatanie-pomieszczen.html): Sprzątanie biur, mieszkań, domów, klatek schodowych, parkingów podziemnych, magazynów i obiektów po remoncie w Krakowie i Małopolsce.
 
 ## Blog
 
@@ -24,7 +25,22 @@
 - [Mycie dachów Kraków — kiedy warto zlecić fachowcom?](https://brucleanservice.pl/blog/mycie-dachow-krakow.html): Ile kosztuje mycie dachu, czy warto robić to samemu i jak długo utrzymuje się efekt w Krakowie i Małopolsce.
 - [Impregnacja kostki brukowej — czy warto i na co pozwala?](https://brucleanservice.pl/blog/impregnacja-kostki-brukowej.html): Po co impregnować kostkę brukową i jak długo utrzymuje się efekt ochrony przed chwastami i plamami.
 - [Czyszczenie hal przemysłowych — kiedy warto to zlecić?](https://brucleanservice.pl/blog/czyszczenie-hal-przemyslowych.html): Co realnie daje firmie czyszczenie hali przemysłowej i dlaczego to zadanie dla specjalistycznego sprzętu.
+- [Mycie okien na wysokości Kraków — jak to działa i kiedy warto](https://brucleanservice.pl/blog/mycie-okien-na-wysokosci-krakow.html): Kiedy potrzebne jest mycie okien metodą alpinistyczną, czy to bezpieczne i ile to kosztuje.
+- [Malowanie dachu cena — co wpływa na wycenę](https://brucleanservice.pl/blog/malowanie-dachu-cena.html): Od czego zależy cena malowania dachu, jak wygląda proces i kiedy najlepiej to zrobić.
+- [Plamy z oleju na kostce brukowej — co działa bez odbarwień](https://brucleanservice.pl/blog/plamy-z-oleju-na-kostce-brukowej.html): Jak usunąć świeży i stary olej z kostki bez ryzyka odbarwień oraz jak dobrać metodę do rodzaju kostki.
+- [Mycie dachu bez rusztowań — jak zrobić to bezpiecznie](https://brucleanservice.pl/blog/mycie-dachu-bez-rusztowan.html): Jak przebiega mycie dachu w dostępie linowym, ile trwa i kiedy lepiej postawić rusztowanie.
+- [Usługi wysokościowe Kraków — pełny zakres prac alpinizmu przemysłowego](https://brucleanservice.pl/blog/uslugi-wysokosciowe-krakow.html): Pełny zakres usług wysokościowych — mycie, naprawy, montaż, odśnieżanie dachów i przeglądy techniczne.
+
+## Lokalizacje
+
+- [Mycie elewacji Wieliczka](https://brucleanservice.pl/lokalizacje/mycie-elewacji-wieliczka.html): Mycie elewacji w Wieliczce metodą ciśnieniową, praca na linach bez rusztowań.
+- [Mycie dachów Wieliczka](https://brucleanservice.pl/lokalizacje/mycie-dachow-wieliczka.html): Mycie dachów w Wieliczce — usuwanie mchu, porostów i nalotu, impregnacja.
+- [Mycie kostki brukowej Wieliczka](https://brucleanservice.pl/lokalizacje/mycie-kostki-brukowej-wieliczka.html): Czyszczenie i impregnacja kostki brukowej w Wieliczce.
+- [Mycie elewacji Skawina](https://brucleanservice.pl/lokalizacje/mycie-elewacji-skawina.html): Mycie elewacji w Skawinie metodą ciśnieniową, praca na linach bez rusztowań.
+- [Mycie dachów Skawina](https://brucleanservice.pl/lokalizacje/mycie-dachow-skawina.html): Mycie dachów w Skawinie — usuwanie mchu, porostów i nalotu, impregnacja.
+- [Mycie kostki brukowej Skawina](https://brucleanservice.pl/lokalizacje/mycie-kostki-brukowej-skawina.html): Czyszczenie i impregnacja kostki brukowej w Skawinie.
 
 ## O firmie
 
 - [Strona główna](https://brucleanservice.pl/): Oferta, realizacje, opinie klientów i formularz kontaktowy.
+- [Jak pracujemy](https://brucleanservice.pl/jak-pracujemy.html): Etapy realizacji zlecenia — od zgłoszenia i bezpłatnej wyceny po odbiór prac.
