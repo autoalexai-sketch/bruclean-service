@@ -44,3 +44,4 @@
 
 - [Strona główna](https://brucleanservice.pl/): Oferta, realizacje, opinie klientów i formularz kontaktowy.
 - [Jak pracujemy](https://brucleanservice.pl/jak-pracujemy.html): Etapy realizacji zlecenia — od zgłoszenia i bezpłatnej wyceny po odbiór prac.
+- [O firmie](https://brucleanservice.pl/o-firmie.html): Dane rejestrowe (nazwa, NIP, REGON), adres operacyjny, obszar działania i zakres usług BruClean Service Sp. z o.o.
