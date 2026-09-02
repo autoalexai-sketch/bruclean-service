@@ -14,7 +14,7 @@
   </url>
   <url>
     <loc>https://brucleanservice.pl/blog/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -99,6 +99,12 @@
   <url>
     <loc>https://brucleanservice.pl/blog/mycie-dachu-bez-rusztowan.html</loc>
     <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://brucleanservice.pl/blog/uslugi-wysokosciowe-krakow.html</loc>
+    <lastmod>2026-09-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
