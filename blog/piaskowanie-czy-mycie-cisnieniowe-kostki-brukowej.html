@@ -199,5 +199,275 @@ src="https://www.facebook.com/tr?id=1792681042143896&ev=PageView&noscript=1"
     <footer class="border-t border-gray-100 py-10 text-center text-xs text-gray-500">
         <a href="../index.html" class="hover:text-brand-orange">&larr; Wróć do strony głównej BruClean Service</a>
     </footer>
+<!-- BruClean AI chat widget -->
+<style>
+  #bc-widget-btn {
+    position: fixed; bottom: 24px; right: 24px; z-index: 9999;
+    width: 60px; height: 60px; border-radius: 50%;
+    background: #1a56db; color: #fff; border: none; cursor: pointer;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.25);
+    font-size: 26px; display: flex; align-items: center; justify-content: center;
+  }
+  #bc-widget-window {
+    position: fixed; bottom: 96px; right: 24px; z-index: 9999;
+    width: 360px; max-width: 92vw; height: 520px; max-height: 75vh;
+    background: #fff; border-radius: 14px; box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+    display: none; flex-direction: column; overflow: hidden;
+    font-family: -apple-system, Segoe UI, Roboto, sans-serif;
+  }
+  #bc-widget-window.open { display: flex; }
+  #bc-widget-header {
+    background: #1a56db; color: #fff; padding: 14px 16px; font-weight: 600; font-size: 15px;
+  }
+  #bc-widget-header small { display: block; font-weight: 400; opacity: 0.85; font-size: 12px; margin-top: 2px; }
+  #bc-widget-messages {
+    flex: 1; overflow-y: auto; padding: 12px; background: #f7f8fa;
+  }
+  .bc-msg { margin-bottom: 10px; max-width: 85%; padding: 9px 12px; border-radius: 10px; font-size: 14px; line-height: 1.4; white-space: pre-wrap; }
+  .bc-msg.user { background: #1a56db; color: #fff; margin-left: auto; border-bottom-right-radius: 2px; }
+  .bc-msg.bot { background: #eceef1; color: #1a1a1a; margin-right: auto; border-bottom-left-radius: 2px; }
+  .bc-msg.typing { color: #888; font-style: italic; }
+  #bc-widget-inputrow {
+    display: flex; align-items: center; gap: 6px; padding: 10px; border-top: 1px solid #eee; background: #fff;
+  }
+  #bc-widget-input {
+    flex: 1; border: 1px solid #ddd; border-radius: 20px; padding: 9px 14px; font-size: 14px; outline: none;
+  }
+  #bc-widget-send, #bc-widget-attach {
+    background: #1a56db; color: #fff; border: none; border-radius: 50%;
+    width: 36px; height: 36px; cursor: pointer; flex-shrink: 0; font-size: 16px;
+  }
+  #bc-widget-attach { background: #eceef1; color: #333; }
+  #bc-widget-photopreview { display: flex; gap: 6px; padding: 0 10px; flex-wrap: wrap; }
+  #bc-widget-photopreview img { width: 44px; height: 44px; object-fit: cover; border-radius: 6px; border: 1px solid #ddd; }
+
+  #bc-widget-hint {
+    position: fixed; bottom: 32px; right: 92px; z-index: 9998;
+    max-width: 220px; background: #fff; color: #1a1a1a;
+    padding: 12px 30px 12px 14px; border-radius: 14px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+    font-family: -apple-system, Segoe UI, Roboto, sans-serif;
+    font-size: 13px; line-height: 1.4; cursor: pointer;
+    display: none;
+  }
+  #bc-widget-hint.show { display: block; }
+  #bc-widget-hint-close {
+    position: absolute; top: 6px; right: 8px; border: none; background: none;
+    color: #999; font-size: 15px; line-height: 1; cursor: pointer; padding: 4px;
+  }
+</style>
+
+<button id="bc-widget-btn" aria-label="Chat">💬</button>
+<div id="bc-widget-hint" role="button" aria-label="Otwórz czat">
+  Masz pytania? Chętnie pomożemy 👋
+  <button id="bc-widget-hint-close" aria-label="Zamknij podpowiedź">✕</button>
+</div>
+<div id="bc-widget-window">
+  <div id="bc-widget-header">
+    BruClean Service
+    <small>Zwykle odpowiadamy w kilka minut</small>
+  </div>
+  <div id="bc-widget-messages"></div>
+  <div id="bc-widget-photopreview"></div>
+  <div id="bc-widget-inputrow">
+    <button id="bc-widget-attach" title="Dodaj zdjęcie">📷</button>
+    <input id="bc-widget-file" type="file" accept="image/*" multiple style="display:none">
+    <input id="bc-widget-input" type="text" placeholder="Napisz wiadomość…">
+    <button id="bc-widget-send">➤</button>
+  </div>
+</div>
+
+<script>
+(function () {
+  const WORKER_URL = "https://bruclean-chat-proxy.autoalexai.workers.dev/chat";
+  const MAX_IMAGE_DIM = 1024; // ресайз фото перед отправкой — экономит трафик и токены
+  const IDLE_HINT_MS = 40000; // proactive bubble после 40с бездействия посетителя
+
+  const btn = document.getElementById("bc-widget-btn");
+  const win = document.getElementById("bc-widget-window");
+  const hintEl = document.getElementById("bc-widget-hint");
+  const hintCloseBtn = document.getElementById("bc-widget-hint-close");
+  const messagesEl = document.getElementById("bc-widget-messages");
+  const inputEl = document.getElementById("bc-widget-input");
+  const sendBtn = document.getElementById("bc-widget-send");
+  const attachBtn = document.getElementById("bc-widget-attach");
+  const fileInput = document.getElementById("bc-widget-file");
+  const previewEl = document.getElementById("bc-widget-photopreview");
+
+  let history = []; // формат сообщений Claude API: [{role, content:[...]}]
+  let pendingImages = []; // base64 картинки, ждущие отправки со следующим текстом
+
+  btn.addEventListener("click", () => {
+    hideHint();
+    win.classList.toggle("open");
+    if (win.classList.contains("open") && history.length === 0) {
+      greet();
+    }
+  });
+
+  // Proactive idle-триггер: если посетитель 40с не взаимодействует со страницей,
+  // показываем ненавязчивую подсказку рядом с кнопкой чата (один раз за визит).
+  let idleTimer = null;
+  let hintShown = false;
+
+  function scheduleIdleHint() {
+    if (hintShown || win.classList.contains("open")) return;
+    clearTimeout(idleTimer);
+    idleTimer = setTimeout(showHint, IDLE_HINT_MS);
+  }
+
+  function showHint() {
+    if (hintShown || win.classList.contains("open")) return;
+    hintShown = true;
+    hintEl.classList.add("show");
+  }
+
+  function hideHint() {
+    hintEl.classList.remove("show");
+  }
+
+  hintEl.addEventListener("click", () => {
+    hideHint();
+    if (!win.classList.contains("open")) {
+      win.classList.add("open");
+      if (history.length === 0) greet();
+    }
+  });
+
+  hintCloseBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    hideHint();
+  });
+
+  ["mousemove", "scroll", "keydown", "touchstart", "click"].forEach((evt) => {
+    window.addEventListener(evt, scheduleIdleHint, { passive: true });
+  });
+  document.addEventListener("visibilitychange", () => {
+    if (!document.hidden) scheduleIdleHint();
+  });
+  scheduleIdleHint();
+
+  function greet() {
+    addBotMessage(
+      "Cześć! 👋 Jestem wirtualnym asystentem BruClean Service. W czym mogę pomóc — mycie elewacji, usuwanie mchu/grzyba/rdzy, czy sprzątanie pomieszczeń (biuro, mieszkanie, po remoncie itd.)?"
+    );
+  }
+
+  function addUserMessage(text) {
+    const div = document.createElement("div");
+    div.className = "bc-msg user";
+    div.textContent = text;
+    messagesEl.appendChild(div);
+    messagesEl.scrollTop = messagesEl.scrollHeight;
+  }
+
+  function addBotMessage(text) {
+    const div = document.createElement("div");
+    div.className = "bc-msg bot";
+    div.textContent = text;
+    messagesEl.appendChild(div);
+    messagesEl.scrollTop = messagesEl.scrollHeight;
+  }
+
+  function addTyping() {
+    const div = document.createElement("div");
+    div.className = "bc-msg bot typing";
+    div.id = "bc-typing";
+    div.textContent = "…pisze";
+    messagesEl.appendChild(div);
+    messagesEl.scrollTop = messagesEl.scrollHeight;
+  }
+  function removeTyping() {
+    const t = document.getElementById("bc-typing");
+    if (t) t.remove();
+  }
+
+  function resizeImage(file) {
+    return new Promise((resolve) => {
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        const img = new Image();
+        img.onload = () => {
+          let { width, height } = img;
+          if (width > MAX_IMAGE_DIM || height > MAX_IMAGE_DIM) {
+            const scale = MAX_IMAGE_DIM / Math.max(width, height);
+            width = Math.round(width * scale);
+            height = Math.round(height * scale);
+          }
+          const canvas = document.createElement("canvas");
+          canvas.width = width;
+          canvas.height = height;
+          canvas.getContext("2d").drawImage(img, 0, 0, width, height);
+          const dataUrl = canvas.toDataURL("image/jpeg", 0.85);
+          resolve(dataUrl.split(",")[1]); // чистый base64 без префикса
+        };
+        img.src = e.target.result;
+      };
+      reader.readAsDataURL(file);
+    });
+  }
+
+  attachBtn.addEventListener("click", () => fileInput.click());
+
+  fileInput.addEventListener("change", async () => {
+    const files = Array.from(fileInput.files).slice(0, 3); // максимум 3 фото за раз
+    for (const file of files) {
+      const base64 = await resizeImage(file);
+      pendingImages.push(base64);
+      const imgPreview = document.createElement("img");
+      imgPreview.src = "data:image/jpeg;base64," + base64;
+      previewEl.appendChild(imgPreview);
+    }
+    fileInput.value = "";
+  });
+
+  async function sendMessage() {
+    const text = inputEl.value.trim();
+    if (!text && pendingImages.length === 0) return;
+
+    const contentBlocks = [];
+    pendingImages.forEach((b64) => {
+      contentBlocks.push({
+        type: "image",
+        source: { type: "base64", media_type: "image/jpeg", data: b64 },
+      });
+    });
+    if (text) contentBlocks.push({ type: "text", text });
+
+    addUserMessage(text || "[zdjęcie]");
+    history.push({ role: "user", content: contentBlocks });
+
+    inputEl.value = "";
+    pendingImages = [];
+    previewEl.innerHTML = "";
+    addTyping();
+
+    try {
+      const res = await fetch(WORKER_URL, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ messages: history }),
+      });
+      const data = await res.json();
+      removeTyping();
+
+      if (data.reply) {
+        addBotMessage(data.reply);
+        history.push({ role: "assistant", content: data.raw_content || [{ type: "text", text: data.reply }] });
+      } else {
+        addBotMessage("Przepraszam, coś poszło nie tak. Proszę spróbować ponownie lub zadzwonić: +48 797 584 863");
+      }
+    } catch (err) {
+      removeTyping();
+      addBotMessage("Błąd połączenia. Proszę spróbować ponownie lub zadzwonić: +48 797 584 863");
+    }
+  }
+
+  sendBtn.addEventListener("click", sendMessage);
+  inputEl.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") sendMessage();
+  });
+})();
+</script>
 </body>
 </html>
