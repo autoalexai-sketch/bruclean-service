@@ -296,11 +296,7 @@ src="https://www.facebook.com/tr?id=1792681042143896&ev=PageView&noscript=1"
 
     <!-- HERO -->
     <section id="hero" class="relative overflow-hidden bg-brand-lightBg">
-        <img src="images/realizacje/hero-dach.webp" alt="Pracownik BruClean Service podczas mycia ciśnieniowego dachu w Krakowie" width="1200" height="800" fetchpriority="high" class="absolute inset-0 w-full h-full object-cover object-right">
-        <div class="absolute inset-0 bg-white/90 md:hidden"></div>
-        <div class="absolute inset-0 hidden md:block bg-gradient-to-r from-white via-white/95 to-white/10"></div>
-
-        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 lg:py-28">
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20 lg:py-24 grid lg:grid-cols-[minmax(0,1fr)_320px] xl:grid-cols-[minmax(0,1fr)_360px] gap-10 lg:gap-14 items-center">
             <div class="max-w-2xl space-y-7">
                 <div class="inline-flex items-center gap-2 bg-white border border-gray-200 rounded-full pl-2 pr-4 py-1.5 shadow-sm text-xs sm:text-sm font-semibold text-brand-dark">
                     <span class="flex items-center gap-0.5 text-amber-400 text-xs"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
@@ -334,8 +330,29 @@ src="https://www.facebook.com/tr?id=1792681042143896&ev=PageView&noscript=1"
                     </a>
                 </div>
             </div>
+
+            <figure class="relative mx-auto w-full max-w-[300px] sm:max-w-[320px] lg:max-w-none">
+                <div class="relative aspect-[9/16] rounded-[2rem] overflow-hidden bg-brand-dark shadow-2xl ring-1 ring-black/5">
+                    <video id="hero-video" class="absolute inset-0 w-full h-full object-cover" width="540" height="960" muted loop playsinline preload="none" poster="videos/hero-remix-poster.webp" aria-label="Nasza ekipa przy pracy: mycie dachu, elewacji z liny i kostki brukowej">
+                        <source data-src="videos/hero-remix.webm" type="video/webm">
+                        <source data-src="videos/hero-remix.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <figcaption class="absolute left-3 bottom-3 inline-flex items-center gap-2 bg-white/95 rounded-full px-3 py-1.5 text-xs font-bold text-brand-dark shadow-sm"><i class="fa-solid fa-location-dot text-brand-orange"></i>Nasza ekipa przy pracy · Kraków</figcaption>
+            </figure>
         </div>
     </section>
+    <script>
+    (function () {
+        var v = document.getElementById('hero-video');
+        if (!v) return;
+        var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        var saveData = navigator.connection && navigator.connection.saveData;
+        if (reduce || saveData) return; // zostaje plakat
+        function start() { v.muted = true; v.querySelectorAll('source').forEach(function (s) { s.src = s.dataset.src; }); v.load(); var p = v.play(); if (p) p.catch(function () {}); }
+        if (document.readyState === 'complete') start(); else window.addEventListener('load', start);
+    })();
+    </script>
 
     <!-- LICZBY I ATUTY -->
     <section id="why-us" class="bg-white border-b border-gray-100">
