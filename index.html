@@ -39,7 +39,7 @@
 
     <!-- ===== SEO: podstawowe meta ===== -->
     <title>Mycie Elewacji i Dachów Kraków | BruClean Service</title>
-    <meta name="description" content="Mycie elewacji, dachów i kostki brukowej w Krakowie i Małopolsce. Zespół z wieloletnim doświadczeniem, 5,0★ na Google. Prace wysokościowe – darmowa wycena!">
+    <meta name="description" content="Mycie elewacji, dachów, kostki brukowej i okien w Krakowie i Małopolsce. Prace wysokościowe z liny, 5,0★ na Google. Darmowa wycena.">
     <meta name="keywords" content="mycie elewacji Kraków, mycie dachów Kraków, czyszczenie kostki brukowej, prace wysokościowe Małopolska, piaskowanie, alpinizm przemysłowy, malowanie elewacji, renowacja zabytków, BruClean Service">
     <meta name="robots" content="index, follow, max-image-preview:large">
     <meta name="author" content="BruClean Service Sp. z o.o.">
@@ -52,7 +52,7 @@
     <meta property="og:locale" content="pl_PL">
     <meta property="og:site_name" content="BruClean Service">
     <meta property="og:title" content="Mycie Elewacji i Dachów Kraków | BruClean Service">
-    <meta property="og:description" content="Mycie elewacji, dachów i kostki brukowej w Krakowie i Małopolsce. Zespół z wieloletnim doświadczeniem, 5,0★ na Google. Prace wysokościowe – darmowa wycena!">
+    <meta property="og:description" content="Mycie elewacji, dachów, kostki brukowej i okien w Krakowie i Małopolsce. Prace wysokościowe z liny, 5,0★ na Google. Darmowa wycena.">
     <meta property="og:url" content="https://brucleanservice.pl/">
     <meta property="og:image" content="https://brucleanservice.pl/images/logo-bruclean-og.png">
     <meta name="twitter:card" content="summary_large_image">
@@ -497,6 +497,7 @@ src="https://www.facebook.com/tr?id=1792681042143896&ev=PageView&noscript=1"
                     <a href="uslugi/mycie-dachow.html" class="flex items-center gap-3 bg-brand-lightBg p-3.5 rounded-xl border border-gray-100 hover:border-brand-orange transition-colors"><span class="w-9 h-9 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-house-chimney"></i></span><span class="text-sm font-bold text-brand-dark">Mycie, czyszczenie dachów</span></a>
                     <a href="uslugi/sprzatanie-pomieszczen.html" class="flex items-center gap-3 bg-brand-lightBg p-3.5 rounded-xl border border-gray-100 hover:border-brand-orange transition-colors"><span class="w-9 h-9 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-broom"></i></span><span class="text-sm font-bold text-brand-dark">Sprzątanie pomieszczeń</span></a>
                     <a href="uslugi/prace-wysokosciowe.html" class="flex items-center gap-3 bg-brand-lightBg p-3.5 rounded-xl border border-gray-100 hover:border-brand-orange transition-colors"><span class="w-9 h-9 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-helmet-safety"></i></span><span class="text-sm font-bold text-brand-dark">Prace wysokościowe / alpinizm przemysłowy</span></a>
+                    <a href="blog/mycie-okien-na-wysokosci-krakow.html" class="flex items-center gap-3 bg-brand-lightBg p-3.5 rounded-xl border border-gray-100 hover:border-brand-orange transition-colors"><span class="w-9 h-9 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-window-restore"></i></span><span class="text-sm font-bold text-brand-dark">Mycie okien na wysokości</span></a>
                 </div>
             </div>
         </div>
@@ -1251,7 +1252,7 @@ src="https://www.facebook.com/tr?id=1792681042143896&ev=PageView&noscript=1"
 (function () {
   const WORKER_URL = "https://bruclean-chat-proxy.autoalexai.workers.dev/chat";
   const MAX_IMAGE_DIM = 1024; // ресайз фото перед отправкой — экономит трафик и токены
-  const IDLE_HINT_MS = 40000; // proactive bubble после 40с бездействия посетителя
+  const IDLE_HINT_MS = 3000; // proactive bubble после 3с бездействия посетителя
 
   const btn = document.getElementById("bc-widget-btn");
   const win = document.getElementById("bc-widget-window");
@@ -1275,7 +1276,7 @@ src="https://www.facebook.com/tr?id=1792681042143896&ev=PageView&noscript=1"
     }
   });
 
-  // Proactive idle-триггер: если посетитель 40с не взаимодействует со страницей,
+  // Proactive idle-триггер: если посетитель 3с не взаимодействует со страницей,
   // показываем ненавязчивую подсказку рядом с кнопкой чата (один раз за визит).
   let idleTimer = null;
   let hintShown = false;

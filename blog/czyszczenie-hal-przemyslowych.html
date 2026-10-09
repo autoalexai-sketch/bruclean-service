@@ -309,7 +309,7 @@ src="https://www.facebook.com/tr?id=1792681042143896&ev=PageView&noscript=1"
 (function () {
   const WORKER_URL = "https://bruclean-chat-proxy.autoalexai.workers.dev/chat";
   const MAX_IMAGE_DIM = 1024; // ресайз фото перед отправкой — экономит трафик и токены
-  const IDLE_HINT_MS = 40000; // proactive bubble после 40с бездействия посетителя
+  const IDLE_HINT_MS = 3000; // proactive bubble после 3с бездействия посетителя
 
   const btn = document.getElementById("bc-widget-btn");
   const win = document.getElementById("bc-widget-window");
@@ -333,7 +333,7 @@ src="https://www.facebook.com/tr?id=1792681042143896&ev=PageView&noscript=1"
     }
   });
 
-  // Proactive idle-триггер: если посетитель 40с не взаимодействует со страницей,
+  // Proactive idle-триггер: если посетитель 3с не взаимодействует со страницей,
   // показываем ненавязчивую подсказку рядом с кнопкой чата (один раз за визит).
   let idleTimer = null;
   let hintShown = false;
