@@ -61,7 +61,7 @@
     <meta name="twitter:image" content="https://brucleanservice.pl/images/logo-bruclean-og.png">
     <link rel="icon" type="image/png" href="images/favicon.png">
 
-    <link rel="stylesheet" href="css/tailwind.min.css?v=20260722">
+    <link rel="stylesheet" href="css/home.css?v=20261009">
     <!-- Подключение Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -216,74 +216,47 @@ src="https://www.facebook.com/tr?id=1792681042143896&ev=PageView&noscript=1"
     <!-- End Google Tag Manager (noscript) -->
 
     <!-- ШАПКА / НАВИГАЦИЯ -->
-    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100 transition-all duration-300 shadow-sm">
+    <header class="sticky top-0 z-50 bg-white/95 border-b border-gray-200/70 shadow-sm">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex items-center justify-between h-20">
-                <a href="#hero" class="flex items-center gap-3 group">
-                    <img src="images/logo-header.webp" alt="BruClean Service – logo firmy sprzątającej i wysokościowej Kraków" width="128" height="48" class="h-12 w-auto object-contain group-hover:scale-105 transition-transform shrink-0" onerror="this.onerror=null; this.src='https://via.placeholder.com/48/ffffff/FF5E14?text=Logo';">
+            <div class="flex items-center justify-between h-20 gap-6">
+                <a href="#hero" class="flex items-center gap-3 shrink-0">
+                    <img src="images/logo-header.webp" alt="BruClean Service – logo firmy sprzątającej i wysokościowej Kraków" width="128" height="48" class="h-11 w-auto object-contain">
                 </a>
 
-                <nav class="hidden md:flex items-center gap-8">
+                <nav class="hidden lg:flex items-center gap-7">
                     <a href="#oferta" class="text-sm font-medium text-brand-dark hover:text-brand-orange transition-colors">Oferta</a>
-
                     <div class="relative group">
                         <button type="button" class="flex items-center gap-1.5 text-sm font-medium text-brand-dark hover:text-brand-orange transition-colors py-2 focus:outline-none">
                             Usługi
                             <i class="fa-solid fa-chevron-down text-[10px] transition-transform duration-200 group-hover:rotate-180"></i>
                         </button>
-                        <div class="absolute left-1/2 -translate-x-1/2 top-full pt-3 opacity-0 invisible translate-y-1 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200 z-50">
-                            <div class="bg-brand-dark rounded-2xl shadow-2xl shadow-black/30 p-3 w-80 grid gap-1">
-                                <a href="uslugi/mycie-dachow.html" class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-white/10 transition-colors">
-                                    <span class="w-9 h-9 rounded-lg bg-brand-orange/15 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-house-chimney"></i></span>
-                                    <span class="text-sm font-semibold text-white">Mycie dachów</span>
-                                </a>
-                                <a href="uslugi/mycie-elewacji.html" class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-white/10 transition-colors">
-                                    <span class="w-9 h-9 rounded-lg bg-brand-orange/15 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-building"></i></span>
-                                    <span class="text-sm font-semibold text-white">Mycie elewacji</span>
-                                </a>
-                                <a href="uslugi/mycie-kostki-brukowej.html" class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-white/10 transition-colors">
-                                    <span class="w-9 h-9 rounded-lg bg-brand-orange/15 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-road"></i></span>
-                                    <span class="text-sm font-semibold text-white">Mycie kostki brukowej</span>
-                                </a>
-                                <a href="uslugi/prace-wysokosciowe.html" class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-white/10 transition-colors">
-                                    <span class="w-9 h-9 rounded-lg bg-brand-orange/15 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-helmet-safety"></i></span>
-                                    <span class="text-sm font-semibold text-white">Prace wysokościowe / alpinizm</span>
-                                </a>
-                                <a href="uslugi/czyszczenie-rynien.html" class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-white/10 transition-colors">
-                                    <span class="w-9 h-9 rounded-lg bg-brand-orange/15 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-faucet-drip"></i></span>
-                                    <span class="text-sm font-semibold text-white">Czyszczenie rynien</span>
-                                </a>
-                                <a href="uslugi/czyszczenie-przemyslowe.html" class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-white/10 transition-colors">
-                                    <span class="w-9 h-9 rounded-lg bg-brand-orange/15 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-warehouse"></i></span>
-                                    <span class="text-sm font-semibold text-white">Czyszczenie przemysłowe / hal</span>
-                                </a>
-                                <a href="uslugi/malowanie-impregnacja.html" class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-white/10 transition-colors">
-                                    <span class="w-9 h-9 rounded-lg bg-brand-orange/15 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-paint-roller"></i></span>
-                                    <span class="text-sm font-semibold text-white">Malowanie / Impregnacja</span>
-                                </a>
-                                <a href="uslugi/sprzatanie-pomieszczen.html" class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-white/10 transition-colors">
-                                    <span class="w-9 h-9 rounded-lg bg-brand-orange/15 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-broom"></i></span>
-                                    <span class="text-sm font-semibold text-white">Sprzątanie pomieszczeń</span>
-                                </a>
+                        <div class="absolute left-1/2 -translate-x-1/2 top-full pt-3 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                            <div class="bg-white rounded-2xl shadow-2xl border border-gray-100 p-2 w-80 grid gap-1">
+                                <a href="uslugi/mycie-kostki-brukowej.html" class="flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-brand-lightBg transition-colors"><span class="w-9 h-9 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-road"></i></span><span class="text-sm font-semibold text-brand-dark">Mycie kostki brukowej</span></a>
+                                <a href="uslugi/mycie-elewacji.html" class="flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-brand-lightBg transition-colors"><span class="w-9 h-9 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-building"></i></span><span class="text-sm font-semibold text-brand-dark">Mycie elewacji</span></a>
+                                <a href="uslugi/mycie-dachow.html" class="flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-brand-lightBg transition-colors"><span class="w-9 h-9 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-house-chimney"></i></span><span class="text-sm font-semibold text-brand-dark">Mycie dachów</span></a>
+                                <a href="uslugi/prace-wysokosciowe.html" class="flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-brand-lightBg transition-colors"><span class="w-9 h-9 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-helmet-safety"></i></span><span class="text-sm font-semibold text-brand-dark">Prace wysokościowe / alpinizm</span></a>
+                                <a href="uslugi/czyszczenie-rynien.html" class="flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-brand-lightBg transition-colors"><span class="w-9 h-9 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-faucet-drip"></i></span><span class="text-sm font-semibold text-brand-dark">Czyszczenie rynien</span></a>
+                                <a href="uslugi/czyszczenie-przemyslowe.html" class="flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-brand-lightBg transition-colors"><span class="w-9 h-9 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-warehouse"></i></span><span class="text-sm font-semibold text-brand-dark">Czyszczenie przemysłowe / hal</span></a>
+                                <a href="uslugi/malowanie-impregnacja.html" class="flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-brand-lightBg transition-colors"><span class="w-9 h-9 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-paint-roller"></i></span><span class="text-sm font-semibold text-brand-dark">Malowanie / Impregnacja</span></a>
+                                <a href="uslugi/sprzatanie-pomieszczen.html" class="flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-brand-lightBg transition-colors"><span class="w-9 h-9 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-broom"></i></span><span class="text-sm font-semibold text-brand-dark">Sprzątanie pomieszczeń</span></a>
                             </div>
                         </div>
                     </div>
-
-                    <a href="jak-pracujemy.html" class="text-sm font-medium text-brand-dark hover:text-brand-orange transition-colors">Jak pracujemy</a>
-                    <a href="#why-us" class="text-sm font-medium text-brand-dark hover:text-brand-orange transition-colors">Dlaczego my?</a>
                     <a href="#realizacje" class="text-sm font-medium text-brand-dark hover:text-brand-orange transition-colors">Realizacje</a>
                     <a href="#opinie" class="text-sm font-medium text-brand-dark hover:text-brand-orange transition-colors">Opinie</a>
                     <a href="#faq" class="text-sm font-medium text-brand-dark hover:text-brand-orange transition-colors">FAQ</a>
                     <a href="blog/index.html" class="text-sm font-medium text-brand-dark hover:text-brand-orange transition-colors">Blog</a>
-                    <a href="#kontakt" class="text-sm font-medium text-brand-dark hover:text-brand-orange transition-colors">Kontakt</a>
                 </nav>
 
                 <div class="flex items-center gap-4">
-                    <a href="tel:+48797584863" class="hidden lg:flex items-center gap-2 bg-brand-orange hover:bg-brand-orange/90 text-white px-5 py-2.5 rounded-full text-sm font-bold shadow-md shadow-brand-orange/15 hover:shadow-lg transition-all hover:-translate-y-0.5">
-                        <i class="fa-solid fa-phone"></i>
-                        <span>+48 797 584 863</span>
+                    <a href="tel:+48797584863" class="hidden xl:flex items-center gap-2 text-sm font-bold text-brand-dark hover:text-brand-orange whitespace-nowrap transition-colors">
+                        <i class="fa-solid fa-phone text-brand-orange"></i> +48 797 584 863
                     </a>
-                    <button id="mobile-menu-btn" class="md:hidden text-brand-dark hover:text-brand-orange focus:outline-none p-2" aria-label="Menu">
+                    <a href="#kontakt" class="hidden sm:inline-flex items-center gap-2 bg-brand-orange hover:bg-brand-orangeDark text-white px-5 py-2.5 rounded-full text-sm font-bold shadow-md shadow-brand-orange/20 whitespace-nowrap transition-colors">
+                        Zamów wycenę <i class="fa-solid fa-arrow-right-long text-xs"></i>
+                    </a>
+                    <button id="mobile-menu-btn" class="lg:hidden text-brand-dark hover:text-brand-orange focus:outline-none p-2" aria-label="Menu">
                         <i class="fa-solid fa-bars text-2xl"></i>
                     </button>
                 </div>
@@ -291,806 +264,431 @@ src="https://www.facebook.com/tr?id=1792681042143896&ev=PageView&noscript=1"
         </div>
     </header>
 
-    <div id="mobile-menu" class="hidden md:hidden fixed inset-x-0 top-20 bottom-0 z-[60] bg-white overflow-y-auto overscroll-contain px-4 pt-4 pb-8 space-y-3">
-            <a href="#oferta" class="mobile-link block py-2 text-base font-medium text-brand-dark hover:text-brand-orange">Oferta</a>
-
-            <details class="group">
-                <summary class="flex items-center justify-between gap-2 py-2 text-base font-medium text-brand-dark">
-                    <span>Usługi</span>
-                    <i class="fa-solid fa-chevron-down text-xs text-brand-orange faq-chevron transition-transform"></i>
-                </summary>
-                <div class="pl-3 pt-1 pb-2 space-y-1 border-l-2 border-brand-orange/20 ml-1">
-                    <a href="uslugi/mycie-dachow.html" class="mobile-link block py-1.5 text-sm text-brand-gray hover:text-brand-orange">Mycie dachów</a>
-                    <a href="uslugi/mycie-elewacji.html" class="mobile-link block py-1.5 text-sm text-brand-gray hover:text-brand-orange">Mycie elewacji</a>
-                    <a href="uslugi/mycie-kostki-brukowej.html" class="mobile-link block py-1.5 text-sm text-brand-gray hover:text-brand-orange">Mycie kostki brukowej</a>
-                    <a href="uslugi/prace-wysokosciowe.html" class="mobile-link block py-1.5 text-sm text-brand-gray hover:text-brand-orange">Prace wysokościowe / alpinizm</a>
-                    <a href="uslugi/czyszczenie-rynien.html" class="mobile-link block py-1.5 text-sm text-brand-gray hover:text-brand-orange">Czyszczenie rynien</a>
-                    <a href="uslugi/czyszczenie-przemyslowe.html" class="mobile-link block py-1.5 text-sm text-brand-gray hover:text-brand-orange">Czyszczenie przemysłowe / hal</a>
-                    <a href="uslugi/malowanie-impregnacja.html" class="mobile-link block py-1.5 text-sm text-brand-gray hover:text-brand-orange">Malowanie / Impregnacja</a>
-                    <a href="uslugi/sprzatanie-pomieszczen.html" class="mobile-link block py-1.5 text-sm text-brand-gray hover:text-brand-orange">Sprzątanie pomieszczeń</a>
-                </div>
-            </details>
-
-            <a href="jak-pracujemy.html" class="mobile-link block py-2 text-base font-medium text-brand-dark hover:text-brand-orange">Jak pracujemy</a>
-            <a href="#why-us" class="mobile-link block py-2 text-base font-medium text-brand-dark hover:text-brand-orange">Dlaczego my?</a>
-            <a href="#realizacje" class="mobile-link block py-2 text-base font-medium text-brand-dark hover:text-brand-orange">Realizacje</a>
-            <a href="#opinie" class="mobile-link block py-2 text-base font-medium text-brand-dark hover:text-brand-orange">Opinie</a>
-            <a href="#faq" class="mobile-link block py-2 text-base font-medium text-brand-dark hover:text-brand-orange">FAQ</a>
-            <a href="blog/index.html" class="mobile-link block py-2 text-base font-medium text-brand-dark hover:text-brand-orange">Blog</a>
-            <a href="#kontakt" class="mobile-link block py-2 text-base font-medium text-brand-dark hover:text-brand-orange">Kontakt</a>
-            <div class="pt-2">
-                <a href="tel:+48797584863" class="flex items-center justify-center gap-2 bg-brand-orange text-white py-3 rounded-xl font-bold shadow-md">
-                    <i class="fa-solid fa-phone"></i>
-                    <span>+48 797 584 863</span>
-                </a>
+    <div id="mobile-menu" class="hidden lg:hidden fixed inset-x-0 top-20 bottom-0 z-[60] bg-white overflow-y-auto overscroll-contain px-4 pt-4 pb-8 space-y-3">
+        <a href="#oferta" class="mobile-link block py-2 text-base font-medium text-brand-dark hover:text-brand-orange">Oferta</a>
+        <details class="group">
+            <summary class="flex items-center justify-between gap-2 py-2 text-base font-medium text-brand-dark">
+                <span>Usługi</span>
+                <i class="fa-solid fa-chevron-down text-xs text-brand-orange faq-chevron transition-transform"></i>
+            </summary>
+            <div class="pl-3 pt-1 pb-2 space-y-1 border-l-2 border-brand-orange/20 ml-1">
+                <a href="uslugi/mycie-kostki-brukowej.html" class="mobile-link block py-1.5 text-sm text-brand-gray hover:text-brand-orange">Mycie kostki brukowej</a>
+                <a href="uslugi/mycie-elewacji.html" class="mobile-link block py-1.5 text-sm text-brand-gray hover:text-brand-orange">Mycie elewacji</a>
+                <a href="uslugi/mycie-dachow.html" class="mobile-link block py-1.5 text-sm text-brand-gray hover:text-brand-orange">Mycie dachów</a>
+                <a href="uslugi/prace-wysokosciowe.html" class="mobile-link block py-1.5 text-sm text-brand-gray hover:text-brand-orange">Prace wysokościowe / alpinizm</a>
+                <a href="uslugi/czyszczenie-rynien.html" class="mobile-link block py-1.5 text-sm text-brand-gray hover:text-brand-orange">Czyszczenie rynien</a>
+                <a href="uslugi/czyszczenie-przemyslowe.html" class="mobile-link block py-1.5 text-sm text-brand-gray hover:text-brand-orange">Czyszczenie przemysłowe / hal</a>
+                <a href="uslugi/malowanie-impregnacja.html" class="mobile-link block py-1.5 text-sm text-brand-gray hover:text-brand-orange">Malowanie / Impregnacja</a>
+                <a href="uslugi/sprzatanie-pomieszczen.html" class="mobile-link block py-1.5 text-sm text-brand-gray hover:text-brand-orange">Sprzątanie pomieszczeń</a>
             </div>
+        </details>
+        <a href="jak-pracujemy.html" class="mobile-link block py-2 text-base font-medium text-brand-dark hover:text-brand-orange">Jak pracujemy</a>
+        <a href="#realizacje" class="mobile-link block py-2 text-base font-medium text-brand-dark hover:text-brand-orange">Realizacje</a>
+        <a href="#opinie" class="mobile-link block py-2 text-base font-medium text-brand-dark hover:text-brand-orange">Opinie</a>
+        <a href="#faq" class="mobile-link block py-2 text-base font-medium text-brand-dark hover:text-brand-orange">FAQ</a>
+        <a href="blog/index.html" class="mobile-link block py-2 text-base font-medium text-brand-dark hover:text-brand-orange">Blog</a>
+        <a href="#kontakt" class="mobile-link block py-2 text-base font-medium text-brand-dark hover:text-brand-orange">Kontakt</a>
+        <div class="pt-2 grid gap-3">
+            <a href="#kontakt" class="mobile-link flex items-center justify-center gap-2 bg-brand-orange text-white py-3 rounded-xl font-bold shadow-md">Zamów bezpłatną wycenę</a>
+            <a href="tel:+48797584863" class="flex items-center justify-center gap-2 border border-gray-200 text-brand-dark py-3 rounded-xl font-bold"><i class="fa-solid fa-phone text-brand-orange"></i> +48 797 584 863</a>
         </div>
+    </div>
 
-    <!-- ГЛАВНЫЙ ЭКРАН (HERO) -->
-    <section id="hero" class="relative bg-brand-dark text-white overflow-hidden min-h-[90vh] flex items-center">
-        <div class="absolute inset-0 bg-gradient-to-r from-brand-dark via-brand-dark/90 to-transparent"></div>
+    <!-- HERO -->
+    <section id="hero" class="relative overflow-hidden bg-brand-lightBg">
+        <img src="images/realizacje/hero-dach.webp" alt="Pracownik BruClean Service podczas mycia ciśnieniowego dachu w Krakowie" width="1200" height="800" fetchpriority="high" class="absolute inset-0 w-full h-full object-cover object-right">
+        <div class="absolute inset-0 bg-white/90 md:hidden"></div>
+        <div class="absolute inset-0 hidden md:block bg-gradient-to-r from-white via-white/95 to-white/10"></div>
 
-        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32 grid md:grid-cols-12 gap-12 items-center">
-            <div class="md:col-span-7 space-y-6">
-                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight">
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 lg:py-28">
+            <div class="max-w-2xl space-y-7">
+                <div class="inline-flex items-center gap-2 bg-white border border-gray-200 rounded-full pl-2 pr-4 py-1.5 shadow-sm text-xs sm:text-sm font-semibold text-brand-dark">
+                    <span class="flex items-center gap-0.5 text-amber-400 text-xs"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                    5,0 na Google · zweryfikowane opinie
+                </div>
+
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.08] text-brand-dark">
                     Elewacja, dach i kostka jak nowe — <span class="text-brand-orange">mycie i renowacja w Krakowie</span>
                 </h1>
-                <p class="text-xl sm:text-2xl font-extrabold text-brand-orange tracking-tight leading-snug">
-                    BruClean Service — czystość na szczycie.<br>Efekt na lata.
+
+                <p class="text-lg sm:text-xl text-brand-gray leading-relaxed">
+                    Usuwamy brud, mech, glony i plamy z kostki brukowej, elewacji i dachów. Ciśnienie i temperaturę wody ustawiamy pod konkretną powierzchnię, a po myciu możemy ją zaimpregnować. Pracujemy w Krakowie i w promieniu 100 km.
                 </p>
-                <div class="flex items-center gap-3 text-sm text-gray-300">
-                    <span class="flex items-center gap-1 text-brand-orange">
-                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                    </span>
-                    <span>5,0 / 5 na Google — zweryfikowane opinie klientów</span>
-                </div>
-                <p class="text-lg sm:text-xl text-gray-300 max-w-2xl font-light">
-                    Usuwamy brud, mech, glony i osady z elewacji, dachu i kostki brukowej — mycie ciśnieniowe, impregnacja i prace wysokościowe w całej Małopolsce. Bezpłatna wycena, bez zobowiązań.
-                </p>
-                <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-4">
-                    <a href="#kontakt" class="bg-brand-orange hover:bg-brand-orange/90 text-white text-center px-8 py-4 rounded-xl font-bold shadow-lg shadow-brand-orange/20 hover:shadow-brand-orange/35 hover:-translate-y-0.5 transition-all">
-                        Darmowa wycena / Kontakt
+
+                <ul class="flex flex-wrap gap-2.5">
+                    <li class="inline-flex items-center gap-2 bg-white border border-gray-200 rounded-full px-4 py-2 text-sm font-semibold text-brand-dark shadow-sm"><i class="fa-solid fa-bolt text-brand-orange"></i>Ciśnienie 120–350 bar</li>
+                    <li class="inline-flex items-center gap-2 bg-white border border-gray-200 rounded-full px-4 py-2 text-sm font-semibold text-brand-dark shadow-sm"><i class="fa-solid fa-droplet text-brand-orange"></i>Gorąca woda</li>
+                    <li class="inline-flex items-center gap-2 bg-white border border-gray-200 rounded-full px-4 py-2 text-sm font-semibold text-brand-dark shadow-sm"><i class="fa-solid fa-helmet-safety text-brand-orange"></i>Alpiniści IRATA</li>
+                    <li class="inline-flex items-center gap-2 bg-white border border-gray-200 rounded-full px-4 py-2 text-sm font-semibold text-brand-dark shadow-sm"><i class="fa-solid fa-shield-halved text-brand-orange"></i>Ubezpieczenie OC</li>
+                </ul>
+
+                <div class="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4 pt-2">
+                    <a href="#kontakt" class="inline-flex items-center justify-center gap-3 bg-brand-orange hover:bg-brand-orangeDark text-white px-7 py-4 rounded-2xl font-bold shadow-lg shadow-brand-orange/25 whitespace-nowrap transition-colors">
+                        Darmowa wycena <i class="fa-solid fa-arrow-right-long text-sm"></i>
                     </a>
-                    <a href="tel:+48797584863" class="bg-white/10 hover:bg-white/15 text-white border border-white/20 text-center px-8 py-4 rounded-xl font-bold transition-all flex items-center justify-center gap-2">
-                        <i class="fa-solid fa-phone"></i> Zadzwoń: +48 797 584 863
+                    <a href="#realizacje" class="inline-flex items-center justify-center gap-3 bg-white hover:border-brand-orange border border-gray-200 text-brand-dark px-7 py-4 rounded-2xl font-bold shadow-sm whitespace-nowrap transition-colors">
+                        <i class="fa-solid fa-spray-can-sparkles text-brand-orange"></i> Zobacz przed i po
+                    </a>
+                    <a href="tel:+48797584863" class="inline-flex items-center justify-center gap-2 px-2 py-3 font-bold text-brand-dark hover:text-brand-orange whitespace-nowrap transition-colors">
+                        <i class="fa-solid fa-phone text-brand-orange"></i> +48 797 584 863
                     </a>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <div class="md:col-span-5 relative hidden md:block">
-                <div class="absolute -inset-4 border border-brand-orange/20 rounded-3xl transform rotate-2"></div>
-                <div class="relative bg-brand-dark/50 border border-white/10 rounded-2xl overflow-hidden shadow-2xl p-2">
-                    <img src="images/realizacje/hero-dach.webp" alt="Pracownik BruClean Service podczas mycia ciśnieniowego dachu w Krakowie" width="600" height="400" fetchpriority="high" class="rounded-xl w-full h-[400px] object-cover filter brightness-90">
-                    <div class="absolute bottom-6 left-6 right-6 bg-brand-dark/95 backdrop-blur-md border border-white/10 p-4 rounded-xl">
-                        <div class="flex items-center gap-3">
-                            <div class="text-brand-orange text-2xl font-extrabold"><i class="fa-solid fa-certificate"></i></div>
-                            <div class="text-xs text-gray-300 tracking-wider uppercase">Wieloletnie doświadczenie zespołu</div>
-                        </div>
+    <!-- LICZBY I ATUTY -->
+    <section id="why-us" class="bg-white border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20 space-y-14">
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
+                <div class="bg-brand-lightBg border border-gray-200/80 rounded-3xl p-5 sm:p-7 space-y-3">
+                    <div class="flex items-start justify-between gap-2">
+                        <p class="text-[11px] sm:text-xs font-bold uppercase tracking-wider text-brand-gray">Ocena Google</p>
+                        <span class="w-9 h-9 rounded-full bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <p class="text-3xl sm:text-4xl font-extrabold text-brand-dark tracking-tight whitespace-nowrap">5,0★</p>
+                    <p class="text-xs sm:text-sm text-brand-gray leading-relaxed">zweryfikowane opinie klientów z Krakowa i okolic</p>
+                </div>
+                <div class="bg-brand-lightBg border border-gray-200/80 rounded-3xl p-5 sm:p-7 space-y-3">
+                    <div class="flex items-start justify-between gap-2">
+                        <p class="text-[11px] sm:text-xs font-bold uppercase tracking-wider text-brand-gray">Zasięg</p>
+                        <span class="w-9 h-9 rounded-full bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-location-dot"></i></span>
+                    </div>
+                    <p class="text-3xl sm:text-4xl font-extrabold text-brand-dark tracking-tight whitespace-nowrap">100 km</p>
+                    <p class="text-xs sm:text-sm text-brand-gray leading-relaxed">Kraków, Wieliczka, Skawina, Bochnia, Myślenice</p>
+                </div>
+                <div class="bg-brand-lightBg border border-gray-200/80 rounded-3xl p-5 sm:p-7 space-y-3">
+                    <div class="flex items-start justify-between gap-2">
+                        <p class="text-[11px] sm:text-xs font-bold uppercase tracking-wider text-brand-gray">Ciśnienie</p>
+                        <span class="w-9 h-9 rounded-full bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-bolt"></i></span>
+                    </div>
+                    <p class="text-3xl sm:text-4xl font-extrabold text-brand-dark tracking-tight whitespace-nowrap">120–350<span class="text-lg sm:text-xl"> bar</span></p>
+                    <p class="text-xs sm:text-sm text-brand-gray leading-relaxed">inne do tynku, inne do kostki i dachówki</p>
+                </div>
+                <div class="bg-brand-lightBg border border-gray-200/80 rounded-3xl p-5 sm:p-7 space-y-3">
+                    <div class="flex items-start justify-between gap-2">
+                        <p class="text-[11px] sm:text-xs font-bold uppercase tracking-wider text-brand-gray">Na wysokości</p>
+                        <span class="w-9 h-9 rounded-full bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-helmet-safety"></i></span>
+                    </div>
+                    <p class="text-3xl sm:text-4xl font-extrabold text-brand-dark tracking-tight whitespace-nowrap">IRATA</p>
+                    <p class="text-xs sm:text-sm text-brand-gray leading-relaxed">certyfikowani alpiniści, ubezpieczenie OC</p>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 pt-10 border-t border-gray-100">
+                <div class="flex gap-4">
+                    <span class="w-12 h-12 rounded-full bg-brand-orange/10 text-brand-orange flex items-center justify-center text-lg shrink-0"><i class="fa-solid fa-screwdriver-wrench"></i></span>
+                    <div class="space-y-1.5">
+                        <h3 class="text-lg font-bold text-brand-dark">Metoda dobrana do powierzchni</h3>
+                        <p class="text-sm text-brand-gray leading-relaxed">Mycie ciśnieniowe, piaskowanie albo impregnacja. Decydujemy po oględzinach, a nie z góry.</p>
+                    </div>
+                </div>
+                <div class="flex gap-4">
+                    <span class="w-12 h-12 rounded-full bg-brand-orange/10 text-brand-orange flex items-center justify-center text-lg shrink-0"><i class="fa-solid fa-droplet"></i></span>
+                    <div class="space-y-1.5">
+                        <h3 class="text-lg font-bold text-brand-dark">Gorąca woda tam, gdzie pomaga</h3>
+                        <p class="text-sm text-brand-gray leading-relaxed">Szybciej rozpuszcza tłuste plamy i osady. Temperaturę ustawiamy tak, żeby nie zaszkodzić materiałowi.</p>
+                    </div>
+                </div>
+                <div class="flex gap-4">
+                    <span class="w-12 h-12 rounded-full bg-brand-orange/10 text-brand-orange flex items-center justify-center text-lg shrink-0"><i class="fa-solid fa-shield-halved"></i></span>
+                    <div class="space-y-1.5">
+                        <h3 class="text-lg font-bold text-brand-dark">Impregnacja po myciu</h3>
+                        <p class="text-sm text-brand-gray leading-relaxed">Powłoka hydrofobowa sprawia, że woda i brud wolniej wnikają w powierzchnię, a mech wraca później.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- PASEK ZAUFANIA (TRUST BAR) -->
-    <section class="bg-white border-b border-gray-100">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
-                <div class="text-center py-10 px-4 border border-gray-100 rounded-2xl shadow-sm">
-                    <div class="text-3xl sm:text-4xl font-extrabold text-brand-dark"><i class="fa-solid fa-certificate text-brand-orange"></i></div>
-                    <p class="text-xs text-brand-gray font-medium mt-1 leading-snug">wieloletnie<br>doświadczenie zespołu</p>
-                </div>
-                <div class="text-center py-10 px-4 border border-gray-100 rounded-2xl shadow-sm">
-                    <div class="text-3xl sm:text-4xl font-extrabold text-brand-dark"><span class="text-brand-orange">5,0</span>★</div>
-                    <p class="text-xs text-brand-gray font-medium mt-1 leading-snug">ocena Google<br>zweryfikowane opinie</p>
-                </div>
-                <div class="text-center py-10 px-4 border border-gray-100 rounded-2xl shadow-sm">
-                    <div class="text-3xl sm:text-4xl font-extrabold text-brand-dark">100<span class="text-brand-orange"> km</span></div>
-                    <p class="text-xs text-brand-gray font-medium mt-1 leading-snug">zasięgu działania<br>od Krakowa</p>
-                </div>
-                <div class="text-center py-10 px-4 border border-gray-100 rounded-2xl shadow-sm">
-                    <div class="text-3xl sm:text-4xl font-extrabold text-brand-dark">100<span class="text-brand-orange">%</span></div>
-                    <p class="text-xs text-brand-gray font-medium mt-1 leading-snug">ubezpieczenie OC<br>i certyfikowani alpiniści</p>
-                </div>
+    <!-- OFERTA -->
+    <section id="oferta" class="py-20 sm:py-24 bg-brand-lightBg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+            <div class="max-w-3xl space-y-4">
+                <p class="text-brand-orange font-bold text-sm uppercase tracking-wider">Nasza oferta</p>
+                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-brand-dark tracking-tight">Mycie, czyszczenie i impregnacja w Krakowie</h2>
+                <p class="text-brand-gray text-lg leading-relaxed">Ciśnienie, temperaturę wody i środki dobieramy do rodzaju powierzchni. Inaczej myjemy tynk, inaczej dachówkę, a jeszcze inaczej kostkę.</p>
             </div>
-        </div>
-    </section>
 
-    <!-- БЛОК ПРЕИМУЩЕСТВ (DLACZEGO MY?) -->
-    <section id="why-us" class="py-24 bg-brand-lightBg">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid lg:grid-cols-12 gap-16 items-center">
-
-                <div class="lg:col-span-5 relative">
-                    <div class="relative grid grid-cols-2 gap-4">
-                        <div class="space-y-4">
-                            <img class="rounded-2xl shadow-md w-full h-48 object-cover hover:scale-105 transition-transform" src="images/realizacje/elewacja-wysokosciowa.webp" alt="Mycie ciśnieniowe elewacji budynku metodą alpinistyczną - realizacja BruClean Service" width="400" height="192" loading="lazy" decoding="async">
-                            <div class="bg-brand-orange text-white p-6 rounded-2xl shadow-xl flex flex-col justify-between h-48">
-                                <div class="text-5xl font-extrabold"><i class="fa-solid fa-certificate"></i></div>
-                                <p class="font-bold text-sm tracking-wide uppercase leading-snug">Wieloletnie doświadczenie zespołu</p>
-                            </div>
-                        </div>
-                        <div class="space-y-4 pt-8">
-                            <div class="bg-brand-dark text-white p-6 rounded-2xl shadow-xl flex flex-col justify-between h-48">
-                                <div class="text-brand-orange text-4xl"><i class="fa-solid fa-shield-halved"></i></div>
-                                <div>
-                                    <div class="font-bold text-lg leading-tight">100% BHP</div>
-                                    <p class="text-xs text-gray-400">Bezpieczeństwo pracy to nasz priorytet</p>
-                                </div>
-                            </div>
-                            <img class="rounded-2xl shadow-md w-full h-48 object-cover hover:scale-105 transition-transform" src="images/realizacje/mycie-orlen-przemyslowe.webp" alt="Czyszczenie przemysłowe konstrukcji stacji paliw - realizacja BruClean Service" width="400" height="192" loading="lazy" decoding="async">
-                        </div>
+            <div class="grid lg:grid-cols-12 gap-6">
+                <article class="lg:col-span-7 bg-white rounded-3xl border border-gray-200/80 shadow-sm p-5 sm:p-7 flex flex-col gap-6">
+                    <div class="flex items-center justify-between gap-3">
+                        <span class="inline-flex items-center gap-2 bg-brand-orange text-white text-xs font-bold px-3 py-1.5 rounded-full"><i class="fa-solid fa-star text-[10px]"></i> Nasza specjalność</span>
+                        <span class="text-xs font-semibold text-brand-gray flex items-center gap-1.5"><i class="fa-solid fa-bolt text-brand-orange"></i> 120–350 bar · gorąca woda</span>
                     </div>
-                </div>
-
-                <div class="lg:col-span-7 space-y-8">
+                    <div class="relative rounded-2xl overflow-hidden">
+                        <img src="images/realizacje/kostka-2.webp" alt="Czyszczenie kostki brukowej z dekoracyjnym kołem – przed i po" width="976" height="512" loading="lazy" decoding="async" class="w-full h-auto">
+                        <span class="absolute left-3 top-3 bg-white/95 text-brand-dark text-xs font-semibold px-3 py-1.5 rounded-full shadow"><i class="fa-solid fa-location-dot text-brand-orange mr-1"></i> Realizacja: Małopolska</span>
+                    </div>
                     <div class="space-y-3">
-                        <div class="flex items-center gap-2 text-brand-orange font-bold text-sm uppercase tracking-wider">
-                            <div class="w-8 h-[2px] bg-brand-orange"></div>
-                            Dlaczego warto nas wybrać?
-                        </div>
-                        <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-dark tracking-tight">
-                            Poznaj fundamenty naszej profesjonalnej działalności
-                        </h2>
+                        <h3 class="text-2xl sm:text-3xl font-extrabold text-brand-dark tracking-tight">Czyszczenie kostki brukowej</h3>
+                        <p class="text-brand-orange font-semibold text-sm">Mycie ciśnieniowe, usuwanie mchu i plam, impregnacja</p>
+                        <p class="text-brand-gray leading-relaxed">Usuwamy chwasty z fug, mech, porosty i plamy z oleju z podjazdów, chodników i tarasów. Po myciu możemy zaimpregnować kostkę, żeby dłużej była czysta.</p>
                     </div>
-
-                    <div class="grid sm:grid-cols-3 gap-4">
-                        <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 space-y-3">
-                            <div class="w-11 h-11 rounded-xl bg-brand-orange/10 text-brand-orange flex items-center justify-center text-xl">
-                                <i class="fa-solid fa-shield-halved"></i>
-                            </div>
-                            <h3 class="text-base font-bold text-brand-dark">Bezpiecznie</h3>
-                            <p class="text-brand-gray text-sm leading-relaxed">
-                                Certyfikowani alpiniści przemysłowi, pełne zabezpieczenie BHP i ubezpieczenie OC na każdym zleceniu.
-                            </p>
-                        </div>
-                        <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 space-y-3">
-                            <div class="w-11 h-11 rounded-xl bg-brand-orange/10 text-brand-orange flex items-center justify-center text-xl">
-                                <i class="fa-solid fa-screwdriver-wrench"></i>
-                            </div>
-                            <h3 class="text-base font-bold text-brand-dark">Odpowiednia metoda</h3>
-                            <p class="text-brand-gray text-sm leading-relaxed">
-                                Dobieramy technikę do powierzchni — mycie ciśnieniowe, piaskowanie lub impregnacja, nie na skróty.
-                            </p>
-                        </div>
-                        <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 space-y-3">
-                            <div class="w-11 h-11 rounded-xl bg-brand-orange/10 text-brand-orange flex items-center justify-center text-xl">
-                                <i class="fa-solid fa-clock"></i>
-                            </div>
-                            <h3 class="text-base font-bold text-brand-dark">Efekt widoczny od razu</h3>
-                            <p class="text-brand-gray text-sm leading-relaxed">
-                                Rezultat czystości i estetyki widać natychmiast po zakończeniu prac — bez czekania na "osiadanie" efektu.
-                            </p>
-                        </div>
+                    <div class="flex flex-wrap items-center gap-2 pt-4 border-t border-gray-100">
+                        <span class="text-xs font-bold uppercase tracking-wider text-brand-dark mr-1">Materiały:</span>
+                        <span class="bg-brand-lightBg border border-gray-200 text-xs font-medium text-brand-dark px-3 py-1 rounded-full">Kostka betonowa</span>
+                        <span class="bg-brand-lightBg border border-gray-200 text-xs font-medium text-brand-dark px-3 py-1 rounded-full">Granit</span>
+                        <span class="bg-brand-lightBg border border-gray-200 text-xs font-medium text-brand-dark px-3 py-1 rounded-full">Płyty tarasowe</span>
                     </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- УСЛУГИ (OFERTA) -->
-    <section id="oferta" class="py-24 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
-
-            <div class="text-center space-y-4 max-w-3xl mx-auto">
-                <div class="inline-flex items-center gap-2 text-brand-orange font-bold text-sm uppercase tracking-wider">
-                    <div class="w-4 h-[2px] bg-brand-orange"></div>
-                    Nasza Oferta
-                    <div class="w-4 h-[2px] bg-brand-orange"></div>
-                </div>
-                <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-dark tracking-tight">
-                    Profesjonalny zakres usług wysokościowych i renowacyjnych
-                </h2>
-                <p class="text-brand-gray">
-                    Świadczymy usługi z zachowaniem najwyższych standardów bezpieczeństwa, wykorzystując wyłącznie profesjonalny sprzęt i atestowane materiały.
-                </p>
-            </div>
-
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-                <div class="bg-brand-lightBg hover:bg-brand-dark hover:text-white p-8 rounded-2xl border border-gray-100 transition-all duration-300 flex flex-col justify-between group h-full shadow-sm hover:shadow-xl">
-                    <div class="space-y-6">
-                        <div class="w-14 h-14 bg-brand-orange/10 group-hover:bg-brand-orange/25 text-brand-orange rounded-xl flex items-center justify-center text-2xl transition-colors">
-                            <i class="fa-solid fa-building"></i>
-                        </div>
-                        <div class="space-y-3">
-                            <h3 class="text-xl font-bold group-hover:text-white">Mycie elewacji</h3>
-                            <p class="text-brand-gray group-hover:text-gray-300 text-sm leading-relaxed">
-                                Usuwamy brud, glony i mech z elewacji budynków mieszkalnych i przemysłowych metodą ciśnieniową — bezpiecznie dla tynku i koloru.
-                            </p>
-                        </div>
+                    <div class="flex flex-col sm:flex-row gap-3 mt-auto">
+                        <a href="#kontakt" class="inline-flex items-center justify-center gap-2 bg-brand-orange hover:bg-brand-orangeDark text-white px-6 py-3 rounded-xl font-bold whitespace-nowrap transition-colors">Wyceń kostkę <i class="fa-solid fa-arrow-right-long text-xs"></i></a>
+                        <a href="uslugi/mycie-kostki-brukowej.html" class="inline-flex items-center justify-center gap-2 border border-gray-200 hover:border-brand-orange text-brand-dark px-6 py-3 rounded-xl font-bold whitespace-nowrap transition-colors">Więcej o usłudze</a>
                     </div>
-                    <a href="uslugi/mycie-elewacji.html" class="mt-8 inline-flex items-center gap-2 text-brand-orange font-bold text-sm group-hover:text-white transition-colors">
-                        Zobacz usługę <i class="fa-solid fa-arrow-right-long text-xs group-hover:translate-x-1 transition-transform"></i>
+                </article>
+
+                <div class="lg:col-span-5 grid gap-4 content-start">
+                    <a href="uslugi/mycie-elewacji.html" class="group bg-white rounded-3xl border border-gray-200/80 shadow-sm p-4 flex gap-4 items-center hover:border-brand-orange transition-colors">
+                        <img src="images/realizacje/elewacja-2.webp" alt="Mycie elewacji budynku wielorodzinnego – przed i po" width="976" height="512" loading="lazy" decoding="async" class="w-24 h-24 sm:w-28 sm:h-28 rounded-2xl object-cover shrink-0">
+                        <div class="space-y-1.5 min-w-0">
+                            <h3 class="font-bold text-brand-dark text-lg">Mycie i impregnacja elewacji</h3>
+                            <p class="text-sm text-brand-gray leading-relaxed">Glony, mech i brud z tynku. Ciśnienie dobieramy tak, żeby nie uszkodzić tynku ani koloru.</p>
+                            <span class="inline-flex items-center gap-1.5 text-sm font-bold text-brand-orange">Zobacz usługę <i class="fa-solid fa-arrow-right-long text-xs group-hover:translate-x-1 transition-transform"></i></span>
+                        </div>
                     </a>
-                </div>
-
-                <div class="bg-brand-lightBg hover:bg-brand-dark hover:text-white p-8 rounded-2xl border border-gray-100 transition-all duration-300 flex flex-col justify-between group h-full shadow-sm hover:shadow-xl">
-                    <div class="space-y-6">
-                        <div class="w-14 h-14 bg-brand-orange/10 group-hover:bg-brand-orange/25 text-brand-orange rounded-xl flex items-center justify-center text-2xl transition-colors">
-                            <i class="fa-solid fa-house-chimney"></i>
+                    <a href="uslugi/mycie-dachow.html" class="group bg-white rounded-3xl border border-gray-200/80 shadow-sm p-4 flex gap-4 items-center hover:border-brand-orange transition-colors">
+                        <img src="images/realizacje/dach-1.webp" alt="Mycie dachu ciśnieniowe – realizacja BruClean Service" width="976" height="512" loading="lazy" decoding="async" class="w-24 h-24 sm:w-28 sm:h-28 rounded-2xl object-cover shrink-0">
+                        <div class="space-y-1.5 min-w-0">
+                            <h3 class="font-bold text-brand-dark text-lg">Mycie dachów</h3>
+                            <p class="text-sm text-brand-gray leading-relaxed">Dachówka ceramiczna, betonowa i blachodachówka. Na strome dachy wchodzimy na linach, bez rusztowania.</p>
+                            <span class="inline-flex items-center gap-1.5 text-sm font-bold text-brand-orange">Zobacz usługę <i class="fa-solid fa-arrow-right-long text-xs group-hover:translate-x-1 transition-transform"></i></span>
                         </div>
-                        <div class="space-y-3">
-                            <h3 class="text-xl font-bold group-hover:text-white">Mycie dachów</h3>
-                            <p class="text-brand-gray group-hover:text-gray-300 text-sm leading-relaxed">
-                                Czyszczenie dachówki, blachodachówki i dachów płaskich z mchu, glonów i osadów — przedłużamy żywotność pokrycia.
-                            </p>
-                        </div>
-                    </div>
-                    <a href="uslugi/mycie-dachow.html" class="mt-8 inline-flex items-center gap-2 text-brand-orange font-bold text-sm group-hover:text-white transition-colors">
-                        Zobacz usługę <i class="fa-solid fa-arrow-right-long text-xs group-hover:translate-x-1 transition-transform"></i>
                     </a>
-                </div>
-
-                <div class="bg-brand-lightBg hover:bg-brand-dark hover:text-white p-8 rounded-2xl border border-gray-100 transition-all duration-300 flex flex-col justify-between group h-full shadow-sm hover:shadow-xl">
-                    <div class="space-y-6">
-                        <div class="w-14 h-14 bg-brand-orange/10 group-hover:bg-brand-orange/25 text-brand-orange rounded-xl flex items-center justify-center text-2xl transition-colors">
-                            <i class="fa-solid fa-road"></i>
+                    <a href="uslugi/prace-wysokosciowe.html" class="group bg-white rounded-3xl border border-gray-200/80 shadow-sm p-4 flex gap-4 items-center hover:border-brand-orange transition-colors">
+                        <img src="images/realizacje/elewacja-wysokosciowa.webp" alt="Mycie ciśnieniowe elewacji budynku metodą alpinistyczną - realizacja BruClean Service" width="800" height="384" loading="lazy" decoding="async" class="w-24 h-24 sm:w-28 sm:h-28 rounded-2xl object-cover shrink-0">
+                        <div class="space-y-1.5 min-w-0">
+                            <h3 class="font-bold text-brand-dark text-lg">Prace wysokościowe</h3>
+                            <p class="text-sm text-brand-gray leading-relaxed">Alpiniści IRATA: mycie elewacji i okien na wysokości, drobne naprawy, prace przy budynkach i halach.</p>
+                            <span class="inline-flex items-center gap-1.5 text-sm font-bold text-brand-orange">Zobacz usługę <i class="fa-solid fa-arrow-right-long text-xs group-hover:translate-x-1 transition-transform"></i></span>
                         </div>
-                        <div class="space-y-3">
-                            <h3 class="text-xl font-bold group-hover:text-white">Czyszczenie kostki brukowej</h3>
-                            <p class="text-brand-gray group-hover:text-gray-300 text-sm leading-relaxed">
-                                Mycie i impregnacja kostki brukowej na podjazdach, chodnikach i tarasach — usuwamy chwasty, mech i zabrudzenia.
-                            </p>
-                        </div>
-                    </div>
-                    <a href="uslugi/mycie-kostki-brukowej.html" class="mt-8 inline-flex items-center gap-2 text-brand-orange font-bold text-sm group-hover:text-white transition-colors">
-                        Zobacz usługę <i class="fa-solid fa-arrow-right-long text-xs group-hover:translate-x-1 transition-transform"></i>
                     </a>
-                </div>
-
-                <div class="bg-brand-lightBg hover:bg-brand-dark hover:text-white p-8 rounded-2xl border border-gray-100 transition-all duration-300 flex flex-col justify-between group h-full shadow-sm hover:shadow-xl">
-                    <div class="space-y-6">
-                        <div class="w-14 h-14 bg-brand-orange/10 group-hover:bg-brand-orange/25 text-brand-orange rounded-xl flex items-center justify-center text-2xl transition-colors">
-                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <a href="uslugi/czyszczenie-rynien.html" class="group bg-white rounded-3xl border border-gray-200/80 shadow-sm p-4 flex gap-4 items-center hover:border-brand-orange transition-colors">
+                        <img src="images/realizacje/ba/rynny-po.webp" alt="Rynna po czyszczeniu – realizacja BruClean Service" width="800" height="800" loading="lazy" decoding="async" class="w-24 h-24 sm:w-28 sm:h-28 rounded-2xl object-cover shrink-0">
+                        <div class="space-y-1.5 min-w-0">
+                            <h3 class="font-bold text-brand-dark text-lg">Czyszczenie i naprawa rynien</h3>
+                            <p class="text-sm text-brand-gray leading-relaxed">Liście, mech i osad z rynien i rur spustowych. Uszczelniamy i wymieniamy uszkodzone elementy.</p>
+                            <span class="inline-flex items-center gap-1.5 text-sm font-bold text-brand-orange">Zobacz usługę <i class="fa-solid fa-arrow-right-long text-xs group-hover:translate-x-1 transition-transform"></i></span>
                         </div>
-                        <div class="space-y-3">
-                            <h3 class="text-xl font-bold group-hover:text-white">Pozostałe usługi</h3>
-                            <p class="text-brand-gray group-hover:text-gray-300 text-sm leading-relaxed">
-                                Prace wysokościowe, malowanie elewacji, piaskowanie, czyszczenie hal przemysłowych, rynien i pomieszczeń — zapytaj o dowolne zlecenie.
-                            </p>
-                        </div>
-                    </div>
-                    <a href="#kontakt" class="mt-8 inline-flex items-center gap-2 text-brand-orange font-bold text-sm group-hover:text-white transition-colors">
-                        Szybka wycena <i class="fa-solid fa-arrow-right-long text-xs group-hover:translate-x-1 transition-transform"></i>
                     </a>
-                </div>
-            </div>
-
-            <!-- CTA po ofercie -->
-            <div class="bg-brand-orange rounded-3xl px-6 sm:px-10 py-8 flex flex-col sm:flex-row items-center justify-between gap-6 text-center sm:text-left">
-                <p class="text-white font-bold text-lg sm:text-xl">Nie widzisz swojej usługi na liście? Zapytaj — wycenimy każde zlecenie.</p>
-                <div class="flex flex-col sm:flex-row gap-3 shrink-0">
-                    <a href="#kontakt" class="bg-white text-brand-orange text-center px-6 py-3 rounded-xl font-bold hover:bg-gray-100 transition-colors">Darmowa wycena</a>
-                    <a href="tel:+48797584863" class="bg-brand-dark text-white text-center px-6 py-3 rounded-xl font-bold hover:bg-brand-dark/90 transition-colors">Zadzwoń teraz</a>
                 </div>
             </div>
 
             <!-- Pełna lista usług (zgodna z Google Business Profile) -->
-            <div class="bg-brand-lightBg rounded-3xl p-8 sm:p-12 space-y-8">
-                <div class="text-center space-y-2 max-w-2xl mx-auto">
-                    <h3 class="text-2xl sm:text-3xl font-extrabold text-brand-dark tracking-tight">Pełny zakres usług BruClean Service</h3>
-                    <p class="text-brand-gray text-sm sm:text-base">Ta sama lista usług, którą znajdziesz na naszym profilu Google — wybierz interesującą Cię pozycję i zapytaj o wycenę.</p>
+            <div class="bg-white rounded-3xl border border-gray-200/80 p-6 sm:p-10 space-y-6">
+                <div class="space-y-1">
+                    <h3 class="text-xl sm:text-2xl font-extrabold text-brand-dark tracking-tight">Pełny zakres usług BruClean Service</h3>
+                    <p class="text-brand-gray text-sm">Ta sama lista, którą znajdziesz na naszym profilu Google. Wybierz usługę albo zapytaj o własne zlecenie.</p>
                 </div>
-                <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-                    <a href="#kontakt" class="flex items-center gap-3 bg-white p-4 rounded-xl border border-gray-100 shadow-sm hover:border-brand-orange hover:shadow-md transition-all group">
-                        <span class="w-9 h-9 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0 group-hover:bg-brand-orange group-hover:text-white transition-colors"><i class="fa-solid fa-hammer"></i></span>
-                        <span class="text-sm font-bold text-brand-dark">Piaskowanie</span>
-                    </a>
-                    <a href="uslugi/czyszczenie-przemyslowe.html" class="flex items-center gap-3 bg-white p-4 rounded-xl border border-gray-100 shadow-sm hover:border-brand-orange hover:shadow-md transition-all group">
-                        <span class="w-9 h-9 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0 group-hover:bg-brand-orange group-hover:text-white transition-colors"><i class="fa-solid fa-warehouse"></i></span>
-                        <span class="text-sm font-bold text-brand-dark">Czyszczenie hal przemysłowych i magazynów</span>
-                    </a>
-                    <a href="#kontakt" class="flex items-center gap-3 bg-white p-4 rounded-xl border border-gray-100 shadow-sm hover:border-brand-orange hover:shadow-md transition-all group">
-                        <span class="w-9 h-9 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0 group-hover:bg-brand-orange group-hover:text-white transition-colors"><i class="fa-solid fa-landmark"></i></span>
-                        <span class="text-sm font-bold text-brand-dark">Renowacja murów, ogrodzeń, kamienia, cegły, zabytków</span>
-                    </a>
-                    <a href="uslugi/malowanie-impregnacja.html" class="flex items-center gap-3 bg-white p-4 rounded-xl border border-gray-100 shadow-sm hover:border-brand-orange hover:shadow-md transition-all group">
-                        <span class="w-9 h-9 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0 group-hover:bg-brand-orange group-hover:text-white transition-colors"><i class="fa-solid fa-droplet"></i></span>
-                        <span class="text-sm font-bold text-brand-dark">Impregnacja dachów, kostki brukowej, elewacji, kamienia</span>
-                    </a>
-                    <a href="uslugi/czyszczenie-rynien.html" class="flex items-center gap-3 bg-white p-4 rounded-xl border border-gray-100 shadow-sm hover:border-brand-orange hover:shadow-md transition-all group">
-                        <span class="w-9 h-9 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0 group-hover:bg-brand-orange group-hover:text-white transition-colors"><i class="fa-solid fa-faucet-drip"></i></span>
-                        <span class="text-sm font-bold text-brand-dark">Czyszczenie, udrażnianie i uszczelnianie rynien oraz rur spustowych</span>
-                    </a>
-                    <a href="uslugi/mycie-elewacji.html" class="flex items-center gap-3 bg-white p-4 rounded-xl border border-gray-100 shadow-sm hover:border-brand-orange hover:shadow-md transition-all group">
-                        <span class="w-9 h-9 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0 group-hover:bg-brand-orange group-hover:text-white transition-colors"><i class="fa-solid fa-building"></i></span>
-                        <span class="text-sm font-bold text-brand-dark">Mycie, czyszczenie elewacji</span>
-                    </a>
-                    <a href="uslugi/mycie-kostki-brukowej.html" class="flex items-center gap-3 bg-white p-4 rounded-xl border border-gray-100 shadow-sm hover:border-brand-orange hover:shadow-md transition-all group">
-                        <span class="w-9 h-9 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0 group-hover:bg-brand-orange group-hover:text-white transition-colors"><i class="fa-solid fa-road"></i></span>
-                        <span class="text-sm font-bold text-brand-dark">Mycie, czyszczenie kostki brukowej</span>
-                    </a>
-                    <a href="uslugi/mycie-dachow.html" class="flex items-center gap-3 bg-white p-4 rounded-xl border border-gray-100 shadow-sm hover:border-brand-orange hover:shadow-md transition-all group">
-                        <span class="w-9 h-9 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0 group-hover:bg-brand-orange group-hover:text-white transition-colors"><i class="fa-solid fa-house-chimney"></i></span>
-                        <span class="text-sm font-bold text-brand-dark">Mycie, czyszczenie dachów</span>
-                    </a>
-                    <a href="uslugi/sprzatanie-pomieszczen.html" class="flex items-center gap-3 bg-white p-4 rounded-xl border border-gray-100 shadow-sm hover:border-brand-orange hover:shadow-md transition-all group">
-                        <span class="w-9 h-9 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0 group-hover:bg-brand-orange group-hover:text-white transition-colors"><i class="fa-solid fa-broom"></i></span>
-                        <span class="text-sm font-bold text-brand-dark">Sprzątanie pomieszczeń</span>
-                    </a>
-                    <a href="uslugi/prace-wysokosciowe.html" class="flex items-center gap-3 bg-white p-4 rounded-xl border border-gray-100 shadow-sm hover:border-brand-orange hover:shadow-md transition-all group">
-                        <span class="w-9 h-9 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0 group-hover:bg-brand-orange group-hover:text-white transition-colors"><i class="fa-solid fa-helmet-safety"></i></span>
-                        <span class="text-sm font-bold text-brand-dark">Prace wysokościowe / alpinizm przemysłowy</span>
-                    </a>
+                <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-3">
+                    <a href="#kontakt" class="flex items-center gap-3 bg-brand-lightBg p-3.5 rounded-xl border border-gray-100 hover:border-brand-orange transition-colors"><span class="w-9 h-9 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-hammer"></i></span><span class="text-sm font-bold text-brand-dark">Piaskowanie</span></a>
+                    <a href="uslugi/czyszczenie-przemyslowe.html" class="flex items-center gap-3 bg-brand-lightBg p-3.5 rounded-xl border border-gray-100 hover:border-brand-orange transition-colors"><span class="w-9 h-9 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-warehouse"></i></span><span class="text-sm font-bold text-brand-dark">Czyszczenie hal przemysłowych i magazynów</span></a>
+                    <a href="#kontakt" class="flex items-center gap-3 bg-brand-lightBg p-3.5 rounded-xl border border-gray-100 hover:border-brand-orange transition-colors"><span class="w-9 h-9 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-landmark"></i></span><span class="text-sm font-bold text-brand-dark">Renowacja murów, ogrodzeń, kamienia, cegły, zabytków</span></a>
+                    <a href="uslugi/malowanie-impregnacja.html" class="flex items-center gap-3 bg-brand-lightBg p-3.5 rounded-xl border border-gray-100 hover:border-brand-orange transition-colors"><span class="w-9 h-9 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-droplet"></i></span><span class="text-sm font-bold text-brand-dark">Impregnacja dachów, kostki brukowej, elewacji, kamienia</span></a>
+                    <a href="uslugi/czyszczenie-rynien.html" class="flex items-center gap-3 bg-brand-lightBg p-3.5 rounded-xl border border-gray-100 hover:border-brand-orange transition-colors"><span class="w-9 h-9 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-faucet-drip"></i></span><span class="text-sm font-bold text-brand-dark">Czyszczenie, udrażnianie i uszczelnianie rynien oraz rur spustowych</span></a>
+                    <a href="uslugi/mycie-elewacji.html" class="flex items-center gap-3 bg-brand-lightBg p-3.5 rounded-xl border border-gray-100 hover:border-brand-orange transition-colors"><span class="w-9 h-9 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-building"></i></span><span class="text-sm font-bold text-brand-dark">Mycie, czyszczenie elewacji</span></a>
+                    <a href="uslugi/mycie-kostki-brukowej.html" class="flex items-center gap-3 bg-brand-lightBg p-3.5 rounded-xl border border-gray-100 hover:border-brand-orange transition-colors"><span class="w-9 h-9 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-road"></i></span><span class="text-sm font-bold text-brand-dark">Mycie, czyszczenie kostki brukowej</span></a>
+                    <a href="uslugi/mycie-dachow.html" class="flex items-center gap-3 bg-brand-lightBg p-3.5 rounded-xl border border-gray-100 hover:border-brand-orange transition-colors"><span class="w-9 h-9 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-house-chimney"></i></span><span class="text-sm font-bold text-brand-dark">Mycie, czyszczenie dachów</span></a>
+                    <a href="uslugi/sprzatanie-pomieszczen.html" class="flex items-center gap-3 bg-brand-lightBg p-3.5 rounded-xl border border-gray-100 hover:border-brand-orange transition-colors"><span class="w-9 h-9 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-broom"></i></span><span class="text-sm font-bold text-brand-dark">Sprzątanie pomieszczeń</span></a>
+                    <a href="uslugi/prace-wysokosciowe.html" class="flex items-center gap-3 bg-brand-lightBg p-3.5 rounded-xl border border-gray-100 hover:border-brand-orange transition-colors"><span class="w-9 h-9 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-helmet-safety"></i></span><span class="text-sm font-bold text-brand-dark">Prace wysokościowe / alpinizm przemysłowy</span></a>
                 </div>
             </div>
-
         </div>
     </section>
 
-    <!-- ПОРТФОЛИО (REALIZACJE) -->
-    <section id="realizacje" class="py-24 bg-brand-lightBg">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
+    <!-- REALIZACJE: PRZED / PO -->
+    <section id="realizacje" class="py-20 sm:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
+            <div class="max-w-3xl space-y-4">
+                <p class="text-brand-orange font-bold text-sm uppercase tracking-wider">Realizacje</p>
+                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-brand-dark tracking-tight">Efekty prac: przed i po</h2>
+                <p class="text-brand-gray text-lg leading-relaxed">Przesuń suwak, żeby zobaczyć różnicę. To zdjęcia z naszych realizacji.</p>
+            </div>
 
-            <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
+            <div class="grid lg:grid-cols-12 gap-6 lg:gap-8 items-start">
+                <div class="lg:col-span-7">
+                    <div id="ba-slider" class="relative aspect-square rounded-3xl overflow-hidden border border-gray-200 shadow-lg select-none bg-gray-100">
+                        <img id="ba-after" src="images/realizacje/ba/kostka-kolo-po.webp" alt="Po czyszczeniu" width="800" height="800" loading="lazy" decoding="async" class="absolute inset-0 w-full h-full object-cover">
+                        <div id="ba-before-wrap" class="absolute inset-0" style="clip-path: inset(0 50% 0 0);">
+                            <img id="ba-before" src="images/realizacje/ba/kostka-kolo-przed.webp" alt="Przed czyszczeniem" width="800" height="800" loading="lazy" decoding="async" class="absolute inset-0 w-full h-full object-cover">
+                        </div>
+                        <div id="ba-line" class="absolute top-0 bottom-0 w-1 bg-white shadow-[0_0_0_1px_rgba(0,0,0,0.08)] pointer-events-none" style="left: 50%; transform: translateX(-50%);">
+                            <span class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-brand-orange text-white shadow-lg flex items-center justify-center text-xs gap-0.5"><i class="fa-solid fa-chevron-left"></i><i class="fa-solid fa-chevron-right"></i></span>
+                        </div>
+                        <span class="absolute left-3 top-3 bg-white/95 text-brand-dark text-xs font-bold uppercase tracking-wide px-3 py-1.5 rounded-full shadow pointer-events-none">Przed</span>
+                        <span class="absolute right-3 top-3 bg-brand-orange text-white text-xs font-bold uppercase tracking-wide px-3 py-1.5 rounded-full shadow pointer-events-none">Po</span>
+                        <input id="ba-range" type="range" min="0" max="100" value="50" aria-label="Porównaj przed i po" class="absolute inset-0 w-full h-full opacity-0 cursor-ew-resize">
+                    </div>
+                </div>
+
+                <div class="lg:col-span-5 space-y-5">
+                    <div class="bg-brand-lightBg border border-gray-200/80 rounded-3xl p-6 space-y-3">
+                        <div class="flex items-center justify-between gap-3">
+                            <span id="ba-place" class="text-sm font-semibold text-brand-orange flex items-center gap-1.5"><i class="fa-solid fa-location-dot"></i> <span>Małopolska</span></span>
+                            <span id="ba-cat" class="text-xs font-bold bg-brand-orange/10 text-brand-orange px-3 py-1 rounded-full">Kostka brukowa</span>
+                        </div>
+                        <h3 id="ba-title" class="text-2xl font-extrabold text-brand-dark tracking-tight">Podjazd z kostki z dekoracyjnym kołem</h3>
+                        <p id="ba-desc" class="text-brand-gray leading-relaxed">Mycie ciśnieniowe całego podjazdu. Zszedł mech z fug i szary nalot, kostka odzyskała kolor.</p>
+                    </div>
+
+                    <div class="space-y-2">
+                        <p class="text-xs font-bold uppercase tracking-wider text-brand-dark">Wybierz realizację:</p>
+                        <div id="ba-list" class="grid gap-2">
+                            <button type="button" data-i="0" class="ba-item text-left bg-white border-2 border-brand-orange rounded-2xl px-4 py-3 flex items-center justify-between gap-3"><span><span class="block font-bold text-brand-dark text-sm">Podjazd z kostki z dekoracyjnym kołem</span><span class="block text-xs text-brand-gray">Kostka brukowa</span></span><i class="fa-solid fa-arrow-right-long text-brand-orange text-xs"></i></button>
+                            <button type="button" data-i="1" class="ba-item text-left bg-white border-2 border-gray-200 hover:border-brand-orange/50 rounded-2xl px-4 py-3 flex items-center justify-between gap-3"><span><span class="block font-bold text-brand-dark text-sm">Podjazd z kostki przy domu</span><span class="block text-xs text-brand-gray">Kostka brukowa</span></span><i class="fa-solid fa-arrow-right-long text-brand-orange text-xs"></i></button>
+                            <button type="button" data-i="2" class="ba-item text-left bg-white border-2 border-gray-200 hover:border-brand-orange/50 rounded-2xl px-4 py-3 flex items-center justify-between gap-3"><span><span class="block font-bold text-brand-dark text-sm">Taras z płyt betonowych</span><span class="block text-xs text-brand-gray">Płyty tarasowe</span></span><i class="fa-solid fa-arrow-right-long text-brand-orange text-xs"></i></button>
+                            <button type="button" data-i="3" class="ba-item text-left bg-white border-2 border-gray-200 hover:border-brand-orange/50 rounded-2xl px-4 py-3 flex items-center justify-between gap-3"><span><span class="block font-bold text-brand-dark text-sm">Elewacja domu jednorodzinnego</span><span class="block text-xs text-brand-gray">Elewacja</span></span><i class="fa-solid fa-arrow-right-long text-brand-orange text-xs"></i></button>
+                            <button type="button" data-i="4" class="ba-item text-left bg-white border-2 border-gray-200 hover:border-brand-orange/50 rounded-2xl px-4 py-3 flex items-center justify-between gap-3"><span><span class="block font-bold text-brand-dark text-sm">Elewacja budynku usługowego</span><span class="block text-xs text-brand-gray">Elewacja</span></span><i class="fa-solid fa-arrow-right-long text-brand-orange text-xs"></i></button>
+                            <button type="button" data-i="5" class="ba-item text-left bg-white border-2 border-gray-200 hover:border-brand-orange/50 rounded-2xl px-4 py-3 flex items-center justify-between gap-3"><span><span class="block font-bold text-brand-dark text-sm">Rynny pod siatką</span><span class="block text-xs text-brand-gray">Rynny</span></span><i class="fa-solid fa-arrow-right-long text-brand-orange text-xs"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- OPINIE + OBSZAR -->
+    <section id="opinie" class="py-20 sm:py-24 bg-brand-lightBg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-12 gap-12">
+            <div class="lg:col-span-7 space-y-6">
                 <div class="space-y-3">
-                    <div class="flex items-center gap-2 text-brand-orange font-bold text-sm uppercase tracking-wider">
-                        <div class="w-8 h-[2px] bg-brand-orange"></div>
-                        Portfolio
-                    </div>
-                    <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-dark tracking-tight">
-                        Nasze ostatnio wykonane usługi
-                    </h2>
-                </div>
-                <p class="text-brand-gray max-w-lg">
-                    Zapoznaj się z naszymi najnowszymi realizacjami, które najlepiej świadczą o naszym doświadczeniu i wszechstronności w rejonie Małopolski i okolic.
-                </p>
-            </div>
-
-            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-gray-100 group">
-                    <div class="relative overflow-hidden h-64">
-                        <img src="images/realizacje/elewacja-1.webp" alt="Czyszczenie i impregnacja elewacji – przed i po, Kraków" width="600" height="256" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-brand-dark/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
-                            <span class="bg-brand-orange text-white text-xs px-3 py-1 rounded-full font-bold uppercase">Czyszczenie elewacji</span>
-                        </div>
-                    </div>
-                    <div class="p-6 space-y-3">
-                        <span class="inline-block bg-brand-orange/10 text-brand-orange text-[11px] font-bold uppercase tracking-wide px-2.5 py-1 rounded-full">Czyszczenie elewacji</span>
-                        <h3 class="font-bold text-lg text-brand-dark line-clamp-2">Czyszczenie i impregnacja elewacji</h3>
-                        <p class="text-brand-gray text-xs flex items-center gap-2">
-                            <i class="fa-solid fa-location-dot text-brand-orange"></i> Małopolska
-                        </p>
-                    </div>
+                    <p class="flex items-center gap-2 text-sm font-bold text-brand-dark"><span class="flex items-center gap-0.5 text-amber-400"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> 5,0 / 5 w Google Maps</p>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-dark tracking-tight">Opinie naszych klientów</h2>
+                    <p class="text-brand-gray">Zrzuty prawdziwych opinii z naszego profilu w Google Maps.</p>
                 </div>
 
-                <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-gray-100 group">
-                    <div class="relative overflow-hidden h-64">
-                        <img src="images/realizacje/elewacja-2.webp" alt="Mycie elewacji budynku wielorodzinnego – przed i po" width="600" height="256" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-brand-dark/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
-                            <span class="bg-brand-orange text-white text-xs px-3 py-1 rounded-full font-bold uppercase">Mycie elewacji</span>
+                <div class="bg-white rounded-3xl border border-gray-200/80 shadow-sm p-4 sm:p-6">
+                    <div class="relative flex items-center justify-center min-h-[260px] sm:min-h-[380px] bg-brand-lightBg rounded-2xl overflow-hidden">
+                        <div id="review-img-0" data-service="Czyszczenie kostki brukowej" class="review-image absolute inset-0 opacity-100 transition-opacity duration-500 flex items-center justify-center p-2 z-10">
+                            <img src="images/reviews/wojciech-majorek.webp" alt="Opinia Google – Wojciech Majorek: pięknie wyczyszczona i zaimpregnowana kostka brukowa" width="1200" height="623" loading="lazy" decoding="async" class="max-w-full max-h-[360px] object-contain rounded-lg shadow-sm">
+                        </div>
+                        <div id="review-img-1" data-service="Czyszczenie kostki brukowej" class="review-image absolute inset-0 opacity-0 transition-opacity duration-500 flex items-center justify-center p-2 z-0">
+                            <img src="images/reviews/paulina-handke.webp" alt="Opinia Google – Paulina Handke: czyszczenie kostki wykonane bardzo ładnie, przystępna cena" width="1200" height="623" loading="lazy" decoding="async" class="max-w-full max-h-[360px] object-contain rounded-lg shadow-sm">
+                        </div>
+                        <div id="review-img-2" data-service="Mycie okien" class="review-image absolute inset-0 opacity-0 transition-opacity duration-500 flex items-center justify-center p-2 z-0">
+                            <img src="images/reviews/dom-samotnej-matki.webp" alt="Opinia Google – Dom Samotnej Matki im. Kard. Karola Wojtyły: bardzo rzetelna firma, mycie okien" width="1200" height="623" loading="lazy" decoding="async" class="max-w-full max-h-[360px] object-contain rounded-lg shadow-sm">
+                        </div>
+                        <div id="review-img-3" data-service="Mycie kostki brukowej" class="review-image absolute inset-0 opacity-0 transition-opacity duration-500 flex items-center justify-center p-2 z-0">
+                            <img src="images/reviews/tes-podgorski.webp" alt="Opinia Google – Tes Podgorski: mycie kostki brukowej na czas, zgodnie z umową" width="1200" height="623" loading="lazy" decoding="async" class="max-w-full max-h-[360px] object-contain rounded-lg shadow-sm">
+                        </div>
+                        <div id="review-img-4" data-service="Prace wysokościowe" class="review-image absolute inset-0 opacity-0 transition-opacity duration-500 flex items-center justify-center p-2 z-0">
+                            <img src="images/reviews/yaro-slava.webp" alt="Opinia Google – Yaro Slava: usługi alpinistyczne, szybka naprawa 10/10" width="1200" height="623" loading="lazy" decoding="async" class="max-w-full max-h-[360px] object-contain rounded-lg shadow-sm">
+                        </div>
+                        <div id="review-img-5" data-service="Zrealizowana usługa" class="review-image absolute inset-0 opacity-0 transition-opacity duration-500 flex items-center justify-center p-2 z-0">
+                            <img src="images/reviews/janusz-stasik.webp" alt="Opinia Google – Janusz Stasik: bardzo profesjonalnie wykonane prace" width="1200" height="623" loading="lazy" decoding="async" class="max-w-full max-h-[360px] object-contain rounded-lg shadow-sm">
                         </div>
                     </div>
-                    <div class="p-6 space-y-3">
-                        <span class="inline-block bg-brand-orange/10 text-brand-orange text-[11px] font-bold uppercase tracking-wide px-2.5 py-1 rounded-full">Mycie elewacji</span>
-                        <h3 class="font-bold text-lg text-brand-dark line-clamp-2">Mycie elewacji budynku wielorodzinnego</h3>
-                        <p class="text-brand-gray text-xs flex items-center gap-2">
-                            <i class="fa-solid fa-location-dot text-brand-orange"></i> Kraków
-                        </p>
-                    </div>
-                </div>
 
-                <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-gray-100 group">
-                    <div class="relative overflow-hidden h-64">
-                        <img src="images/realizacje/dach-1.webp" alt="Mycie dachu ciśnieniowe – realizacja BruClean Service" width="600" height="256" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-brand-dark/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
-                            <span class="bg-brand-orange text-white text-xs px-3 py-1 rounded-full font-bold uppercase">Mycie dachów</span>
-                        </div>
-                    </div>
-                    <div class="p-6 space-y-3">
-                        <span class="inline-block bg-brand-orange/10 text-brand-orange text-[11px] font-bold uppercase tracking-wide px-2.5 py-1 rounded-full">Mycie dachów</span>
-                        <h3 class="font-bold text-lg text-brand-dark line-clamp-2">Mycie dachu ciśnieniowe</h3>
-                        <p class="text-brand-gray text-xs flex items-center gap-2">
-                            <i class="fa-solid fa-location-dot text-brand-orange"></i> Małopolska
-                        </p>
-                    </div>
-                </div>
-
-                <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-gray-100 group">
-                    <div class="relative overflow-hidden h-64">
-                        <img src="images/realizacje/dach-2.webp" alt="Czyszczenie dachu – przed i po, dachówka ceramiczna" width="600" height="256" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-brand-dark/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
-                            <span class="bg-brand-orange text-white text-xs px-3 py-1 rounded-full font-bold uppercase">Czyszczenie dachów</span>
-                        </div>
-                    </div>
-                    <div class="p-6 space-y-3">
-                        <span class="inline-block bg-brand-orange/10 text-brand-orange text-[11px] font-bold uppercase tracking-wide px-2.5 py-1 rounded-full">Czyszczenie dachów</span>
-                        <h3 class="font-bold text-lg text-brand-dark line-clamp-2">Czyszczenie dachu z dachówką ceramiczną</h3>
-                        <p class="text-brand-gray text-xs flex items-center gap-2">
-                            <i class="fa-solid fa-location-dot text-brand-orange"></i> Małopolska
-                        </p>
-                    </div>
-                </div>
-
-                <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-gray-100 group">
-                    <div class="relative overflow-hidden h-64">
-                        <img src="images/realizacje/kostka-1.webp" alt="Czyszczenie kostki brukowej przy wejściu do domu – przed i po" width="600" height="256" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-brand-dark/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
-                            <span class="bg-brand-orange text-white text-xs px-3 py-1 rounded-full font-bold uppercase">Czyszczenie kostki</span>
-                        </div>
-                    </div>
-                    <div class="p-6 space-y-3">
-                        <span class="inline-block bg-brand-orange/10 text-brand-orange text-[11px] font-bold uppercase tracking-wide px-2.5 py-1 rounded-full">Czyszczenie kostki</span>
-                        <h3 class="font-bold text-lg text-brand-dark line-clamp-2">Czyszczenie kostki brukowej przy wejściu do domu</h3>
-                        <p class="text-brand-gray text-xs flex items-center gap-2">
-                            <i class="fa-solid fa-location-dot text-brand-orange"></i> Kraków
-                        </p>
-                    </div>
-                </div>
-
-                <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-gray-100 group">
-                    <div class="relative overflow-hidden h-64">
-                        <img src="images/realizacje/kostka-2.webp" alt="Czyszczenie kostki brukowej z dekoracyjnym kołem – przed i po" width="600" height="256" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-brand-dark/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
-                            <span class="bg-brand-orange text-white text-xs px-3 py-1 rounded-full font-bold uppercase">Czyszczenie kostki</span>
-                        </div>
-                    </div>
-                    <div class="p-6 space-y-3">
-                        <span class="inline-block bg-brand-orange/10 text-brand-orange text-[11px] font-bold uppercase tracking-wide px-2.5 py-1 rounded-full">Czyszczenie kostki</span>
-                        <h3 class="font-bold text-lg text-brand-dark line-clamp-2">Czyszczenie podjazdu z kostki dekoracyjnej</h3>
-                        <p class="text-brand-gray text-xs flex items-center gap-2">
-                            <i class="fa-solid fa-location-dot text-brand-orange"></i> Małopolska
-                        </p>
-                    </div>
-                </div>
-
-                <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-gray-100 group">
-                    <div class="relative overflow-hidden h-64">
-                        <img src="images/realizacje/kostka-3.webp" alt="Czyszczenie i renowacja schodów z kostki brukowej – przed i po" width="600" height="256" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-brand-dark/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
-                            <span class="bg-brand-orange text-white text-xs px-3 py-1 rounded-full font-bold uppercase">Czyszczenie kostki</span>
-                        </div>
-                    </div>
-                    <div class="p-6 space-y-3">
-                        <span class="inline-block bg-brand-orange/10 text-brand-orange text-[11px] font-bold uppercase tracking-wide px-2.5 py-1 rounded-full">Czyszczenie kostki</span>
-                        <h3 class="font-bold text-lg text-brand-dark line-clamp-2">Czyszczenie schodów z kostki brukowej</h3>
-                        <p class="text-brand-gray text-xs flex items-center gap-2">
-                            <i class="fa-solid fa-location-dot text-brand-orange"></i> Małopolska
-                        </p>
-                    </div>
-                </div>
-
-                <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-gray-100 group">
-                    <div class="relative overflow-hidden h-64">
-                        <img src="images/realizacje/kostka-4.webp" alt="Czyszczenie zabrudzonej, zamszałej kostki brukowej – przed i po" width="600" height="256" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-brand-dark/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
-                            <span class="bg-brand-orange text-white text-xs px-3 py-1 rounded-full font-bold uppercase">Czyszczenie kostki</span>
-                        </div>
-                    </div>
-                    <div class="p-6 space-y-3">
-                        <span class="inline-block bg-brand-orange/10 text-brand-orange text-[11px] font-bold uppercase tracking-wide px-2.5 py-1 rounded-full">Czyszczenie kostki</span>
-                        <h3 class="font-bold text-lg text-brand-dark line-clamp-2">Usuwanie mchu i zabrudzeń z kostki brukowej</h3>
-                        <p class="text-brand-gray text-xs flex items-center gap-2">
-                            <i class="fa-solid fa-location-dot text-brand-orange"></i> Kraków
-                        </p>
-                    </div>
-                </div>
-
-                <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-gray-100 group">
-                    <div class="relative overflow-hidden h-64">
-                        <img src="images/realizacje/okna-1.webp" alt="Mycie okien na wysokości metodą alpinistyczną – realizacja BruClean Service" width="600" height="256" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-brand-dark/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
-                            <span class="bg-brand-orange text-white text-xs px-3 py-1 rounded-full font-bold uppercase">Prace wysokościowe</span>
-                        </div>
-                    </div>
-                    <div class="p-6 space-y-3">
-                        <span class="inline-block bg-brand-orange/10 text-brand-orange text-[11px] font-bold uppercase tracking-wide px-2.5 py-1 rounded-full">Prace wysokościowe</span>
-                        <h3 class="font-bold text-lg text-brand-dark line-clamp-2">Mycie okien na wysokości metodą alpinistyczną</h3>
-                        <p class="text-brand-gray text-xs flex items-center gap-2">
-                            <i class="fa-solid fa-location-dot text-brand-orange"></i> Kraków
-                        </p>
-                    </div>
-                </div>
-
-                <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-gray-100 group">
-                    <div class="relative overflow-hidden h-64">
-                        <img src="images/realizacje/kostka-5.webp" alt="Usuwanie mchu i glonów z kostki brukowej na podwórku – przed i po" width="600" height="256" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-brand-dark/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
-                            <span class="bg-brand-orange text-white text-xs px-3 py-1 rounded-full font-bold uppercase">Czyszczenie kostki</span>
-                        </div>
-                    </div>
-                    <div class="p-6 space-y-3">
-                        <span class="inline-block bg-brand-orange/10 text-brand-orange text-[11px] font-bold uppercase tracking-wide px-2.5 py-1 rounded-full">Czyszczenie kostki</span>
-                        <h3 class="font-bold text-lg text-brand-dark line-clamp-2">Usuwanie mchu i glonów z kostki brukowej</h3>
-                        <p class="text-brand-gray text-xs flex items-center gap-2">
-                            <i class="fa-solid fa-location-dot text-brand-orange"></i> Małopolska
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- CTA po portfolio -->
-            <div class="bg-brand-orange rounded-3xl px-6 sm:px-10 py-8 flex flex-col sm:flex-row items-center justify-between gap-6 text-center sm:text-left">
-                <p class="text-white font-bold text-lg sm:text-xl">Podobał się efekt? Umów bezpłatne oględziny i wycenę dla swojej nieruchomości.</p>
-                <div class="flex flex-col sm:flex-row gap-3 shrink-0">
-                    <a href="#kontakt" class="bg-white text-brand-orange text-center px-6 py-3 rounded-xl font-bold hover:bg-gray-100 transition-colors">Darmowa wycena</a>
-                    <a href="tel:+48797584863" class="bg-brand-dark text-white text-center px-6 py-3 rounded-xl font-bold hover:bg-brand-dark/90 transition-colors">Zadzwoń teraz</a>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- ОТЗЫВЫ (OPINIE) -->
-    <section id="opinie" class="py-24 bg-white overflow-hidden">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
-
-            <div class="text-center space-y-4 max-w-2xl mx-auto">
-                <div class="inline-flex items-center gap-2 text-brand-orange font-bold text-sm uppercase tracking-wider">
-                    <div class="w-4 h-[2px] bg-brand-orange"></div>
-                    Zaufanie Klientów
-                    <div class="w-4 h-[2px] bg-brand-orange"></div>
-                </div>
-                <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-dark tracking-tight">
-                    Sprawdź co o nas mówią
-                </h2>
-                <p class="text-brand-gray text-sm sm:text-base">
-                    Prawdziwe, zweryfikowane opinie z profilu Google Maps naszej firmy od zadowolonych klientów indywidualnych oraz instytucjonalnych. Ocena 5,0 / 5 na Google Maps.
-                </p>
-            </div>
-
-            <div class="relative max-w-4xl mx-auto px-4">
-                <div class="relative bg-brand-lightBg rounded-3xl overflow-hidden border border-gray-200 shadow-xl p-4 sm:p-6">
-
-                    <div class="relative flex items-center justify-center min-h-[300px] sm:min-h-[420px] bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-inner">
-
-                        <div id="review-img-0" data-service="Czyszczenie kostki brukowej" class="review-image absolute inset-0 opacity-100 transition-opacity duration-500 flex items-center justify-center p-2 bg-gray-50 z-10">
-                            <img src="images/reviews/wojciech-majorek.webp" alt="Opinia Google – Wojciech Majorek: pięknie wyczyszczona i zaimpregnowana kostka brukowa" width="1200" height="623" loading="lazy" decoding="async" class="max-w-full max-h-[380px] object-contain rounded-lg shadow-sm">
-                        </div>
-
-                        <div id="review-img-1" data-service="Czyszczenie kostki brukowej" class="review-image absolute inset-0 opacity-0 transition-opacity duration-500 flex items-center justify-center p-2 bg-gray-50 z-0">
-                            <img src="images/reviews/paulina-handke.webp" alt="Opinia Google – Paulina Handke: czyszczenie kostki wykonane bardzo ładnie, przystępna cena" width="1200" height="623" loading="lazy" decoding="async" class="max-w-full max-h-[380px] object-contain rounded-lg shadow-sm">
-                        </div>
-
-                        <div id="review-img-2" data-service="Mycie okien" class="review-image absolute inset-0 opacity-0 transition-opacity duration-500 flex items-center justify-center p-2 bg-gray-50 z-0">
-                            <img src="images/reviews/dom-samotnej-matki.webp" alt="Opinia Google – Dom Samotnej Matki im. Kard. Karola Wojtyły: bardzo rzetelna firma, mycie okien" width="1200" height="623" loading="lazy" decoding="async" class="max-w-full max-h-[380px] object-contain rounded-lg shadow-sm">
-                        </div>
-
-                        <div id="review-img-3" data-service="Mycie kostki brukowej" class="review-image absolute inset-0 opacity-0 transition-opacity duration-500 flex items-center justify-center p-2 bg-gray-50 z-0">
-                            <img src="images/reviews/tes-podgorski.webp" alt="Opinia Google – Tes Podgorski: mycie kostki brukowej na czas, zgodnie z umową" width="1200" height="623" loading="lazy" decoding="async" class="max-w-full max-h-[380px] object-contain rounded-lg shadow-sm">
-                        </div>
-
-                        <div id="review-img-4" data-service="Prace wysokościowe" class="review-image absolute inset-0 opacity-0 transition-opacity duration-500 flex items-center justify-center p-2 bg-gray-50 z-0">
-                            <img src="images/reviews/yaro-slava.webp" alt="Opinia Google – Yaro Slava: usługi alpinistyczne, szybka naprawa 10/10" width="1200" height="623" loading="lazy" decoding="async" class="max-w-full max-h-[380px] object-contain rounded-lg shadow-sm">
-                        </div>
-
-                        <div id="review-img-5" data-service="Zrealizowana usługa" class="review-image absolute inset-0 opacity-0 transition-opacity duration-500 flex items-center justify-center p-2 bg-gray-50 z-0">
-                            <img src="images/reviews/janusz-stasik.webp" alt="Opinia Google – Janusz Stasik: bardzo profesjonalnie wykonane prace" width="1200" height="623" loading="lazy" decoding="async" class="max-w-full max-h-[380px] object-contain rounded-lg shadow-sm">
-                        </div>
-
-                    </div>
-
-                    <div class="mt-4 px-2">
-                        <span id="review-caption" class="inline-block bg-brand-orange/10 text-brand-orange text-xs font-bold uppercase tracking-wide px-3 py-1 rounded-full">Czyszczenie kostki brukowej</span>
-                    </div>
-
-                    <div class="flex flex-col sm:flex-row items-center justify-between mt-2 px-2 gap-4">
-                        <a href="https://maps.google.com/?cid=10653401279017712004" target="_blank" rel="noopener" class="flex items-center gap-2 group">
-                            <i class="fa-brands fa-google text-2xl text-[#4285F4]"></i>
-                            <span class="text-xs font-bold text-brand-dark tracking-wide uppercase group-hover:text-brand-orange transition-colors">Zobacz wszystkie opinie w Google Maps · 5,0★ →</span>
-                        </a>
+                    <div class="flex flex-col sm:flex-row items-center justify-between gap-4 mt-4 px-1">
                         <div class="flex items-center gap-3">
-                            <button onclick="prevReview()" class="w-11 h-10 rounded-full border border-gray-300 bg-white hover:bg-brand-orange hover:text-white hover:border-brand-orange flex items-center justify-center transition-all text-sm focus:outline-none" aria-label="Poprzednia opinia">
-                                <i class="fa-solid fa-chevron-left"></i>
-                            </button>
+                            <span id="review-caption" class="inline-block bg-brand-orange/10 text-brand-orange text-xs font-bold uppercase tracking-wide px-3 py-1 rounded-full">Czyszczenie kostki brukowej</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <button onclick="prevReview()" class="w-10 h-10 rounded-full border border-gray-300 bg-white hover:bg-brand-orange hover:text-white hover:border-brand-orange flex items-center justify-center transition-colors text-sm focus:outline-none" aria-label="Poprzednia opinia"><i class="fa-solid fa-chevron-left"></i></button>
                             <span id="slide-indicator" class="text-xs font-bold text-brand-gray tracking-widest min-w-[40px] text-center">1 / 6</span>
-                            <button onclick="nextReview()" class="w-11 h-10 rounded-full border border-gray-300 bg-white hover:bg-brand-orange hover:text-white hover:border-brand-orange flex items-center justify-center transition-all text-sm focus:outline-none" aria-label="Następna opinia">
-                                <i class="fa-solid fa-chevron-right"></i>
-                            </button>
+                            <button onclick="nextReview()" class="w-10 h-10 rounded-full border border-gray-300 bg-white hover:bg-brand-orange hover:text-white hover:border-brand-orange flex items-center justify-center transition-colors text-sm focus:outline-none" aria-label="Następna opinia"><i class="fa-solid fa-chevron-right"></i></button>
                         </div>
                     </div>
+                    <a href="https://maps.google.com/?cid=10653401279017712004" target="_blank" rel="noopener" class="mt-4 flex items-center justify-center gap-2 text-sm font-bold text-brand-dark hover:text-brand-orange transition-colors">
+                        <i class="fa-brands fa-google text-[#4285F4]"></i> Zobacz wszystkie opinie w Google Maps <i class="fa-solid fa-arrow-right-long text-xs"></i>
+                    </a>
                 </div>
             </div>
 
-            <!-- CTA po opiniach -->
-            <div class="bg-brand-orange rounded-3xl px-6 sm:px-10 py-8 flex flex-col sm:flex-row items-center justify-between gap-6 text-center sm:text-left">
-                <p class="text-white font-bold text-lg sm:text-xl">Dołącz do zadowolonych klientów — umów bezpłatną wycenę już dziś.</p>
-                <div class="flex flex-col sm:flex-row gap-3 shrink-0">
-                    <a href="#kontakt" class="bg-white text-brand-orange text-center px-6 py-3 rounded-xl font-bold hover:bg-gray-100 transition-colors">Darmowa wycena</a>
-                    <a href="tel:+48797584863" class="bg-brand-dark text-white text-center px-6 py-3 rounded-xl font-bold hover:bg-brand-dark/90 transition-colors">Zadzwoń teraz</a>
+            <div id="obszar" class="lg:col-span-5 space-y-6">
+                <div class="space-y-3">
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-dark tracking-tight">Gdzie pracujemy</h2>
+                    <p class="text-brand-gray leading-relaxed">Baza mieści się w Krakowie przy ul. Marii Jaremy 9. Dojeżdżamy do klientów w całej Małopolsce, w promieniu do 100 km. Oględziny i wycena są bezpłatne.</p>
                 </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- OBSZAR DZIAŁANIA (ГОРОДА) -->
-    <section id="obszar" class="py-24 bg-white border-t border-gray-100">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
-
-            <div class="text-center space-y-4 max-w-3xl mx-auto">
-                <div class="inline-flex items-center gap-2 text-brand-orange font-bold text-sm uppercase tracking-wider">
-                    <div class="w-4 h-[2px] bg-brand-orange"></div>
-                    Gdzie pracujemy
-                    <div class="w-4 h-[2px] bg-brand-orange"></div>
+                <div class="grid grid-cols-2 gap-3">
+                    <div class="bg-white border border-gray-200/80 rounded-2xl px-4 py-3"><p class="font-bold text-brand-dark">Kraków</p><p class="text-xs text-brand-gray">baza</p></div>
+                    <div class="bg-white border border-gray-200/80 rounded-2xl px-4 py-3"><p class="font-bold text-brand-dark">Wieliczka</p><p class="text-xs text-brand-gray">powiat wielicki</p></div>
+                    <div class="bg-white border border-gray-200/80 rounded-2xl px-4 py-3"><p class="font-bold text-brand-dark">Skawina</p><p class="text-xs text-brand-gray">powiat krakowski</p></div>
+                    <div class="bg-white border border-gray-200/80 rounded-2xl px-4 py-3"><p class="font-bold text-brand-dark">Myślenice</p><p class="text-xs text-brand-gray">powiat myślenicki</p></div>
+                    <div class="bg-white border border-gray-200/80 rounded-2xl px-4 py-3"><p class="font-bold text-brand-dark">Bochnia</p><p class="text-xs text-brand-gray">powiat bocheński</p></div>
+                    <div class="bg-white border border-gray-200/80 rounded-2xl px-4 py-3"><p class="font-bold text-brand-dark">Wadowice</p><p class="text-xs text-brand-gray">powiat wadowicki</p></div>
+                    <div class="bg-white border border-gray-200/80 rounded-2xl px-4 py-3"><p class="font-bold text-brand-dark">Tarnów</p><p class="text-xs text-brand-gray">powiat tarnowski</p></div>
+                    <div class="bg-white border border-gray-200/80 rounded-2xl px-4 py-3"><p class="font-bold text-brand-dark">Chrzanów</p><p class="text-xs text-brand-gray">powiat chrzanowski</p></div>
+                    <div class="bg-white border border-gray-200/80 rounded-2xl px-4 py-3"><p class="font-bold text-brand-dark">Olkusz</p><p class="text-xs text-brand-gray">powiat olkuski</p></div>
+                    <div class="bg-brand-orange text-white rounded-2xl px-4 py-3 shadow-md shadow-brand-orange/20"><p class="font-bold">Cała Małopolska</p><p class="text-xs text-white/80">do 100 km od Krakowa</p></div>
                 </div>
-                <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-dark tracking-tight">
-                    Nasz obszar działania
-                </h2>
-                <p class="text-brand-gray text-base leading-relaxed">
-                    Świadczymy usługi na terenie całego województwa małopolskiego. Nasza główna baza znajduje się w Krakowie, a nasze mobilne ekipy z powodzeniem i szybko obsługują klientów w promieniu do 100 km.
-                </p>
-            </div>
-
-            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
-                <div class="bg-brand-lightBg border border-gray-100 p-4 rounded-2xl text-center font-bold text-brand-dark hover:border-brand-orange hover:text-brand-orange transition-colors shadow-sm">Kraków</div>
-                <div class="bg-brand-lightBg border border-gray-100 p-4 rounded-2xl text-center font-bold text-brand-dark hover:border-brand-orange hover:text-brand-orange transition-colors shadow-sm">Skawina</div>
-                <div class="bg-brand-lightBg border border-gray-100 p-4 rounded-2xl text-center font-bold text-brand-dark hover:border-brand-orange hover:text-brand-orange transition-colors shadow-sm">Wieliczka</div>
-                <div class="bg-brand-lightBg border border-gray-100 p-4 rounded-2xl text-center font-bold text-brand-dark hover:border-brand-orange hover:text-brand-orange transition-colors shadow-sm">Bochnia</div>
-                <div class="bg-brand-lightBg border border-gray-100 p-4 rounded-2xl text-center font-bold text-brand-dark hover:border-brand-orange hover:text-brand-orange transition-colors shadow-sm">Myślenice</div>
-                <div class="bg-brand-lightBg border border-gray-100 p-4 rounded-2xl text-center font-bold text-brand-dark hover:border-brand-orange hover:text-brand-orange transition-colors shadow-sm">Wadowice</div>
-                <div class="bg-brand-lightBg border border-gray-100 p-4 rounded-2xl text-center font-bold text-brand-dark hover:border-brand-orange hover:text-brand-orange transition-colors shadow-sm">Tarnów</div>
-                <div class="bg-brand-lightBg border border-gray-100 p-4 rounded-2xl text-center font-bold text-brand-dark hover:border-brand-orange hover:text-brand-orange transition-colors shadow-sm">Chrzanów</div>
-                <div class="bg-brand-lightBg border border-gray-100 p-4 rounded-2xl text-center font-bold text-brand-dark hover:border-brand-orange hover:text-brand-orange transition-colors shadow-sm">Olkusz</div>
-                <div class="bg-brand-orange text-white p-4 rounded-2xl text-center font-bold shadow-md shadow-brand-orange/20">...oraz cała Małopolska</div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- FAQ -->
-    <section id="faq" class="py-24 bg-brand-lightBg">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
-            <div class="text-center space-y-4">
-                <div class="inline-flex items-center gap-2 text-brand-orange font-bold text-sm uppercase tracking-wider justify-center">
-                    <div class="w-4 h-[2px] bg-brand-orange"></div>
-                    FAQ
-                    <div class="w-4 h-[2px] bg-brand-orange"></div>
+                <div class="bg-white border border-gray-200/80 rounded-2xl p-4 flex items-center justify-between gap-4">
+                    <p class="text-sm text-brand-gray">Nie ma Twojej miejscowości? Zapytaj, często dojeżdżamy dalej.</p>
+                    <a href="#kontakt" class="shrink-0 bg-brand-orange hover:bg-brand-orangeDark text-white text-sm font-bold px-4 py-2 rounded-full whitespace-nowrap transition-colors">Zapytaj</a>
                 </div>
-                <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-dark tracking-tight">
-                    Najczęściej zadawane pytania
-                </h2>
-            </div>
-
-            <div class="space-y-4">
-                <details class="bg-white rounded-2xl border border-gray-100 shadow-sm p-6 group" open>
-                    <summary class="flex items-center justify-between gap-4 font-bold text-brand-dark">
-                        <span>Ile kosztuje mycie elewacji lub dachu w Krakowie?</span>
-                        <i class="fa-solid fa-chevron-down text-brand-orange faq-chevron transition-transform"></i>
-                    </summary>
-                    <p class="text-brand-gray leading-relaxed mt-4">
-                        Cena zależy od metrażu, stopnia zabrudzenia i dostępności obiektu. Każdą wycenę przygotowujemy indywidualnie po bezpłatnych oględzinach lub na podstawie zdjęć i wymiarów przesłanych e-mailem lub telefonicznie.
-                    </p>
-                </details>
-                <details class="bg-white rounded-2xl border border-gray-100 shadow-sm p-6 group">
-                    <summary class="flex items-center justify-between gap-4 font-bold text-brand-dark">
-                        <span>Czy mogę dostać wycenę na podstawie zdjęć, bez wizyty na miejscu?</span>
-                        <i class="fa-solid fa-chevron-down text-brand-orange faq-chevron transition-transform"></i>
-                    </summary>
-                    <p class="text-brand-gray leading-relaxed mt-4">
-                        Tak — w wielu przypadkach wystarczą zdjęcia i przybliżony metraż przesłane e-mailem (kontakt@brucleanservice.pl) lub telefonicznie. Na tej podstawie przygotujemy wstępną wycenę, a ostateczną potwierdzimy podczas bezpłatnych oględzin.
-                    </p>
-                </details>
-                <details class="bg-white rounded-2xl border border-gray-100 shadow-sm p-6 group">
-                    <summary class="flex items-center justify-between gap-4 font-bold text-brand-dark">
-                        <span>Czy działacie tylko w Krakowie, czy też w innych miastach Małopolski?</span>
-                        <i class="fa-solid fa-chevron-down text-brand-orange faq-chevron transition-transform"></i>
-                    </summary>
-                    <p class="text-brand-gray leading-relaxed mt-4">
-                        Nasza baza znajduje się w Krakowie, a mobilne ekipy obsługują klientów w promieniu do 100 km, m.in. w Skawinie, Wieliczce, Bochni, Myślenicach, Wadowicach, Tarnowie, Chrzanowie i Olkuszu.
-                    </p>
-                </details>
-                <details class="bg-white rounded-2xl border border-gray-100 shadow-sm p-6 group">
-                    <summary class="flex items-center justify-between gap-4 font-bold text-brand-dark">
-                        <span>Jak szybko możecie przyjechać na bezpłatną wycenę?</span>
-                        <i class="fa-solid fa-chevron-down text-brand-orange faq-chevron transition-transform"></i>
-                    </summary>
-                    <p class="text-brand-gray leading-relaxed mt-4">
-                        Zwykle kontaktujemy się w ciągu 2 godzin od zgłoszenia telefonicznego lub przez formularz, aby ustalić termin oględzin i przedstawić kosztorys.
-                    </p>
-                </details>
-                <details class="bg-white rounded-2xl border border-gray-100 shadow-sm p-6 group">
-                    <summary class="flex items-center justify-between gap-4 font-bold text-brand-dark">
-                        <span>Czy prace wysokościowe są bezpieczne i ubezpieczone?</span>
-                        <i class="fa-solid fa-chevron-down text-brand-orange faq-chevron transition-transform"></i>
-                    </summary>
-                    <p class="text-brand-gray leading-relaxed mt-4">
-                        Tak. Nasi pracownicy to certyfikowani alpiniści przemysłowi pracujący zgodnie z zasadami BHP, z pełnym zabezpieczeniem i ubezpieczeniem OC prowadzonej działalności.
-                    </p>
-                </details>
-                <details class="bg-white rounded-2xl border border-gray-100 shadow-sm p-6 group">
-                    <summary class="flex items-center justify-between gap-4 font-bold text-brand-dark">
-                        <span>Jakie metody czyszczenia stosujecie – piaskowanie czy mycie ciśnieniowe?</span>
-                        <i class="fa-solid fa-chevron-down text-brand-orange faq-chevron transition-transform"></i>
-                    </summary>
-                    <p class="text-brand-gray leading-relaxed mt-4">
-                        Metodę dobieramy do rodzaju powierzchni i stopnia zabrudzenia: mycie ciśnieniowe do elewacji i kostki brukowej, piaskowanie do kamienia, cegły i zabytków, a impregnację stosujemy jako zabezpieczenie po czyszczeniu.
-                    </p>
-                </details>
             </div>
         </div>
     </section>
 
-    <!-- КОНТАКТЫ (KONTAKT) -->
-    <section id="kontakt" class="py-24 bg-brand-lightBg">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="bg-brand-dark text-white rounded-3xl overflow-hidden shadow-2xl grid lg:grid-cols-12 gap-0">
+    <!-- WYCENA / KONTAKT -->
+    <section id="kontakt" class="py-20 sm:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
+            <div class="max-w-3xl space-y-4">
+                <p class="text-brand-orange font-bold text-sm uppercase tracking-wider">Bezpłatna wycena</p>
+                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-brand-dark tracking-tight">Umów bezpłatną wycenę</h2>
+                <p class="text-brand-gray text-lg leading-relaxed">Zaznacz, czego potrzebujesz, i zostaw numer. Oddzwonimy zwykle w ciągu 2 godzin i ustalimy termin oględzin. Cenę podajemy po obejrzeniu powierzchni, bez zobowiązań.</p>
+            </div>
 
-                <div class="lg:col-span-5 p-8 sm:p-12 lg:p-16 bg-brand-dark space-y-10 flex flex-col justify-between">
-                    <div class="space-y-6">
-                        <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">
-                            Umów bezpłatną wycenę
-                        </h2>
-                        <p class="text-gray-300 font-light leading-relaxed">
-                            Zadzwoń, napisz lub wypełnij formularz — odpowiadamy zwykle w ciągu 2 godzin i przygotowujemy indywidualną wycenę bez zobowiązań.
-                        </p>
+            <form id="contact-form" class="grid lg:grid-cols-12 gap-6 items-start" action="https://bruclean-chat-proxy.autoalexai.workers.dev/lead" method="POST" onsubmit="handleFormSubmit(event)">
+                <!-- Honeypot antyspamowy: pole niewidoczne dla ludzi, wypełniane tylko przez boty -->
+                <input type="text" id="website" name="website" autocomplete="off" tabindex="-1" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0" aria-hidden="true">
+
+                <div class="lg:col-span-7 bg-brand-lightBg border border-gray-200/80 rounded-3xl p-5 sm:p-8 space-y-7">
+                    <div class="space-y-2">
+                        <label for="service-type" class="block text-sm font-bold text-brand-dark">Rodzaj usługi</label>
+                        <select id="service-type" name="service-type" class="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-orange/20 focus:border-brand-orange">
+                            <option value="kostka">Mycie i impregnacja kostki brukowej</option>
+                            <option value="czyszczenie">Mycie elewacji / dachów, renowacje</option>
+                            <option value="wysokosciowe">Prace wysokościowe i alpinizm</option>
+                            <option value="malowanie">Malowanie fasad / obiektów</option>
+                            <option value="piaskowanie">Piaskowanie</option>
+                            <option value="sprzatanie">Sprzątanie pomieszczeń (biura, mieszkania, po remoncie)</option>
+                            <option value="inne">Inne / Zlecenie indywidualne</option>
+                        </select>
                     </div>
 
-                    <div class="space-y-6">
-                        <a href="tel:+48797584863" class="flex items-center gap-4 group">
-                            <div class="w-12 h-12 rounded-xl bg-brand-orange flex items-center justify-center text-xl group-hover:scale-105 transition-transform">
-                                <i class="fa-solid fa-phone"></i>
-                            </div>
-                            <div>
-                                <div class="text-xs text-gray-400 font-bold uppercase tracking-wider">Zadzwoń do nas</div>
-                                <div class="font-extrabold text-lg text-white group-hover:text-brand-orange transition-colors">+48 797 584 863</div>
-                            </div>
-                        </a>
-
-                        <a href="mailto:kontakt@brucleanservice.pl" class="flex items-center gap-4 group">
-                            <div class="w-12 h-12 rounded-xl bg-brand-orange flex items-center justify-center text-xl group-hover:scale-105 transition-transform">
-                                <i class="fa-solid fa-envelope"></i>
-                            </div>
-                            <div>
-                                <div class="text-xs text-gray-400 font-bold uppercase tracking-wider">Napisz e-mail</div>
-                                <div class="font-extrabold text-base sm:text-lg text-white group-hover:text-brand-orange transition-colors break-all">kontakt@brucleanservice.pl</div>
-                            </div>
-                        </a>
-
-                        <a href="https://maps.google.com/?cid=10653401279017712004" target="_blank" rel="noopener" class="flex items-center gap-4 group">
-                            <div class="w-12 h-12 rounded-xl bg-brand-orange flex items-center justify-center text-xl group-hover:scale-105 transition-transform">
-                                <i class="fa-solid fa-map-location-dot"></i>
-                            </div>
-                            <div>
-                                <div class="text-xs text-gray-400 font-bold uppercase tracking-wider">Baza operacyjna</div>
-                                <div class="font-bold text-white text-base group-hover:text-brand-orange transition-colors">ul. Marii Jaremy 9, 31-318 Kraków</div>
-                            </div>
-                        </a>
+                    <div class="space-y-3">
+                        <div class="flex items-center justify-between gap-3">
+                            <label for="area" class="block text-sm font-bold text-brand-dark">Przybliżona powierzchnia</label>
+                            <span id="area-out" class="font-mono text-sm font-bold text-brand-orange bg-brand-orange/10 px-3 py-1 rounded-full">150 m²</span>
+                        </div>
+                        <input id="area" name="area" type="range" min="10" max="1000" step="10" value="150" class="w-full accent-brand-orange">
+                        <div class="flex justify-between text-[11px] text-brand-gray"><span>10 m²</span><span>500 m²</span><span>1000+ m²</span></div>
+                        <label class="inline-flex items-center gap-2 text-sm text-brand-gray"><input id="area-unknown" type="checkbox" class="accent-brand-orange w-4 h-4"> Nie wiem, ocenicie na miejscu</label>
                     </div>
 
-                    <div class="pt-6 border-t border-white/10 text-xs text-gray-400 flex items-center gap-2">
-                        <span class="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
-                        Odbieramy telefony w godzinach 8:00 - 20:00 (Pon. - Sob.)
-                    </div>
-                </div>
+                    <fieldset class="space-y-3">
+                        <legend class="text-sm font-bold text-brand-dark mb-3">Dodatkowo interesuje mnie</legend>
+                        <div class="grid sm:grid-cols-2 gap-3">
+                            <label class="flex items-start gap-3 bg-white border border-gray-200 rounded-2xl p-4 cursor-pointer hover:border-brand-orange/60"><input type="checkbox" name="extras" value="Impregnacja" class="accent-brand-orange w-4 h-4 mt-0.5"><span><span class="block text-sm font-bold text-brand-dark">Impregnacja</span><span class="block text-xs text-brand-gray">Wolniej wraca mech i brud</span></span></label>
+                            <label class="flex items-start gap-3 bg-white border border-gray-200 rounded-2xl p-4 cursor-pointer hover:border-brand-orange/60"><input type="checkbox" name="extras" value="Usuwanie plam z oleju" class="accent-brand-orange w-4 h-4 mt-0.5"><span><span class="block text-sm font-bold text-brand-dark">Plamy z oleju</span><span class="block text-xs text-brand-gray">Na podjeździe lub garażu</span></span></label>
+                            <label class="flex items-start gap-3 bg-white border border-gray-200 rounded-2xl p-4 cursor-pointer hover:border-brand-orange/60"><input type="checkbox" name="extras" value="Preparat biobójczy" class="accent-brand-orange w-4 h-4 mt-0.5"><span><span class="block text-sm font-bold text-brand-dark">Preparat biobójczy</span><span class="block text-xs text-brand-gray">Na porosty, glony i grzyb</span></span></label>
+                            <label class="flex items-start gap-3 bg-white border border-gray-200 rounded-2xl p-4 cursor-pointer hover:border-brand-orange/60"><input type="checkbox" name="extras" value="Prace na wysokości" class="accent-brand-orange w-4 h-4 mt-0.5"><span><span class="block text-sm font-bold text-brand-dark">Praca na wysokości</span><span class="block text-xs text-brand-gray">Wysoki budynek lub stromy dach</span></span></label>
+                        </div>
+                    </fieldset>
 
-                <div class="lg:col-span-7 p-8 sm:p-12 lg:p-16 bg-white text-brand-dark">
-                    <form id="contact-form" class="space-y-6" action="https://bruclean-chat-proxy.autoalexai.workers.dev/lead" method="POST" onsubmit="handleFormSubmit(event)">
-                        <!-- Honeypot antyspamowy: pole niewidoczne dla ludzi, wypełniane tylko przez boty -->
-                        <input type="text" id="website" name="website" autocomplete="off" tabindex="-1" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0" aria-hidden="true">
-                        <div class="grid sm:grid-cols-2 gap-6">
-                            <div class="space-y-2">
-                                <label for="name" class="block text-sm font-bold text-brand-dark">Imię i Nazwisko *</label>
-                                <input type="text" id="name" name="name" required class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-orange/20 focus:border-brand-orange transition-all">
+                    <div class="pt-6 border-t border-gray-200 space-y-5">
+                        <p class="text-sm font-bold text-brand-dark">Twoje dane do kontaktu</p>
+                        <div class="grid sm:grid-cols-2 gap-4">
+                            <div class="space-y-1.5">
+                                <label for="name" class="block text-xs font-bold text-brand-dark">Imię i nazwisko / firma *</label>
+                                <input type="text" id="name" name="name" required placeholder="np. Jan Kowalski" class="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-orange/20 focus:border-brand-orange">
                             </div>
-                            <div class="space-y-2">
-                                <label for="phone" class="block text-sm font-bold text-brand-dark">Numer Telefonu *</label>
-                                <input type="tel" id="phone" name="phone" required class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-orange/20 focus:border-brand-orange transition-all">
+                            <div class="space-y-1.5">
+                                <label for="phone" class="block text-xs font-bold text-brand-dark">Numer telefonu *</label>
+                                <input type="tel" id="phone" name="phone" required placeholder="np. 600 000 000" class="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-orange/20 focus:border-brand-orange">
+                            </div>
+                            <div class="space-y-1.5">
+                                <label for="email" class="block text-xs font-bold text-brand-dark">Adres e-mail</label>
+                                <input type="email" id="email" name="email" placeholder="opcjonalnie" class="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-orange/20 focus:border-brand-orange">
+                            </div>
+                            <div class="space-y-1.5">
+                                <label for="location" class="block text-xs font-bold text-brand-dark">Miejscowość</label>
+                                <input type="text" id="location" name="location" placeholder="np. Kraków, Wieliczka" class="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-orange/20 focus:border-brand-orange">
                             </div>
                         </div>
-
-                        <div class="space-y-2">
-                            <label for="email" class="block text-sm font-bold text-brand-dark">Adres E-mail</label>
-                            <input type="email" id="email" name="email" class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-orange/20 focus:border-brand-orange transition-all">
-                        </div>
-
-                        <div class="space-y-2">
-                            <label for="service-type" class="block text-sm font-bold text-brand-dark">Interesuje mnie usługa</label>
-                            <select id="service-type" name="service-type" class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-orange/20 focus:border-brand-orange transition-all bg-white">
-                                <option value="wysokosciowe">Prace wysokościowe i alpinizm</option>
-                                <option value="kostka">Mycie i impregnacja kostki brukowej</option>
-                                <option value="czyszczenie">Mycie elewacji / dachów, renowacje</option>
-                                <option value="malowanie">Malowanie fasad / obiektów</option>
-                                <option value="piaskowanie">Piaskowanie</option>
-                                <option value="sprzatanie">Sprzątanie pomieszczeń (biura, mieszkania, po remoncie)</option>
-                                <option value="inne">Inne / Zlecenie indywidualne</option>
-                            </select>
-                        </div>
-
-                        <div class="space-y-2">
-                            <label for="message" class="block text-sm font-bold text-brand-dark">Treść wiadomości (opcjonalnie)</label>
-                            <textarea id="message" name="message" rows="4" placeholder="Adres, metraż, termin lub inne szczegóły — możesz też zostawić puste." class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-orange/20 focus:border-brand-orange transition-all"></textarea>
+                        <div class="space-y-1.5">
+                            <label for="message" class="block text-xs font-bold text-brand-dark">Dodatkowe informacje</label>
+                            <textarea id="message" name="message" rows="3" placeholder="Adres, termin, rodzaj zabrudzenia — możesz też zostawić puste." class="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-orange/20 focus:border-brand-orange"></textarea>
                         </div>
 
                         <div id="form-success" class="hidden bg-emerald-50 border border-emerald-200 text-emerald-800 p-4 rounded-xl flex items-center gap-3">
@@ -1101,27 +699,124 @@ src="https://www.facebook.com/tr?id=1792681042143896&ev=PageView&noscript=1"
                             </div>
                         </div>
 
-                        <button type="submit" class="w-full bg-brand-orange hover:bg-brand-orange/90 text-white py-4 rounded-xl font-bold text-base shadow-lg shadow-brand-orange/15 transition-all">
-                            Wyślij zapytanie
+                        <button type="submit" class="w-full inline-flex items-center justify-center gap-2 bg-brand-orange hover:bg-brand-orangeDark text-white py-4 rounded-2xl font-bold text-base shadow-lg shadow-brand-orange/20 transition-colors">
+                            Wyślij zapytanie o bezpłatną wycenę <i class="fa-solid fa-arrow-right-long text-sm"></i>
                         </button>
-                    </form>
+                    </div>
                 </div>
 
+                <aside class="lg:col-span-5 lg:sticky lg:top-28 bg-white border-2 border-brand-orange/25 rounded-3xl p-6 sm:p-8 space-y-6 shadow-sm">
+                    <div class="flex items-center justify-between gap-3">
+                        <p class="text-xs font-bold uppercase tracking-wider text-brand-dark">Twoje zapytanie</p>
+                        <span class="text-xs font-bold bg-brand-orange/10 text-brand-orange px-3 py-1 rounded-full">Bez zobowiązań</span>
+                    </div>
+                    <dl class="bg-brand-lightBg rounded-2xl p-5 space-y-3 text-sm">
+                        <div class="flex justify-between gap-4"><dt class="text-brand-gray">Usługa</dt><dd id="sum-service" class="font-bold text-brand-dark text-right">Mycie i impregnacja kostki brukowej</dd></div>
+                        <div class="flex justify-between gap-4"><dt class="text-brand-gray">Powierzchnia</dt><dd id="sum-area" class="font-bold text-brand-dark text-right">ok. 150 m²</dd></div>
+                        <div class="flex justify-between gap-4"><dt class="text-brand-gray">Dodatkowo</dt><dd id="sum-extras" class="font-bold text-brand-dark text-right">—</dd></div>
+                    </dl>
+                    <ul class="space-y-3 text-sm font-semibold text-brand-dark">
+                        <li class="flex items-start gap-3"><i class="fa-solid fa-circle-check text-brand-orange mt-0.5"></i> Bezpłatne oględziny w promieniu 100 km</li>
+                        <li class="flex items-start gap-3"><i class="fa-solid fa-circle-check text-brand-orange mt-0.5"></i> Oddzwaniamy zwykle w ciągu 2 godzin</li>
+                        <li class="flex items-start gap-3"><i class="fa-solid fa-circle-check text-brand-orange mt-0.5"></i> Cena po obejrzeniu powierzchni, bez niespodzianek</li>
+                    </ul>
+                    <div class="space-y-3 pt-5 border-t border-gray-100">
+                        <a href="tel:+48797584863" class="flex items-center justify-center gap-2 border-2 border-gray-200 hover:border-brand-orange rounded-2xl py-3 font-bold text-brand-dark whitespace-nowrap transition-colors"><i class="fa-solid fa-phone text-brand-orange"></i> Zadzwoń: +48 797 584 863</a>
+                        <a href="mailto:kontakt@brucleanservice.pl" class="flex items-center justify-center gap-2 text-sm font-semibold text-brand-gray hover:text-brand-orange break-all transition-colors"><i class="fa-solid fa-envelope text-brand-orange"></i> kontakt@brucleanservice.pl</a>
+                        <p class="flex items-center justify-center gap-2 text-xs text-brand-gray"><span class="w-2 h-2 rounded-full bg-emerald-500"></span> Odbieramy telefony w godzinach 8:00 - 20:00 (Pon. - Sob.)</p>
+                    </div>
+                </aside>
+            </form>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="py-20 sm:py-24 bg-brand-lightBg">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
+            <div class="text-center space-y-3">
+                <p class="text-brand-orange font-bold text-sm uppercase tracking-wider">FAQ</p>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-dark tracking-tight">Najczęściej zadawane pytania</h2>
+            </div>
+
+            <div class="space-y-3">
+                <details class="bg-white rounded-2xl border border-gray-200/80 shadow-sm px-6 py-5" open>
+                    <summary class="flex items-center justify-between gap-4 font-bold text-brand-dark">
+                        <span>Ile kosztuje mycie elewacji lub dachu w Krakowie?</span>
+                        <span class="w-8 h-8 rounded-full bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-chevron-down text-xs faq-chevron transition-transform"></i></span>
+                    </summary>
+                    <p class="text-brand-gray leading-relaxed mt-4 pt-4 border-t border-gray-100">
+                        Cena zależy od metrażu, stopnia zabrudzenia i dostępności obiektu. Każdą wycenę przygotowujemy indywidualnie po bezpłatnych oględzinach lub na podstawie zdjęć i wymiarów przesłanych e-mailem lub telefonicznie.
+                    </p>
+                </details>
+                <details class="bg-white rounded-2xl border border-gray-200/80 shadow-sm px-6 py-5">
+                    <summary class="flex items-center justify-between gap-4 font-bold text-brand-dark">
+                        <span>Czy mogę dostać wycenę na podstawie zdjęć, bez wizyty na miejscu?</span>
+                        <span class="w-8 h-8 rounded-full bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-chevron-down text-xs faq-chevron transition-transform"></i></span>
+                    </summary>
+                    <p class="text-brand-gray leading-relaxed mt-4 pt-4 border-t border-gray-100">
+                        Tak — w wielu przypadkach wystarczą zdjęcia i przybliżony metraż przesłane e-mailem (kontakt@brucleanservice.pl) lub telefonicznie. Na tej podstawie przygotujemy wstępną wycenę, a ostateczną potwierdzimy podczas bezpłatnych oględzin.
+                    </p>
+                </details>
+                <details class="bg-white rounded-2xl border border-gray-200/80 shadow-sm px-6 py-5">
+                    <summary class="flex items-center justify-between gap-4 font-bold text-brand-dark">
+                        <span>Czy działacie tylko w Krakowie, czy też w innych miastach Małopolski?</span>
+                        <span class="w-8 h-8 rounded-full bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-chevron-down text-xs faq-chevron transition-transform"></i></span>
+                    </summary>
+                    <p class="text-brand-gray leading-relaxed mt-4 pt-4 border-t border-gray-100">
+                        Nasza baza znajduje się w Krakowie, a mobilne ekipy obsługują klientów w promieniu do 100 km, m.in. w Skawinie, Wieliczce, Bochni, Myślenicach, Wadowicach, Tarnowie, Chrzanowie i Olkuszu.
+                    </p>
+                </details>
+                <details class="bg-white rounded-2xl border border-gray-200/80 shadow-sm px-6 py-5">
+                    <summary class="flex items-center justify-between gap-4 font-bold text-brand-dark">
+                        <span>Jak szybko możecie przyjechać na bezpłatną wycenę?</span>
+                        <span class="w-8 h-8 rounded-full bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-chevron-down text-xs faq-chevron transition-transform"></i></span>
+                    </summary>
+                    <p class="text-brand-gray leading-relaxed mt-4 pt-4 border-t border-gray-100">
+                        Zwykle kontaktujemy się w ciągu 2 godzin od zgłoszenia telefonicznego lub przez formularz, aby ustalić termin oględzin i przedstawić kosztorys.
+                    </p>
+                </details>
+                <details class="bg-white rounded-2xl border border-gray-200/80 shadow-sm px-6 py-5">
+                    <summary class="flex items-center justify-between gap-4 font-bold text-brand-dark">
+                        <span>Czy prace wysokościowe są bezpieczne i ubezpieczone?</span>
+                        <span class="w-8 h-8 rounded-full bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-chevron-down text-xs faq-chevron transition-transform"></i></span>
+                    </summary>
+                    <p class="text-brand-gray leading-relaxed mt-4 pt-4 border-t border-gray-100">
+                        Tak. Nasi pracownicy to certyfikowani alpiniści przemysłowi pracujący zgodnie z zasadami BHP, z pełnym zabezpieczeniem i ubezpieczeniem OC prowadzonej działalności.
+                    </p>
+                </details>
+                <details class="bg-white rounded-2xl border border-gray-200/80 shadow-sm px-6 py-5">
+                    <summary class="flex items-center justify-between gap-4 font-bold text-brand-dark">
+                        <span>Jakie metody czyszczenia stosujecie – piaskowanie czy mycie ciśnieniowe?</span>
+                        <span class="w-8 h-8 rounded-full bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-chevron-down text-xs faq-chevron transition-transform"></i></span>
+                    </summary>
+                    <p class="text-brand-gray leading-relaxed mt-4 pt-4 border-t border-gray-100">
+                        Metodę dobieramy do rodzaju powierzchni i stopnia zabrudzenia: mycie ciśnieniowe do elewacji i kostki brukowej, piaskowanie do kamienia, cegły i zabytków, a impregnację stosujemy jako zabezpieczenie po czyszczeniu.
+                    </p>
+                </details>
+            </div>
+
+            <div class="bg-white rounded-3xl border border-gray-200/80 shadow-sm p-6 sm:p-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5">
+                <div class="space-y-1">
+                    <p class="text-lg font-bold text-brand-dark">Masz nietypowe zabrudzenie albo inne pytanie?</p>
+                    <p class="text-sm text-brand-gray">Zadzwoń. Doradzimy przez telefon, zanim przyjedziemy.</p>
+                </div>
+                <div class="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
+                    <a href="tel:+48797584863" class="inline-flex items-center justify-center gap-2 bg-brand-orange hover:bg-brand-orangeDark text-white px-5 py-3 rounded-full font-bold whitespace-nowrap transition-colors"><i class="fa-solid fa-phone"></i> +48 797 584 863</a>
+                    <a href="#kontakt" class="inline-flex items-center justify-center gap-2 bg-brand-lightBg hover:bg-gray-100 text-brand-dark px-5 py-3 rounded-full font-bold whitespace-nowrap transition-colors">Formularz wyceny <i class="fa-solid fa-arrow-right-long text-xs"></i></a>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- ПОДВАЛ (FOOTER) -->
-    <footer class="bg-brand-dark text-white pt-16 pb-8 border-t border-white/5">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-12 pb-12 border-b border-white/5">
-
-            <div class="space-y-6">
-                <a href="#hero" class="flex items-center gap-3 group">
-                    <img src="images/logo-mobile.webp" alt="BruClean Service – logo" width="107" height="40" loading="lazy" decoding="async" class="h-10 w-auto object-contain group-hover:scale-105 transition-transform shrink-0" onerror="this.onerror=null; this.src='https://via.placeholder.com/40/ffffff/FF5E14?text=Logo';">
+    <footer class="bg-brand-dark text-white pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-12 pb-12 border-b border-white/10">
+            <div class="space-y-5">
+                <a href="#hero" class="inline-flex items-center gap-3">
+                    <img src="images/logo-mobile.webp" alt="BruClean Service – logo" width="107" height="40" loading="lazy" decoding="async" class="h-10 w-auto object-contain">
                 </a>
-                <p class="text-sm text-gray-400 font-light leading-relaxed">
-                    Eksperci od trudnych zadań wysokościowych, czyszczenia, renowacji i profesjonalnego malowania w Krakowie i Małopolsce.
-                </p>
+                <p class="text-sm text-gray-400 leading-relaxed">Mycie ciśnieniowe, czyszczenie i impregnacja kostki brukowej, elewacji i dachów oraz prace wysokościowe w Krakowie i Małopolsce.</p>
+                <p class="flex items-center gap-2 text-xs text-gray-400"><i class="fa-solid fa-shield-halved text-brand-orange"></i> Alpiniści IRATA · ubezpieczenie OC</p>
                 <div class="flex items-center gap-3 pt-1">
                     <a href="https://www.facebook.com/profile.php?id=61591964332345" target="_blank" rel="noopener noreferrer" aria-label="BruClean Service na Facebooku" class="w-9 h-9 rounded-full bg-white/5 hover:bg-brand-orange flex items-center justify-center transition-colors">
                         <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M13.5 21v-7.9h2.65l.4-3.08h-3.05V8.06c0-.89.25-1.5 1.53-1.5h1.63V3.8c-.28-.04-1.25-.12-2.38-.12-2.35 0-3.96 1.44-3.96 4.07v2.27H7.66v3.08h2.66V21h3.18z"/></svg>
@@ -1136,24 +831,11 @@ src="https://www.facebook.com/tr?id=1792681042143896&ev=PageView&noscript=1"
             </div>
 
             <div class="space-y-4">
-                <h3 class="font-bold text-base tracking-wider uppercase text-brand-orange">Nawigacja</h3>
+                <h3 class="font-bold text-sm tracking-wider uppercase text-white">Usługi</h3>
                 <ul class="space-y-2 text-sm text-gray-400">
-                    <li><a href="#oferta" class="hover:text-white transition-colors">Nasza Oferta</a></li>
-                    <li><a href="#why-us" class="hover:text-white transition-colors">Dlaczego My?</a></li>
-                    <li><a href="jak-pracujemy.html" class="hover:text-white transition-colors">Jak pracujemy</a></li>
-                    <li><a href="o-firmie.html" class="hover:text-white transition-colors">O firmie</a></li>
-                    <li><a href="#realizacje" class="hover:text-white transition-colors">Ostatnie realizacje</a></li>
-                    <li><a href="#opinie" class="hover:text-white transition-colors">Opinie klientów</a></li>
-                    <li><a href="blog/index.html" class="hover:text-white transition-colors">Blog</a></li>
-                </ul>
-            </div>
-
-            <div class="space-y-4">
-                <h3 class="font-bold text-base tracking-wider uppercase text-brand-orange">Usługi</h3>
-                <ul class="space-y-2 text-sm text-gray-400">
-                    <li><a href="uslugi/mycie-dachow.html" class="hover:text-white transition-colors">Mycie dachów</a></li>
-                    <li><a href="uslugi/mycie-elewacji.html" class="hover:text-white transition-colors">Mycie elewacji</a></li>
                     <li><a href="uslugi/mycie-kostki-brukowej.html" class="hover:text-white transition-colors">Mycie kostki brukowej</a></li>
+                    <li><a href="uslugi/mycie-elewacji.html" class="hover:text-white transition-colors">Mycie elewacji</a></li>
+                    <li><a href="uslugi/mycie-dachow.html" class="hover:text-white transition-colors">Mycie dachów</a></li>
                     <li><a href="uslugi/prace-wysokosciowe.html" class="hover:text-white transition-colors">Prace wysokościowe / alpinizm</a></li>
                     <li><a href="uslugi/czyszczenie-rynien.html" class="hover:text-white transition-colors">Czyszczenie rynien</a></li>
                     <li><a href="uslugi/czyszczenie-przemyslowe.html" class="hover:text-white transition-colors">Czyszczenie przemysłowe / hal</a></li>
@@ -1163,11 +845,31 @@ src="https://www.facebook.com/tr?id=1792681042143896&ev=PageView&noscript=1"
             </div>
 
             <div class="space-y-4">
-                <h3 class="font-bold text-base tracking-wider uppercase text-brand-orange">BruClean Service</h3>
+                <h3 class="font-bold text-sm tracking-wider uppercase text-white">Nawigacja</h3>
                 <ul class="space-y-2 text-sm text-gray-400">
-                    <li>Baza: ul. Marii Jaremy 9, 31-318 Kraków</li>
-                    <li>E-mail: <a href="mailto:kontakt@brucleanservice.pl" class="hover:text-white break-all">kontakt@brucleanservice.pl</a></li>
-                    <li>Telefon: <a href="tel:+48797584863" class="hover:text-white">+48 797 584 863</a></li>
+                    <li><a href="#oferta" class="hover:text-white transition-colors">Nasza oferta</a></li>
+                    <li><a href="#realizacje" class="hover:text-white transition-colors">Realizacje przed i po</a></li>
+                    <li><a href="jak-pracujemy.html" class="hover:text-white transition-colors">Jak pracujemy</a></li>
+                    <li><a href="o-firmie.html" class="hover:text-white transition-colors">O firmie</a></li>
+                    <li><a href="#opinie" class="hover:text-white transition-colors">Opinie klientów</a></li>
+                    <li><a href="blog/index.html" class="hover:text-white transition-colors">Blog</a></li>
+                </ul>
+                <div class="flex flex-wrap gap-1.5 pt-2">
+                    <span class="text-[11px] bg-white/5 border border-white/10 text-gray-300 px-2 py-1 rounded">Kraków</span>
+                    <span class="text-[11px] bg-white/5 border border-white/10 text-gray-300 px-2 py-1 rounded">Wieliczka</span>
+                    <span class="text-[11px] bg-white/5 border border-white/10 text-gray-300 px-2 py-1 rounded">Skawina</span>
+                    <span class="text-[11px] bg-white/5 border border-white/10 text-gray-300 px-2 py-1 rounded">Myślenice</span>
+                    <span class="text-[11px] bg-white/5 border border-white/10 text-gray-300 px-2 py-1 rounded">Bochnia</span>
+                </div>
+            </div>
+
+            <div class="space-y-4">
+                <h3 class="font-bold text-sm tracking-wider uppercase text-white">Kontakt</h3>
+                <ul class="space-y-3 text-sm text-gray-400">
+                    <li><a href="tel:+48797584863" class="flex items-center gap-2 font-bold text-white hover:text-brand-orange"><i class="fa-solid fa-phone text-brand-orange"></i> +48 797 584 863</a></li>
+                    <li><a href="mailto:kontakt@brucleanservice.pl" class="flex items-center gap-2 hover:text-white break-all"><i class="fa-solid fa-envelope text-brand-orange"></i> kontakt@brucleanservice.pl</a></li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-location-dot text-brand-orange"></i> Baza: ul. Marii Jaremy 9, 31-318 Kraków</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-clock text-brand-orange"></i> Pon. – Sob.: 8:00 – 20:00</li>
                 </ul>
             </div>
         </div>
@@ -1185,6 +887,72 @@ src="https://www.facebook.com/tr?id=1792681042143896&ev=PageView&noscript=1"
             </div>
         </div>
     </footer>
+
+    <script>
+        // Suwak przed/po
+        (function () {
+            const cases = [
+                { img: 'kostka-kolo', title: 'Podjazd z kostki z dekoracyjnym kołem', cat: 'Kostka brukowa', place: 'Małopolska', desc: 'Mycie ciśnieniowe całego podjazdu. Zszedł mech z fug i szary nalot, kostka odzyskała kolor.' },
+                { img: 'kostka-podjazd', title: 'Podjazd z kostki przy domu', cat: 'Kostka brukowa', place: 'Małopolska', desc: 'Kostka zarośnięta mchem i ciemnym nalotem. Po myciu widać jej prawdziwy kolor i wzór.' },
+                { img: 'taras-plyty', title: 'Taras z płyt betonowych', cat: 'Płyty tarasowe', place: 'Małopolska', desc: 'Zielony, śliski nalot na płytach. Po myciu taras jest czysty i bezpieczniejszy na deszczu.' },
+                { img: 'elewacja-dom', title: 'Elewacja domu jednorodzinnego', cat: 'Elewacja', place: 'Małopolska', desc: 'Zszarzały tynk po latach. Mycie przywróciło jasny kolor bez malowania.' },
+                { img: 'elewacja-budynek', title: 'Elewacja budynku usługowego', cat: 'Elewacja', place: 'Małopolska', desc: 'Zacieki i brud na tynku budynku usługowego. Po myciu tynk jest jasny i równy.' },
+                { img: 'rynny', title: 'Rynny pod siatką', cat: 'Rynny', place: 'Małopolska', desc: 'Liście i gałęzie w rynnach pod siatką ochronną. Po czyszczeniu woda znowu swobodnie spływa.' }
+            ];
+            const range = document.getElementById('ba-range');
+            const wrap = document.getElementById('ba-before-wrap');
+            const line = document.getElementById('ba-line');
+            if (!range) return;
+            function setPos(v) {
+                wrap.style.clipPath = 'inset(0 ' + (100 - v) + '% 0 0)';
+                line.style.left = v + '%';
+            }
+            range.addEventListener('input', () => setPos(range.value));
+            document.querySelectorAll('.ba-item').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const c = cases[+btn.dataset.i];
+                    document.getElementById('ba-before').src = 'images/realizacje/ba/' + c.img + '-przed.webp';
+                    document.getElementById('ba-after').src = 'images/realizacje/ba/' + c.img + '-po.webp';
+                    document.getElementById('ba-title').textContent = c.title;
+                    document.getElementById('ba-cat').textContent = c.cat;
+                    document.querySelector('#ba-place span').textContent = c.place;
+                    document.getElementById('ba-desc').textContent = c.desc;
+                    document.querySelectorAll('.ba-item').forEach(b => { b.classList.remove('border-brand-orange'); b.classList.add('border-gray-200'); });
+                    btn.classList.remove('border-gray-200'); btn.classList.add('border-brand-orange');
+                    range.value = 50; setPos(50);
+                });
+            });
+        })();
+
+        // Podsumowanie zapytania w formularzu wyceny
+        function quoteSummary() {
+            const sel = document.getElementById('service-type');
+            const area = document.getElementById('area');
+            const unknown = document.getElementById('area-unknown');
+            const extras = [...document.querySelectorAll('input[name="extras"]:checked')].map(e => e.value);
+            return {
+                service: sel.options[sel.selectedIndex].text,
+                area: unknown.checked ? 'do oceny na miejscu' : 'ok. ' + area.value + (area.value == 1000 ? '+' : '') + ' m²',
+                extras: extras.length ? extras.join(', ') : '—',
+                location: document.getElementById('location').value.trim()
+            };
+        }
+        (function () {
+            const area = document.getElementById('area');
+            if (!area) return;
+            function render() {
+                const s = quoteSummary();
+                document.getElementById('area-out').textContent = document.getElementById('area-unknown').checked ? '?' : area.value + (area.value == 1000 ? '+' : '') + ' m²';
+                document.getElementById('sum-service').textContent = s.service;
+                document.getElementById('sum-area').textContent = s.area;
+                document.getElementById('sum-extras').textContent = s.extras;
+            }
+            document.getElementById('contact-form').addEventListener('input', render);
+            document.getElementById('contact-form').addEventListener('change', render);
+            render();
+        })();
+    </script>
+
 
     <!-- WHATSAPP -->
     <a href="https://wa.me/48797584863?text=Dzie%C5%84%20dobry%2C%20chcia%C5%82bym%20zapyta%C4%87%20o%20wycen%C4%99%20us%C5%82ugi." target="_blank" rel="noopener" aria-label="Napisz do nas na WhatsApp" class="fixed bottom-24 right-5 sm:right-8 z-40 w-14 h-14 rounded-full bg-[#25D366] text-white flex items-center justify-center shadow-xl shadow-black/25 hover:scale-105 transition-transform">
@@ -1305,6 +1073,14 @@ src="https://www.facebook.com/tr?id=1792681042143896&ev=PageView&noscript=1"
 
             const form = event.target;
             const data = new FormData(form);
+
+            // Dane z kalkulatora wyceny dopisujemy do treści wiadomości
+            const q = quoteSummary();
+            const lines = ['Powierzchnia: ' + q.area, 'Dodatkowo: ' + q.extras];
+            if (q.location) lines.push('Miejscowość: ' + q.location);
+            const msg = (data.get('message') || '').toString().trim();
+            data.set('message', lines.join('\n') + (msg ? '\n\n' + msg : ''));
+            data.delete('area'); data.delete('extras'); data.delete('location');
 
             fetch(form.action, {
                 method: 'POST',
