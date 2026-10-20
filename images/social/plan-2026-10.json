@@ -1,5 +1,5 @@
 {
- "_info": "BruClean social plan. FB feed posts are scheduled natively in Meta; this file drives daily FB+IG stories and IG feed posts (09:07 Europe/Warsaw).",
+ "_info": "BruClean social plan. Days up to 21.10: 'story' = same image for FB+IG stories, plus IG feed post. From 22.10: fb_story, ig_story, ig_post, fb_post (photo post on the FB page), 4 topics per day (dachy, elewacje, kostka, rynny). Published daily by the scheduled routine (09:07 Europe/Warsaw).",
  "fb_page": "1110808025459372",
  "ig_account": "17841409701924977",
  "days": {
@@ -111,6 +111,187 @@
      "https://brucleanservice.pl/images/social/feed/wysokosciowe-realizacja-lina.jpg"
     ],
     "caption": "Widok z góry na naszą pracę. 🧗\n\nMycie elewacji budynku wielorodzinnego metodą alpinistyczną — bez rusztowań, bez zamykania chodnika na tygodnie. Certyfikowani alpiniści, pełna asekuracja i ubezpieczenie OC.\n\n✅ Wspólnoty i spółdzielnie mieszkaniowe\n✅ Budynki firmowe\n✅ Bezpłatna wycena\n\n📞 797 584 863\n🌐 brucleanservice.pl — link w bio\n\n#alpinizmprzemysłowy #mycieelewacji #wspólnota #Kraków #BruCleanService"
+   }
+  },
+  "2026-10-22": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-dachy-mech-mroz.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-elewacje-glony.jpg",
+   "ig_post": {
+    "type": "carousel",
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/kostka-podjazd-przed.jpg",
+     "https://brucleanservice.pl/images/social/feed/kostka-podjazd-po.jpg"
+    ],
+    "caption": "Ten podjazd nie jest nowy. Jest po prostu umyty.\n\nPrzesuń w prawo i porównaj. Ciemny nalot to mech, glony i brud, który z czasem osiada na kostce.\n\nJak to robimy:\n✅ dobieramy ciśnienie do kostki, żeby nie wypłukać fug\n✅ usuwamy mech ze szczelin\n✅ na koniec uzupełniamy piasek w fugach\n\nJesienią czysta kostka jest też mniej śliska.\n\nWycena? Napisz w DM albo zadzwoń: 797 584 863\n\n#kostkabrukowa #myciekostki #czyszczeniekostki #przedipo #podjazd #Kraków #Małopolska #Wieliczka #Skawina #BruClean"
+   },
+   "fb_post": {
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/rynny-przed.jpg",
+     "https://brucleanservice.pl/images/social/feed/rynny-po.jpg"
+    ],
+    "message": "Gałęzie, liście i błoto. Tak wyglądała ta rynna przed czyszczeniem.\n\nZapchana rynna nie odprowadza wody. Woda przelewa się po elewacji, moczy ściany i fundament. Zimą zamarza i obciąża rynnę oraz uchwyty.\n\nNa drugim zdjęciu ta sama rynna po czyszczeniu. Woda znów ma wolną drogę do rury spustowej.\n\nKoniec października to dobry moment, bo większość liści już spadła.\n\n📞 797 584 863 lub wiadomość prywatna. Odpowiadamy do 6 godzin.\n\n#czyszczenierynien #rynny #Kraków #Małopolska #BruClean"
+   }
+  },
+  "2026-10-23": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-elewacje-glony.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-kostka-sliska.jpg",
+   "ig_post": {
+    "type": "carousel",
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/rynny-przed.jpg",
+     "https://brucleanservice.pl/images/social/feed/rynny-po.jpg"
+    ],
+    "caption": "Gałęzie i liście w rynnie to przeciek, który czeka na pierwszą ulewę.\n\nPrzesuń i zobacz tę samą rynnę po czyszczeniu.\n\nCo robi zapchana rynna:\n➡️ woda przelewa się po elewacji\n➡️ moczy ściany i fundament\n➡️ zimą zamarza i obciąża uchwyty\n\nWiększość liści już spadła, więc to dobry moment na czyszczenie przed zimą.\n\nWycena? Napisz w DM albo zadzwoń: 797 584 863\n\n#czyszczenierynien #rynny #rynnyprzedzimą #przedipo #dom #Kraków #Małopolska #Myślenice #Bochnia #BruClean"
+   },
+   "fb_post": {
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/dachy-mycie-dach-2.jpg"
+    ],
+    "message": "Mech na dachu to nie tylko kwestia wyglądu.\n\nMech działa jak gąbka. Zatrzymuje wodę na dachówce długo po deszczu. Gdy przychodzi mróz, ta woda zamarza w porach pokrycia. Dlatego zielony dach z każdą zimą jest w gorszym stanie.\n\nMyjemy dachy z zabezpieczeniem, dobierając metodę do rodzaju pokrycia. Teraz, przed przymrozkami, to ostatni dobry moment w tym sezonie.\n\n📞 797 584 863 lub wiadomość prywatna. Odpowiadamy do 6 godzin.\n\n#myciedachów #dach #mechnadachu #Kraków #BruClean"
+   }
+  },
+  "2026-10-24": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-kostka-sliska.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-rynny-zapchane.jpg",
+   "ig_post": {
+    "type": "image",
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/dachy-mycie-dach-2.jpg"
+    ],
+    "caption": "Mech na dachu trzyma wodę jak gąbka. Mróz robi z niej lód.\n\nDlatego mech to nie tylko wygląd. Wilgoć zostaje na dachówce długo po deszczu, a zimą zamarza w porach pokrycia.\n\nMyjemy dachy bezpiecznie, z zabezpieczeniem i metodą dobraną do pokrycia. Przed przymrozkami to ostatni dobry moment w tym roku.\n\nWycena? Napisz w DM albo zadzwoń: 797 584 863\n\n#myciedachów #czyszczeniedachu #mechnadachu #dachówka #dom #Kraków #Małopolska #Wieliczka #Tarnów #BruClean"
+   },
+   "fb_post": {
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/elewacja-dom-przed.jpg",
+     "https://brucleanservice.pl/images/social/feed/elewacja-dom-po.jpg"
+    ],
+    "message": "Elewacja w cieniu szarzeje i zielenieje szybciej. To glony i brud, które lubią wilgoć.\n\nNa zdjęciach dom przed i po myciu elewacji. Nalot i zacieki zniknęły, tynk odzyskał jasny kolor.\n\nPrzy myciu elewacji najważniejsze są ciśnienie i środek dobrane do rodzaju tynku. Za mocny strumień potrafi uszkodzić powierzchnię, dlatego najpierw sprawdzamy, z jakim tynkiem mamy do czynienia.\n\nBezpłatną wycenę przygotujemy na podstawie zdjęć.\n\n📞 797 584 863 lub wiadomość prywatna. Odpowiadamy do 6 godzin.\n\n#mycieelewacji #elewacja #przedipo #Kraków #BruClean"
+   }
+  },
+  "2026-10-25": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-rynny-zapchane.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-dachy-przed-po.jpg",
+   "ig_post": {
+    "type": "carousel",
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/elewacja-dom-przed.jpg",
+     "https://brucleanservice.pl/images/social/feed/elewacja-dom-po.jpg"
+    ],
+    "caption": "Szara, zielonkawa elewacja? To nie kolor tynku, tylko glony i brud.\n\nPrzesuń i porównaj ten sam dom przed i po myciu.\n\nGlony lubią cień i wilgoć, dlatego najszybciej pojawiają się na zacienionych ścianach. Usuwamy je, dobierając ciśnienie i środek do rodzaju tynku, żeby nie uszkodzić powierzchni.\n\nWycenę zrobimy po zdjęciach.\n\nWycena? Napisz w DM albo zadzwoń: 797 584 863\n\n#mycieelewacji #elewacja #czyszczenieelewacji #glony #przedipo #dom #Kraków #Małopolska #Skawina #Chrzanów #BruClean"
+   },
+   "fb_post": {
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/kostka-kolo-przed.jpg",
+     "https://brucleanservice.pl/images/social/feed/kostka-kolo-po.jpg"
+    ],
+    "message": "Myjka ciśnieniowa z bliska? Kostka będzie czysta, ale fugi mogą tego nie przeżyć.\n\nZa mocny strumień skierowany zbyt blisko wypłukuje piasek z fug i może uszkodzić powierzchnię kostki. Wtedy kamienie zaczynają się ruszać, a w szczelinach szybciej odrasta mech.\n\nDlatego przy myciu dobieramy ciśnienie i odległość do rodzaju nawierzchni, a po myciu uzupełniamy piasek w fugach. Na zdjęciach efekt na wzorze z kostki.\n\n📞 797 584 863 lub wiadomość prywatna. Odpowiadamy do 6 godzin.\n\n#myciekostki #kostkabrukowa #czyszczeniekostki #Kraków #BruClean"
+   }
+  },
+  "2026-10-26": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-dachy-przed-po.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-elewacje-alpinizm.jpg",
+   "ig_post": {
+    "type": "carousel",
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/kostka-kolo-przed.jpg",
+     "https://brucleanservice.pl/images/social/feed/kostka-kolo-po.jpg"
+    ],
+    "caption": "Myjka ciśnieniowa z bliska? Kostka będzie czysta, ale fugi tego nie przeżyją.\n\nPrzesuń i zobacz efekt na tym wzorze z kostki.\n\nZa mocny strumień z bliska:\n➡️ wypłukuje piasek z fug\n➡️ może uszkodzić powierzchnię kostki\n➡️ sprawia, że mech szybciej wraca w szczeliny\n\nMy dobieramy ciśnienie do nawierzchni, a po myciu uzupełniamy fugi.\n\nWycena? Napisz w DM albo zadzwoń: 797 584 863\n\n#myciekostki #kostkabrukowa #czyszczeniekostki #fugi #przedipo #podjazd #Kraków #Małopolska #Wadowice #Olkusz #BruClean"
+   },
+   "fb_post": {
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/rynny-siatka-kontrola.jpg"
+    ],
+    "message": "Siatka na rynnie zatrzymuje większe liście i gałęzie. To dobre rozwiązanie, ale nie zwalnia z kontroli.\n\nLiście zbierają się na samej siatce, a igły, nasiona i drobny brud i tak dostają się do środka. Z czasem na dnie rynny robi się warstwa mułu, która blokuje odpływ.\n\nRaz w roku, najlepiej jesienią po opadnięciu liści, warto sprawdzić rynny i rury spustowe. Czyścimy je także tam, gdzie dostęp jest trudny i potrzebny jest sprzęt wysokościowy.\n\n📞 797 584 863 lub wiadomość prywatna. Odpowiadamy do 6 godzin.\n\n#czyszczenierynien #rynny #pracewysokościowe #Kraków #BruClean"
+   }
+  },
+  "2026-10-27": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-elewacje-alpinizm.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-kostka-schody.jpg",
+   "ig_post": {
+    "type": "image",
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/rynny-siatka-kontrola.jpg"
+    ],
+    "caption": "Masz siatkę na rynnie? Świetnie. Ale rynna i tak potrzebuje kontroli.\n\nSiatka zatrzymuje duże liście. Igły, nasiona i drobny brud przechodzą przez nią i z czasem tworzą na dnie muł, który blokuje odpływ.\n\nNajlepszy moment na sprawdzenie rynien to jesień, gdy liście już spadły. Czyli teraz.\n\nWycena? Napisz w DM albo zadzwoń: 797 584 863\n\n#czyszczenierynien #rynny #rynnyprzedzimą #siatkanarynny #dom #Kraków #Małopolska #Bochnia #Myślenice #BruClean"
+   },
+   "fb_post": {
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/dachy-mycie-hero.jpg"
+    ],
+    "message": "Mycie dachu to praca na wysokości, więc bezpieczeństwo jest na pierwszym miejscu.\n\nPracujemy z zabezpieczeniem, a metodę mycia dobieramy do pokrycia. Dachówka ceramiczna, betonowa czy blacha mają różną wytrzymałość, więc nie myjemy wszystkiego tak samo.\n\nNa dachu usuwamy mech, porosty i nalot. Przy okazji widać, czy pokrycie nie wymaga uwagi przed zimą.\n\nDo pierwszych przymrozków zostało niewiele czasu. Jeśli dach jest zielony, warto zająć się nim teraz.\n\n📞 797 584 863 lub wiadomość prywatna. Odpowiadamy do 6 godzin.\n\n#myciedachów #dach #pracewysokościowe #Kraków #BruClean"
+   }
+  },
+  "2026-10-28": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-kostka-schody.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-rynny-sucha-elewacja.jpg",
+   "ig_post": {
+    "type": "image",
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/dachy-mycie-hero.jpg"
+    ],
+    "caption": "Ceramika, beton czy blacha? Każdy dach myjemy inaczej.\n\nPokrycia mają różną wytrzymałość, dlatego metodę i ciśnienie dobieramy do materiału. Usuwamy mech, porosty i nalot, pracując z pełnym zabezpieczeniem.\n\nDo przymrozków zostało niewiele czasu. Zielony dach? Lepiej zająć się nim teraz niż wiosną.\n\nWycena? Napisz w DM albo zadzwoń: 797 584 863\n\n#myciedachów #czyszczeniedachu #dachówka #mechnadachu #pracewysokościowe #Kraków #Małopolska #Wieliczka #Skawina #BruClean"
+   },
+   "fb_post": {
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/elewacja-budynek-przed.jpg",
+     "https://brucleanservice.pl/images/social/feed/elewacja-budynek-po.jpg"
+    ],
+    "message": "Elewacja budynku to pierwsze, co widzi klient, najemca albo mieszkaniec.\n\nNa zdjęciach budynek przed i po myciu elewacji. Zniknęły szare zacieki i nalot, które osiadły na tynku.\n\nDla wspólnot, zarządców i firm myjemy elewacje także na wysokości, technikami alpinistycznymi, bez stawiania rusztowania. Ciśnienie i środek dobieramy do rodzaju tynku.\n\nBezpłatna wycena po zdjęciach.\n\n📞 797 584 863 lub wiadomość prywatna. Odpowiadamy do 6 godzin.\n\n#mycieelewacji #elewacja #wspólnotamieszkaniowa #Kraków #BruClean"
+   }
+  },
+  "2026-10-29": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-rynny-sucha-elewacja.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-dachy-kolor.jpg",
+   "ig_post": {
+    "type": "carousel",
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/elewacja-budynek-przed.jpg",
+     "https://brucleanservice.pl/images/social/feed/elewacja-budynek-po.jpg"
+    ],
+    "caption": "Elewacja to wizytówka budynku. Szare zacieki mówią o nim więcej, niż byś chciał.\n\nPrzesuń i porównaj: ten sam budynek przed i po myciu.\n\nMyjemy elewacje domów, budynków wspólnot i firm. Także na wysokości, technikami alpinistycznymi, bez rusztowania.\n\nWycena? Napisz w DM albo zadzwoń: 797 584 863\n\n#mycieelewacji #elewacja #czyszczenieelewacji #alpinizmprzemysłowy #pracewysokościowe #przedipo #Kraków #Małopolska #Tarnów #BruClean"
+   },
+   "fb_post": {
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/taras-plyty-przed.jpg",
+     "https://brucleanservice.pl/images/social/feed/taras-plyty-po.jpg"
+    ],
+    "message": "Zielone płyty na tarasie lub podjeździe jesienią robią się śliskie. Wystarczy kilka deszczowych dni.\n\nGlony i mech zatrzymują wilgoć na powierzchni, a mokre liście tylko to pogarszają. To realne ryzyko poślizgnięcia, szczególnie przy schodach i wejściu do domu.\n\nNa zdjęciach płyty przed i po myciu. Nawierzchnia odzyskała kolor, a z fug zniknął mech.\n\nMyjemy kostkę brukową i płyty tarasowe w Krakowie i okolicach.\n\n📞 797 584 863 lub wiadomość prywatna. Odpowiadamy do 6 godzin.\n\n#myciekostki #taras #kostkabrukowa #Kraków #BruClean"
+   }
+  },
+  "2026-10-30": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-dachy-kolor.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-elewacje-wysokosc.jpg",
+   "ig_post": {
+    "type": "carousel",
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/taras-plyty-przed.jpg",
+     "https://brucleanservice.pl/images/social/feed/taras-plyty-po.jpg"
+    ],
+    "caption": "Zielone płyty jesienią bywają bardzo śliskie. Sprawdź swój taras, zanim ktoś się poślizgnie.\n\nPrzesuń i zobacz te same płyty po myciu.\n\nGlony i mech trzymają wilgoć, a mokre liście dokładają swoje. Najbardziej ryzykowne są schody i wejście do domu.\n\nMyjemy kostkę i płyty tarasowe. Kraków i cała Małopolska.\n\nWycena? Napisz w DM albo zadzwoń: 797 584 863\n\n#myciekostki #taras #płytytarasowe #kostkabrukowa #czyszczeniekostki #przedipo #Kraków #Małopolska #Wieliczka #Skawina #BruClean"
+   },
+   "fb_post": {
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/rynny-przed-zima-checklista.jpg"
+    ],
+    "message": "Rynny przed zimą: trzy rzeczy, które warto sprawdzić teraz.\n\n1. Czy w rynnie nie zalegają liście i muł.\n2. Czy rury spustowe są drożne. Po deszczu woda powinna płynąć rurą, a nie kapać z rynny.\n3. Czy na elewacji pod rynną nie ma zacieków. To znak, że woda się przelewa.\n\nJeśli coś się nie zgadza, lepiej zająć się tym przed mrozem. Lód w zapchanej rynnie obciąża uchwyty, a woda wraca na ściany.\n\nCzyścimy rynny i rury spustowe, także w trudno dostępnych miejscach.\n\n📞 797 584 863 lub wiadomość prywatna. Odpowiadamy do 6 godzin.\n\n#czyszczenierynien #rynny #rynnyprzedzimą #Kraków #BruClean"
+   }
+  },
+  "2026-10-31": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-elewacje-wysokosc.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-kostka-taras.jpg",
+   "ig_post": {
+    "type": "image",
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/rynny-przed-zima-checklista.jpg"
+    ],
+    "caption": "Rynny przed zimą: 3 rzeczy do sprawdzenia, zanim przyjdzie mróz.\n\n1️⃣ Liście i muł w rynnie\n2️⃣ Drożność rur spustowych\n3️⃣ Zacieki na elewacji pod rynną\n\nCoś się nie zgadza? Lepiej zająć się tym teraz. Lód w zapchanej rynnie obciąża uchwyty, a woda wraca na ściany.\n\nWycena? Napisz w DM albo zadzwoń: 797 584 863\n\n#czyszczenierynien #rynny #rynnyprzedzimą #porady #dom #Kraków #Małopolska #Olkusz #Chrzanów #BruClean"
+   },
+   "fb_post": {
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/dachy-przed-po.jpg"
+    ],
+    "message": "Przed i po myciu dachu. Różnicę widać z ulicy.\n\nCiemny nalot na dachówce to najczęściej mech, porosty i glony. Poza wyglądem mają jeszcze jedną wadę: zatrzymują wilgoć, która zimą zamarza.\n\nMyjemy dachy z pełnym zabezpieczeniem, metodą dobraną do pokrycia. Pracujemy w Krakowie i do 100 km od miasta.\n\nJeśli chcą Państwo zdążyć przed zimą, warto umówić wycenę już teraz.\n\n📞 797 584 863 lub wiadomość prywatna. Odpowiadamy do 6 godzin.\n\n#myciedachów #dach #przedipo #Kraków #BruClean"
    }
   }
  }
