@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://brucleanservice.pl/</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -201,6 +201,12 @@
   <!-- Kolejne wpisy bloga oraz lendingi miast/usług dodawaj tutaj w miarę publikacji -->
   <url>
     <loc>https://brucleanservice.pl/uslugi/montaz-plotkow-sniegowych.html</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://brucleanservice.pl/uslugi/mycie-okien.html</loc>
     <lastmod>2026-10-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
