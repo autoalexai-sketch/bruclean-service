@@ -74,3 +74,10 @@
 - `images/social/plan-2026-11.json` → zdjęcia właściciela zamiast powtórek (03, 10, 11, 13, 17, 18, 29.11), grafiki płotków na ostrzejszych zdjęciach, 2 nowe stories (odśnieżanie/sople, kostka przed/po).
 - Wszystkie zdjęcia: logo LuxeClean → BruClean Service; kolaże z półprzezroczystym znakiem wodnym → tylko czyste fragmenty; zamazane tablice rejestracyjne i tablica wspólnoty; bez metadanych.
 - Sprawdzone: walidator planu (30 dni, rotacja, głos), Playwright 1440/390 — wszystkie 11 pozycji suwaka ładują zdjęcia, bez błędów i poziomego scrolla.
+
+### Strona „Mycie okien” (26.10.2026, wieczór)
+- Decyzja właściciela: mycie okien nie reklamujemy w social media, ale na stronie zostaje. Zakres: zwykłe okna (mieszkania, domy, biura) + okna na wysokości z liny.
+- Powód: w GSC zapytania „mycie okien…” trafiały na stronę główną (90 z 116 wyświetleń, 0 kliknięć) — title główną nie pasował do zapytania.
+- `uslugi/mycie-okien.html` (Service/Breadcrumb/FAQ JSON-LD, bez cen za okno — wycena po zdjęciach/oględzinach), zdjęcie `images/realizacje/okna-1.webp`.
+- Pozycja „Mycie okien” w menu (desktop + mobile) i stopce na 19 stronach; na głównej „Pełny zakres usług” → nowa strona; karta na stronie prace i artykuł o oknach na wysokości linkują do nowej strony.
+- `sitemap.xml`, `llms.txt`.
