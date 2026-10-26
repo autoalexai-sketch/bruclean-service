@@ -8,8 +8,9 @@ Live: [brucleanservice.pl](https://brucleanservice.pl)
 
 ```
 index.html          — strona główna
-uslugi/              — 7 podstron usług (mycie dachów, mycie elewacji, mycie kostki brukowej,
-                        malowanie/impregnacja, prace wysokościowe, czyszczenie rynien, czyszczenie przemysłowe)
+uslugi/              — 9 podstron usług (mycie dachów, mycie elewacji, mycie kostki brukowej,
+                        malowanie/impregnacja, prace wysokościowe, czyszczenie rynien, montaż płotków śniegowych,
+                        czyszczenie przemysłowe, sprzątanie pomieszczeń)
 images/              — zdjęcia realizacji, opinii i usług
 robots.txt           — dyrektywy dla robotów wyszukiwarek
 sitemap.xml          — mapa strony dla SEO
