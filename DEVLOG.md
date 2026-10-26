@@ -57,3 +57,13 @@
 
 ### На будущее
 Стоит перепроверить, не вносили ли другие недавние правки (Meta Pixel, cache-busting, UI/UX-аудит) новые Tailwind-классы, отсутствующие в `tailwind.min.css` — риск такой же silent-fail ошибки сохраняется при любой будущей правке HTML без синхронного обновления статического CSS.
+
+### Montaż płotków śniegowych (26.10.2026)
+Новая услуга по решению владельца.
+- `uslugi/montaz-plotkow-sniegowych.html` — страница услуги по шаблону `czyszczenie-rynien.html` (Service + Breadcrumb + FAQPage JSON-LD).
+- `blog/plotki-sniegowe-na-dachu.html` — статья + карточка в `blog/index.html`.
+- Пункт «Montaż płotków śniegowych» добавлен в меню (desktop + mobile) и футер на 17 страницах, плитка — в «Pełny zakres usług» на главной.
+- `images/uslugi/plotki/` — фото собственного монтажа (кропы без старого водяного знака LuxeClean).
+- `sitemap.xml`, `llms.txt`, `README.md` обновлены.
+- Проверено: все классы есть в `css/tailwind.min.css`, иконки — в `fontawesome-subset.css` (снежинки там нет → `fa-shield-halved`), JSON-LD парсится, локальные ссылки целы; Playwright 1440 и 390 px — без ошибок и горизонтального скролла.
+- TODO вне репо: добавить услугу в Google Business Profile (список на главной подписан как совпадающий с GBP).

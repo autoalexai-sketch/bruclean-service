@@ -199,4 +199,16 @@
     <priority>0.7</priority>
   </url>
   <!-- Kolejne wpisy bloga oraz lendingi miast/usług dodawaj tutaj w miarę publikacji -->
+  <url>
+    <loc>https://brucleanservice.pl/uslugi/montaz-plotkow-sniegowych.html</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://brucleanservice.pl/blog/plotki-sniegowe-na-dachu.html</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>
