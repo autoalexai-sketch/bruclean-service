@@ -67,3 +67,10 @@
 - `sitemap.xml`, `llms.txt`, `README.md` обновлены.
 - Проверено: все классы есть в `css/tailwind.min.css`, иконки — в `fontawesome-subset.css` (снежинки там нет → `fa-shield-halved`), JSON-LD парсится, локальные ссылки целы; Playwright 1440 и 390 px — без ошибок и горизонтального скролла.
 - TODO вне репо: добавить услугу в Google Business Profile (список на главной подписан как совпадающий с GBP).
+
+### Realizacje + nowe zdjęcia właściciela (26.10.2026, wieczór)
+- `index.html` → suwak przed/po: +5 realizacji (`images/realizacje/ba/*`, 800×800 webp). Lokalizacje wybrane z listy obszaru działania na stronie (decyzja właściciela): Skawina, Wieliczka, Kraków ×2, Myślenice.
+- `uslugi/montaz-plotkow-sniegowych.html` → galeria 4 zdjęć, płotki kratowe + haki śniegowe.
+- `images/social/plan-2026-11.json` → zdjęcia właściciela zamiast powtórek (03, 10, 11, 13, 17, 18, 29.11), grafiki płotków na ostrzejszych zdjęciach, 2 nowe stories (odśnieżanie/sople, kostka przed/po).
+- Wszystkie zdjęcia: logo LuxeClean → BruClean Service; kolaże z półprzezroczystym znakiem wodnym → tylko czyste fragmenty; zamazane tablice rejestracyjne i tablica wspólnoty; bez metadanych.
+- Sprawdzone: walidator planu (30 dni, rotacja, głos), Playwright 1440/390 — wszystkie 11 pozycji suwaka ładują zdjęcia, bez błędów i poziomego scrolla.
