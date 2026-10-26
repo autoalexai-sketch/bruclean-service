@@ -441,9 +441,10 @@
    },
    "fb_post": {
     "images": [
-     "https://brucleanservice.pl/images/social/feed/kostka-czyszczenie-impregnacja.jpg"
+     "https://brucleanservice.pl/images/social/feed/chodnik-osmiokat-przed.jpg",
+     "https://brucleanservice.pl/images/social/feed/chodnik-osmiokat-po.jpg"
     ],
-    "message": "Impregnacja kostki ma sens tylko na czystej nawierzchni.\n\nImpregnat zamyka pory kostki. Jeśli pod spodem zostanie mech, brud albo wykwity, zostaną zamknięte razem z nim. Efekt będzie gorszy, a poprawka trudniejsza.\n\nDlatego kolejność zawsze jest ta sama: mycie, uzupełnienie fug, wyschnięcie kostki i dopiero impregnacja. Do impregnacji potrzebna jest też odpowiednia pogoda, więc jesienią i zimą najczęściej planujemy ją na wiosnę.\n\n📞 797 584 863 lub wiadomość prywatna. Odpowiadamy do 6 godzin.\n\n#impregnacjakostki #kostkabrukowa #myciekostki #Kraków #BruClean"
+    "message": "Zimą kostka ma dwóch wrogów: mróz i sól.\n\nSól topi lód, ale woda z roztopów wnika w pory i fugi kostki. Gdy w nocy znowu zamarza, rozsadza powierzchnię. Do tego sól zostawia białe zacieki, które trudno potem usunąć.\n\nNa podjazdy i chodniki przy domu lepiej sprawdza się piasek lub drobny żwirek. Do odśnieżania warto używać łopaty z plastikową krawędzią, która nie rysuje kostki.\n\nNa zdjęciach chodnik z kostki przed i po myciu.\n\n📞 797 584 863 lub wiadomość prywatna. Odpowiadamy do 6 godzin.\n\n#kostkabrukowa #zima #myciekostki #Kraków #BruClean"
    },
    "rynny_post": {
     "network": "instagram",
@@ -457,11 +458,12 @@
    "fb_story": "https://brucleanservice.pl/images/social/story-kostka-sliska.jpg",
    "ig_story": "https://brucleanservice.pl/images/social/story-dachy-plotki-1.jpg",
    "ig_post": {
-    "type": "image",
+    "type": "carousel",
     "images": [
-     "https://brucleanservice.pl/images/social/feed/kostka-czyszczenie-impregnacja.jpg"
+     "https://brucleanservice.pl/images/social/feed/chodnik-osmiokat-przed.jpg",
+     "https://brucleanservice.pl/images/social/feed/chodnik-osmiokat-po.jpg"
     ],
-    "caption": "Impregnat na brudną kostkę? To zamknięcie problemu pod spodem.\n\nImpregnat zamyka pory kostki razem z tym, co na niej zostało: mchem, brudem, wykwitami.\n\nKolejność jest zawsze ta sama: mycie, fugi, wyschnięcie, impregnacja. Do impregnacji potrzebna jest też dobra pogoda, więc zimą planujemy ją na wiosnę.\n\nWycena? Napisz w DM albo zadzwoń: 797 584 863\n\n#impregnacjakostki #kostkabrukowa #myciekostki #czyszczeniekostki #porada #Kraków #Małopolska #Skawina #Bochnia #BruClean"
+    "caption": "Sól na kostkę? Zimą to szybka droga do zniszczonej nawierzchni.\n\nWoda z roztopów wnika w pory i fugi, a w nocy zamarza i rozsadza powierzchnię. Sól zostawia też białe zacieki.\n\nLepiej posyp piaskiem lub drobnym żwirkiem. Przesuń i zobacz ten chodnik po myciu.\n\nWycena? Napisz w DM albo zadzwoń: 797 584 863\n\n#kostkabrukowa #zima #sól #myciekostki #czyszczeniekostki #podjazd #Kraków #Małopolska #Wadowice #BruClean"
    },
    "fb_post": {
     "images": [
