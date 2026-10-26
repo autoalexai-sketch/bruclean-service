@@ -638,8 +638,7 @@
    },
    "fb_post": {
     "images": [
-     "https://brucleanservice.pl/images/social/feed/kostka-kolo-przed.jpg",
-     "https://brucleanservice.pl/images/social/feed/kostka-kolo-po.jpg"
+     "https://brucleanservice.pl/images/social/feed/kostka-chodnik-przed-po.jpg"
     ],
     "message": "Myć kostkę teraz czy poczekać do wiosny? Odpowiadamy uczciwie.\n\nPrzy niskich temperaturach mokra kostka długo schnie, a woda w fugach może zamarznąć. Dlatego w późnej jesieni i zimą zwykle odradzamy pełne mycie.\n\nCo warto zrobić teraz: zgarnąć liście i usunąć to, co gnije na nawierzchni. Mycie i ewentualną impregnację najlepiej zaplanować na pierwsze ciepłe tygodnie wiosną.\n\n📞 797 584 863 lub wiadomość prywatna. Odpowiadamy do 6 godzin.\n\n#myciekostki #kostkabrukowa #porada #Kraków #BruClean"
    },
@@ -655,10 +654,9 @@
    "fb_story": "https://brucleanservice.pl/images/social/story-elewacje-wysokosc.jpg",
    "ig_story": "https://brucleanservice.pl/images/social/story-dachy-plotki-1.jpg",
    "ig_post": {
-    "type": "carousel",
+    "type": "image",
     "images": [
-     "https://brucleanservice.pl/images/social/feed/kostka-kolo-przed.jpg",
-     "https://brucleanservice.pl/images/social/feed/kostka-kolo-po.jpg"
+     "https://brucleanservice.pl/images/social/feed/kostka-chodnik-przed-po.jpg"
     ],
     "caption": "Myć kostkę teraz czy wiosną? Uczciwie: raczej wiosną.\n\nPrzy niskich temperaturach mokra kostka długo schnie, a woda w fugach może zamarznąć.\n\nTeraz wystarczy zgarnąć liście. Mycie i impregnację zaplanuj na pierwsze ciepłe tygodnie.\n\nWycena? Napisz w DM albo zadzwoń: 797 584 863\n\n#myciekostki #kostkabrukowa #czyszczeniekostki #impregnacjakostki #porada #Kraków #Małopolska #Skawina #BruClean"
    },
