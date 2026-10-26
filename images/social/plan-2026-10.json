@@ -1,5 +1,5 @@
 {
- "_info": "BruClean social plan. Days up to 21.10: 'story' = same image for FB+IG stories, plus IG feed post. From 22.10: fb_story, ig_story, ig_post, fb_post (photo post on the FB page), 4 topics per day (dachy, elewacje, kostka, rynny). Published daily by the scheduled routine (09:07 Europe/Warsaw).",
+ "_info": "BruClean social plan. Days up to 21.10: 'story' = same image for FB+IG stories, plus IG feed post. From 22.10: fb_story, ig_story, ig_post, fb_post (photo post on the FB page), 4 topics per day (dachy, elewacje, kostka, rynny). Published daily by the scheduled routine (09:07 Europe/Warsaw). From 27.10 to 30.11: extra daily gutter post `rynny_post` {network: instagram|facebook, images, text} (gutter season, approved by the owner 26.10.2026).",
  "fb_page": "1110808025459372",
  "ig_account": "17841409701924977",
  "days": {
@@ -220,6 +220,14 @@
      "https://brucleanservice.pl/images/social/feed/dachy-mycie-hero.jpg"
     ],
     "message": "Mycie dachu to praca na wysokości, więc bezpieczeństwo jest na pierwszym miejscu.\n\nPracujemy z zabezpieczeniem, a metodę mycia dobieramy do pokrycia. Dachówka ceramiczna, betonowa czy blacha mają różną wytrzymałość, więc nie myjemy wszystkiego tak samo.\n\nNa dachu usuwamy mech, porosty i nalot. Przy okazji widać, czy pokrycie nie wymaga uwagi przed zimą.\n\nDo pierwszych przymrozków zostało niewiele czasu. Jeśli dach jest zielony, warto zająć się nim teraz.\n\n📞 797 584 863 lub wiadomość prywatna. Odpowiadamy do 6 godzin.\n\n#myciedachów #dach #pracewysokościowe #Kraków #BruClean"
+   },
+   "rynny_post": {
+    "network": "instagram",
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/rynny-przed.jpg",
+     "https://brucleanservice.pl/images/social/feed/rynny-po.jpg"
+    ],
+    "text": "Tak wyglądała ta rynna przed czyszczeniem. Przesuń i zobacz po.\n\nLiście, igły i muł zbierają się przez cały rok, ale najwięcej spada właśnie teraz. Jedna jesień potrafi zapchać rynnę do pełna.\n\nCzyścimy rynny i rury spustowe w Krakowie i całej Małopolsce.\n\nWycena? Wyślij zdjęcie w DM albo zadzwoń: 797 584 863\n\n#czyszczenierynien #rynny #ruryspustowe #jesień #Kraków #Małopolska #BruClean"
    }
   },
   "2026-10-28": {
@@ -238,6 +246,13 @@
      "https://brucleanservice.pl/images/social/feed/elewacja-budynek-po.jpg"
     ],
     "message": "Elewacja budynku to pierwsze, co widzi klient, najemca albo mieszkaniec.\n\nNa zdjęciach budynek przed i po myciu elewacji. Zniknęły szare zacieki i nalot, które osiadły na tynku.\n\nDla wspólnot, zarządców i firm myjemy elewacje także na wysokości, technikami alpinistycznymi, bez stawiania rusztowania. Ciśnienie i środek dobieramy do rodzaju tynku.\n\nBezpłatna wycena po zdjęciach.\n\n📞 797 584 863 lub wiadomość prywatna. Odpowiadamy do 6 godzin.\n\n#mycieelewacji #elewacja #wspólnotamieszkaniowa #Kraków #BruClean"
+   },
+   "rynny_post": {
+    "network": "facebook",
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/rynny-hero.jpg"
+    ],
+    "text": "Po czym poznać, że rynna jest zapchana? Wystarczy spojrzeć z dołu podczas deszczu.\n\n• woda przelewa się przez krawędź rynny zamiast płynąć do rury,\n• z rury spustowej leci tylko cienka strużka albo nic,\n• w rynnie widać wystające liście lub zieleń,\n• rynna ugina się albo odstaje od dachu,\n• na elewacji pod rynną pojawiają się ciemne zacieki.\n\nJeden z tych objawów to dobry powód, żeby zajrzeć do środka przed zimą.\n\n📞 797 584 863 lub wiadomość prywatna. Odpowiadamy do 6 godzin.\n\n#czyszczenierynien #rynny #ruryspustowe #jesień #Kraków #Małopolska #BruClean"
    }
   },
   "2026-10-29": {
@@ -257,6 +272,13 @@
      "https://brucleanservice.pl/images/social/feed/taras-plyty-po.jpg"
     ],
     "message": "Zielone płyty na tarasie lub podjeździe jesienią robią się śliskie. Wystarczy kilka deszczowych dni.\n\nGlony i mech zatrzymują wilgoć na powierzchni, a mokre liście tylko to pogarszają. To realne ryzyko poślizgnięcia, szczególnie przy schodach i wejściu do domu.\n\nNa zdjęciach płyty przed i po myciu. Nawierzchnia odzyskała kolor, a z fug zniknął mech.\n\nMyjemy kostkę brukową i płyty tarasowe w Krakowie i okolicach.\n\n📞 797 584 863 lub wiadomość prywatna. Odpowiadamy do 6 godzin.\n\n#myciekostki #taras #kostkabrukowa #Kraków #BruClean"
+   },
+   "rynny_post": {
+    "network": "instagram",
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/rynny-przed-zima-checklista.jpg"
+    ],
+    "text": "Czysta rynna to dopiero połowa sukcesu. Druga połowa to rura spustowa.\n\nNajczęściej zatyka się kolanko na górze rury. Liście zbijają się tam w korek i woda nie ma którędy zejść, nawet jeśli sama rynna wygląda dobrze.\n\nPrzy czyszczeniu sprawdzamy, czy woda swobodnie przechodzi przez rury spustowe.\n\nWycena? Wyślij zdjęcie w DM albo zadzwoń: 797 584 863\n\n#czyszczenierynien #rynny #ruryspustowe #jesień #Kraków #Małopolska #BruClean"
    }
   },
   "2026-10-30": {
@@ -275,6 +297,13 @@
      "https://brucleanservice.pl/images/social/feed/rynny-przed-zima-checklista.jpg"
     ],
     "message": "Rynny przed zimą: trzy rzeczy, które warto sprawdzić teraz.\n\n1. Czy w rynnie nie zalegają liście i muł.\n2. Czy rury spustowe są drożne. Po deszczu woda powinna płynąć rurą, a nie kapać z rynny.\n3. Czy na elewacji pod rynną nie ma zacieków. To znak, że woda się przelewa.\n\nJeśli coś się nie zgadza, lepiej zająć się tym przed mrozem. Lód w zapchanej rynnie obciąża uchwyty, a woda wraca na ściany.\n\nCzyścimy rynny i rury spustowe, także w trudno dostępnych miejscach.\n\n📞 797 584 863 lub wiadomość prywatna. Odpowiadamy do 6 godzin.\n\n#czyszczenierynien #rynny #rynnyprzedzimą #Kraków #BruClean"
+   },
+   "rynny_post": {
+    "network": "facebook",
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/rynny-przed.jpg"
+    ],
+    "text": "Ciemne pasy na elewacji pod rynną to nie zawsze brud z powietrza.\n\nBardzo często to ślad wody, która przelewa się przez zapchaną rynnę i spływa po ścianie. Z czasem pojawiają się glony, a tynk zaczyna chłonąć wilgoć.\n\nZanim zainwestujesz w mycie elewacji, warto sprawdzić, czy rynny odprowadzają wodę tak, jak powinny.\n\n📞 797 584 863 lub wiadomość prywatna. Odpowiadamy do 6 godzin.\n\n#czyszczenierynien #rynny #ruryspustowe #jesień #Kraków #Małopolska #BruClean"
    }
   },
   "2026-10-31": {
@@ -292,6 +321,13 @@
      "https://brucleanservice.pl/images/social/feed/dachy-przed-po.jpg"
     ],
     "message": "Przed i po myciu dachu. Różnicę widać z ulicy.\n\nCiemny nalot na dachówce to najczęściej mech, porosty i glony. Poza wyglądem mają jeszcze jedną wadę: zatrzymują wilgoć, która zimą zamarza.\n\nMyjemy dachy z pełnym zabezpieczeniem, metodą dobraną do pokrycia. Pracujemy w Krakowie i do 100 km od miasta.\n\nJeśli chcą Państwo zdążyć przed zimą, warto umówić wycenę już teraz.\n\n📞 797 584 863 lub wiadomość prywatna. Odpowiadamy do 6 godzin.\n\n#myciedachów #dach #przedipo #Kraków #BruClean"
+   },
+   "rynny_post": {
+    "network": "instagram",
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/rynny-realizacja-siatka.jpg"
+    ],
+    "text": "Kiedy najlepiej czyścić rynny? Gdy większość liści jest już na ziemi.\n\nZa wcześnie — rynna zapełni się ponownie po kilku tygodniach. Za późno — muł zamarznie i zrobi się z niego lodowy korek.\n\nW Małopolsce zwykle najlepszy moment to przełom października i listopada. Czyli teraz.\n\nWycena? Wyślij zdjęcie w DM albo zadzwoń: 797 584 863\n\n#czyszczenierynien #rynny #ruryspustowe #jesień #Kraków #Małopolska #BruClean"
    }
   }
  }
