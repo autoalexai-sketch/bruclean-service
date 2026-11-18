@@ -84,65 +84,277 @@
         details[open] .faq-chevron { transform: rotate(180deg); }
     </style>
 
-    <!-- ===== JSON-LD: LocalBusiness + usługi + oceny ===== -->
+    <!-- ===== JSON-LD: Organization + LocalBusiness + WebSite (@graph) ===== -->
     <script type="application/ld+json">
     {
-        "@context": "https://schema.org",
-        "@type": "HomeAndConstructionBusiness",
-        "name": "BruClean Service",
-        "legalName": "BruClean Service Sp. z o.o.",
-        "vatID": "PL5273220571",
-        "disambiguatingDescription": "BruClean Service Sp. z o.o. (NIP 5273220571) z siedzibą operacyjną przy ul. Marii Jaremy 9 w Krakowie — nie mylić z innymi firmami o podobnej nazwie.",
-        "image": "https://brucleanservice.pl/images/logo-bruclean-og.png",
-        "logo": "https://brucleanservice.pl/images/logo-bruclean-og.png",
-        "url": "https://brucleanservice.pl/",
-        "telephone": "+48797584863",
-        "email": "kontakt@brucleanservice.pl",
-        "sameAs": [
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://brucleanservice.pl/#organization",
+          "name": "BruClean Service",
+          "legalName": "BruClean Service Sp. z o.o.",
+          "url": "https://brucleanservice.pl/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://brucleanservice.pl/images/logo-bruclean-og.png"
+          },
+          "email": "kontakt@brucleanservice.pl",
+          "telephone": "+48797584863",
+          "vatID": "PL5273220571",
+          "taxID": "5273220571",
+          "foundingDate": "2026-05-26",
+          "identifier": [
+            {
+              "@type": "PropertyValue",
+              "propertyID": "KRS",
+              "value": "0001243791"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "REGON",
+              "value": "544849889"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "NIP",
+              "value": "5273220571"
+            }
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Al. Jana Pawła II 27",
+            "postalCode": "00-867",
+            "addressLocality": "Warszawa",
+            "addressRegion": "mazowieckie",
+            "addressCountry": "PL"
+          },
+          "founder": [
+            {
+              "@type": "Person",
+              "name": "Brunon Józefczyk",
+              "jobTitle": "Członek Zarządu"
+            },
+            {
+              "@type": "Person",
+              "name": "Oleksandr Latyntsev",
+              "jobTitle": "Członek Zarządu"
+            }
+          ],
+          "sameAs": [
             "https://www.facebook.com/profile.php?id=61591964332345",
             "https://www.instagram.com/brucleanservice.pl",
-            "https://www.youtube.com/@BruClean-Service"
-        ],
-        "hasMap": "https://maps.google.com/?cid=10653401279017712004",
-        "priceRange": "$$",
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "Marii Jaremy 9",
-            "addressLocality": "Kraków",
-            "postalCode": "31-318",
-            "addressCountry": "PL"
+            "https://www.youtube.com/@BruClean-Service",
+            "https://maps.google.com/?cid=10653401279017712004"
+          ]
         },
-        "areaServed": [
-            "Kraków", "Skawina", "Wieliczka", "Bochnia", "Myślenice",
-            "Wadowice", "Tarnów", "Chrzanów", "Olkusz", "województwo małopolskie"
-        ],
-        "openingHoursSpecification": {
+        {
+          "@type": "HomeAndConstructionBusiness",
+          "@id": "https://brucleanservice.pl/#business",
+          "name": "BruClean Service",
+          "parentOrganization": {
+            "@id": "https://brucleanservice.pl/#organization"
+          },
+          "description": "Profesjonalne mycie kostki brukowej, elewacji i dachów, prace wysokościowe, czyszczenie przemysłowe oraz malowanie obiektów. Baza w Krakowie, obsługa Małopolski w promieniu do 100 km.",
+          "disambiguatingDescription": "BruClean Service Sp. z o.o. (NIP 5273220571, KRS 0001243791) z bazą operacyjną przy ul. Marii Jaremy 9 w Krakowie — nie mylić z innymi firmami o podobnej nazwie.",
+          "url": "https://brucleanservice.pl/",
+          "image": "https://brucleanservice.pl/images/logo-bruclean-og.png",
+          "logo": "https://brucleanservice.pl/images/logo-bruclean-og.png",
+          "telephone": "+48797584863",
+          "email": "kontakt@brucleanservice.pl",
+          "hasMap": "https://maps.google.com/?cid=10653401279017712004",
+          "priceRange": "8–24 zł/m²",
+          "currenciesAccepted": "PLN",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "ul. Marii Jaremy 9",
+            "postalCode": "31-318",
+            "addressLocality": "Kraków",
+            "addressRegion": "małopolskie",
+            "addressCountry": "PL"
+          },
+          "areaServed": [
+            {
+              "@type": "City",
+              "name": "Kraków"
+            },
+            {
+              "@type": "City",
+              "name": "Skawina"
+            },
+            {
+              "@type": "City",
+              "name": "Wieliczka"
+            },
+            {
+              "@type": "City",
+              "name": "Bochnia"
+            },
+            {
+              "@type": "City",
+              "name": "Myślenice"
+            },
+            {
+              "@type": "City",
+              "name": "Wadowice"
+            },
+            {
+              "@type": "City",
+              "name": "Tarnów"
+            },
+            {
+              "@type": "City",
+              "name": "Chrzanów"
+            },
+            {
+              "@type": "City",
+              "name": "Olkusz"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "województwo małopolskie"
+            }
+          ],
+          "openingHoursSpecification": {
             "@type": "OpeningHoursSpecification",
-            "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday"
+            ],
             "opens": "08:00",
             "closes": "20:00"
-        },
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "5.0",
-            "reviewCount": "14"
-        },
-        "hasOfferCatalog": {
+          },
+          "hasOfferCatalog": {
             "@type": "OfferCatalog",
             "name": "Usługi BruClean Service",
             "itemListElement": [
-                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Prace wysokościowe / alpinizm przemysłowy"}},
-                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Piaskowanie"}},
-                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Czyszczenie hal przemysłowych i magazynów"}},
-                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Renowacja murów, ogrodzeń, kamienia, cegły, zabytków"}},
-                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Impregnacja dachów, kostki brukowej, elewacji, kamienia"}},
-                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Czyszczenie, udrażnianie i uszczelnianie rynien oraz rur spustowych"}},
-                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Mycie i czyszczenie elewacji"}},
-                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Mycie i czyszczenie kostki brukowej"}},
-                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Mycie i czyszczenie dachów"}},
-                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Malowanie elewacji i obiektów przemysłowych"}}
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Mycie i czyszczenie kostki brukowej",
+                  "url": "https://brucleanservice.pl/uslugi/mycie-kostki-brukowej.html"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Mycie i czyszczenie elewacji",
+                  "url": "https://brucleanservice.pl/uslugi/mycie-elewacji.html"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Mycie i czyszczenie dachów",
+                  "url": "https://brucleanservice.pl/uslugi/mycie-dachow.html"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Prace wysokościowe / alpinizm przemysłowy",
+                  "url": "https://brucleanservice.pl/uslugi/prace-wysokosciowe.html"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Mycie okien, także na wysokości",
+                  "url": "https://brucleanservice.pl/uslugi/mycie-okien.html"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Czyszczenie, udrażnianie i uszczelnianie rynien oraz rur spustowych",
+                  "url": "https://brucleanservice.pl/uslugi/czyszczenie-rynien.html"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Czyszczenie hal przemysłowych i magazynów",
+                  "url": "https://brucleanservice.pl/uslugi/czyszczenie-przemyslowe.html"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Malowanie elewacji i obiektów przemysłowych",
+                  "url": "https://brucleanservice.pl/uslugi/malowanie-impregnacja.html"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Impregnacja dachów, kostki brukowej, elewacji, kamienia",
+                  "url": "https://brucleanservice.pl/uslugi/malowanie-impregnacja.html"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Montaż płotków i haków śniegowych na dachach",
+                  "url": "https://brucleanservice.pl/uslugi/montaz-plotkow-sniegowych.html"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Sprzątanie pomieszczeń",
+                  "url": "https://brucleanservice.pl/uslugi/sprzatanie-pomieszczen.html"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Odśnieżanie dachów i usuwanie sopli"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Piaskowanie"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Renowacja murów, ogrodzeń, kamienia, cegły i zabytków"
+                }
+              }
             ]
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://brucleanservice.pl/#website",
+          "url": "https://brucleanservice.pl/",
+          "name": "BruClean Service",
+          "inLanguage": "pl-PL",
+          "publisher": {
+            "@id": "https://brucleanservice.pl/#organization"
+          }
         }
+      ]
     }
     </script>
 
@@ -520,6 +732,7 @@ src="https://www.facebook.com/tr?id=1792681042143896&ev=PageView&noscript=1"
                     <a href="uslugi/sprzatanie-pomieszczen.html" class="flex items-center gap-3 bg-brand-lightBg p-3.5 rounded-xl border border-gray-100 hover:border-brand-orange transition-colors"><span class="w-9 h-9 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-broom"></i></span><span class="text-sm font-bold text-brand-dark">Sprzątanie pomieszczeń</span></a>
                     <a href="uslugi/prace-wysokosciowe.html" class="flex items-center gap-3 bg-brand-lightBg p-3.5 rounded-xl border border-gray-100 hover:border-brand-orange transition-colors"><span class="w-9 h-9 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-helmet-safety"></i></span><span class="text-sm font-bold text-brand-dark">Prace wysokościowe / alpinizm przemysłowy</span></a>
                     <a href="uslugi/mycie-okien.html" class="flex items-center gap-3 bg-brand-lightBg p-3.5 rounded-xl border border-gray-100 hover:border-brand-orange transition-colors"><span class="w-9 h-9 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-window-restore"></i></span><span class="text-sm font-bold text-brand-dark">Mycie okien, także na wysokości</span></a>
+                    <a href="uslugi/montaz-plotkow-sniegowych.html" class="flex items-center gap-3 bg-brand-lightBg p-3.5 rounded-xl border border-gray-100 hover:border-brand-orange transition-colors"><span class="w-9 h-9 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center shrink-0"><i class="fa-solid fa-house-chimney"></i></span><span class="text-sm font-bold text-brand-dark">Odśnieżanie dachów i usuwanie sopli</span></a>
                 </div>
             </div>
         </div>
