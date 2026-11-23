@@ -1,0 +1,345 @@
+{
+ "_info": "BruClean social plan for December 2026. Continues the November rotation (owner rule 07.11.2026): 3 topics, one per day, rotating płotki śniegowe -> rynny -> odśnieżanie (01.12 płotki). Each day: fb_story + ig_story of the day topic and ONE post; the post network alternates daily (01.12 facebook, 02.12 instagram, ...). Rynny days use rynny_post, other days fb_post or ig_post. Holiday greetings on 24.12 (instagram) and 31.12 (facebook) replace that day's topic post; 25-26.12 posts are soft, without a hard sell. Published daily by the scheduled routine (09:07 Europe/Warsaw). Needs owner approval before merge.",
+ "fb_page": "1110808025459372",
+ "ig_account": "17841409701924977",
+ "days": {
+  "2026-12-01": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-dachy-plotki-1.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-dachy-plotki-1.jpg",
+   "fb_post": {
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/plotki-haki-dachowka-czarna.jpg"
+    ],
+    "message": "Grudzień, a na dachu jeszcze nie ma płotków śniegowych? Jeszcze nie jest za późno.\n\nPłotki i haki śniegowe montujemy w dni, gdy na połaci nie leży śnieg. Takich dni w grudniu jest sporo.\n\nRodzaj mocowania dobieramy do pokrycia: dachówka ceramiczna, betonowa, blachodachówka albo blacha. Wycenę przygotujemy po zdjęciach dachu.\n\n📞 797 584 863 lub wiadomość prywatna. Odpowiadamy do 6 godzin.\n\n#płotkiśniegowe #płotkiprzeciwśniegowe #dach #zima #śnieg #Kraków #Małopolska #BruClean"
+   }
+  },
+  "2026-12-02": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-rynny-zapchane.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-rynny-zapchane.jpg",
+   "rynny_post": {
+    "network": "instagram",
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/rynny-hero.jpg"
+    ],
+    "text": "Zimą rynna pracuje tak samo jak jesienią. Tylko trudniej to zauważyć.\n\nJeśli w środku zostały liście, woda z roztopów nie spływa, tylko zamarza. Lód rośnie z każdą odwilżą i ciągnie rynnę w dół.\n\nCzyścimy rynny także zimą, w dni bez mrozu i śniegu na dachu.\n\nWycena? Napisz w DM albo zadzwoń: 797 584 863\n\n#czyszczenierynien #rynny #ruryspustowe #zima #Kraków #Małopolska #BruClean"
+   }
+  },
+  "2026-12-03": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-odsniezanie-sople.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-odsniezanie-sople.jpg",
+   "fb_post": {
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/odsniezanie-przed.jpg",
+     "https://brucleanservice.pl/images/social/feed/odsniezanie-po.jpg"
+    ],
+    "message": "Dach przed odśnieżaniem i po.\n\nŚnieg i sople usuwamy tak, żeby nie uszkodzić pokrycia, rynien ani obróbek blacharskich. Na czas prac wygradzamy strefę pod dachem, żeby nikt nie wszedł pod spadający śnieg.\n\nOdśnieżamy dachy domów, kamienic, bloków i hal w Krakowie i w promieniu 100 km.\n\n📞 797 584 863 lub wiadomość prywatna. Odpowiadamy do 6 godzin.\n\n#odśnieżaniedachów #sople #zarządcanieruchomości #wspólnotamieszkaniowa #Kraków #BruClean"
+   }
+  },
+  "2026-12-04": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-dachy-plotki-2.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-dachy-plotki-2.jpg",
+   "ig_post": {
+    "type": "image",
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/plotki-sniegowe-montaz-kolaz.jpg"
+    ],
+    "caption": "Tak wygląda montaż płotków śniegowych w praktyce.\n\nNajpierw oglądamy dach i sprawdzamy, gdzie śnieg zsuwa się nad wejściem, podjazdem albo rynną. Potem dobieramy płotki lub haki do pokrycia i mocujemy je do konstrukcji dachu.\n\nPracujemy z pełnym zabezpieczeniem wysokościowym.\n\nWycena? Napisz w DM albo zadzwoń: 797 584 863\n\n#płotkiśniegowe #płotkiprzeciwśniegowe #dach #zima #śnieg #Kraków #Małopolska #BruClean"
+   }
+  },
+  "2026-12-05": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-rynny-sucha-elewacja.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-rynny-sucha-elewacja.jpg",
+   "rynny_post": {
+    "network": "facebook",
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/rynny-dachowka-przed-po.jpg"
+    ],
+    "text": "Liście spadły, rynny zostały na później? Jeszcze można to nadrobić przed mrozami.\n\nZapchana rynna zimą to lód, który rozsadza mocowania, i sople nad wejściem. Woda z roztopów nie ma gdzie spłynąć i leje się po elewacji.\n\nCzyścimy rynny z liny, bez rusztowań, także na wysokich budynkach.\n\n📞 797 584 863 lub wiadomość prywatna. Odpowiadamy do 6 godzin.\n\n#czyszczenierynien #rynny #ruryspustowe #zima #Kraków #Małopolska #BruClean"
+   }
+  },
+  "2026-12-06": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-odsniezanie-sople.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-odsniezanie-sople.jpg",
+   "ig_post": {
+    "type": "image",
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/wysokosciowe-realizacja-lina.jpg"
+    ],
+    "caption": "Stromy dach, trzy piętra, a nad wejściem nawis śniegu? Pracujemy z liny.\n\nNasi alpiniści IRATA pracują z pełnym zabezpieczeniem, także na stromych połaciach. Bez rusztowań i bez podnośnika na chodniku.\n\nPrace na wysokości wykonujemy w ramach ubezpieczenia OC.\n\nWycena? Napisz w DM albo zadzwoń: 797 584 863\n\n#odśnieżaniedachów #sople #zarządcanieruchomości #wspólnotamieszkaniowa #Kraków #BruClean"
+   }
+  },
+  "2026-12-07": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-dachy-plotki-1.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-dachy-plotki-1.jpg",
+   "fb_post": {
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/plotki-haki-kolaz.jpg",
+     "https://brucleanservice.pl/images/social/feed/plotki-haki-snieg.jpg"
+    ],
+    "message": "Płotki czy haki śniegowe? Pytają nas o to często.\n\n• Płotki: ciągła bariera na całej długości połaci. Dobre nad wejściem, chodnikiem i podjazdem.\n• Haki: rozstawione punktowo, rozbijają warstwę śniegu. Często stosowane na dachówce.\n\nCo wybrać, zależy od pokrycia, nachylenia i tego, co jest pod dachem. Doradzimy po zdjęciach dachu.\n\n📞 797 584 863 lub wiadomość prywatna. Odpowiadamy do 6 godzin.\n\n#płotkiśniegowe #płotkiprzeciwśniegowe #dach #zima #śnieg #Kraków #Małopolska #BruClean"
+   }
+  },
+  "2026-12-08": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-rynny-przed-po.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-rynny-przed-po.jpg",
+   "rynny_post": {
+    "network": "instagram",
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/rynny-przed-po-siatka.jpg"
+    ],
+    "text": "Przed, po i z siatką. Trzy etapy jednej rynny.\n\nNajpierw wyciągamy liście i muł, potem przepłukujemy rynnę i rurę spustową. Na koniec, jeśli klient chce, zakładamy siatkę, która zatrzymuje liście.\n\nCzysta rynna zimą to mniej lodu i mniej sopli.\n\nWycena? Napisz w DM albo zadzwoń: 797 584 863\n\n#czyszczenierynien #rynny #ruryspustowe #zima #Kraków #Małopolska #BruClean"
+   }
+  },
+  "2026-12-09": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-odsniezanie-sople.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-odsniezanie-sople.jpg",
+   "fb_post": {
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/odsniezanie-dach-plaski.jpg"
+    ],
+    "message": "Płaski dach hali lub pawilonu nie zrzuci śniegu sam.\n\nMokry, ubity śnieg jest dużo cięższy od świeżego. Po kilku opadach i odwilżach obciążenie dachu rośnie z dnia na dzień.\n\nOdśnieżamy dachy hal, magazynów i budynków usługowych. Wycenę przygotujemy po zdjęciach lub oględzinach.\n\n📞 797 584 863 lub wiadomość prywatna. Odpowiadamy do 6 godzin.\n\n#odśnieżaniedachów #sople #zarządcanieruchomości #wspólnotamieszkaniowa #Kraków #BruClean"
+   }
+  },
+  "2026-12-10": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-dachy-plotki-2.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-dachy-plotki-2.jpg",
+   "ig_post": {
+    "type": "image",
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/plotki-kratowe-kolaz.jpg"
+    ],
+    "caption": "Płotki kratowe na dachu. Proste, a robią dużą różnicę.\n\nZatrzymują śnieg na połaci, więc topnieje on stopniowo, zamiast zjechać całą warstwą na chodnik, auto albo rynnę.\n\nSzczególnie ważne na blasze i blachodachówce, z której śnieg zsuwa się najszybciej.\n\nWycena? Napisz w DM albo zadzwoń: 797 584 863\n\n#płotkiśniegowe #płotkiprzeciwśniegowe #dach #zima #śnieg #Kraków #Małopolska #BruClean"
+   }
+  },
+  "2026-12-11": {
+   "fb_story": "https://brucleanservice.pl/images/social/2026-10-10-rynny.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/2026-10-10-rynny.jpg",
+   "rynny_post": {
+    "network": "facebook",
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/rynny-blacha-przed-po.jpg"
+    ],
+    "text": "Rynna przy blaszanym dachu. Lewa strona przed, prawa po.\n\nZ blachy woda spływa szybko i niesie ze sobą wszystko, co leży na dachu. Jeśli rynna jest zapchana, zimą przelewa się i zamarza na krawędzi dachu.\n\nCzyścimy rynny przy domach, kamienicach i budynkach firmowych w Krakowie i Małopolsce.\n\n📞 797 584 863 lub wiadomość prywatna. Odpowiadamy do 6 godzin.\n\n#czyszczenierynien #rynny #ruryspustowe #zima #Kraków #Małopolska #BruClean"
+   }
+  },
+  "2026-12-12": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-odsniezanie-sople.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-odsniezanie-sople.jpg",
+   "ig_post": {
+    "type": "carousel",
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/odsniezanie-przed.jpg",
+     "https://brucleanservice.pl/images/social/feed/odsniezanie-po.jpg"
+    ],
+    "caption": "Przesuń, żeby zobaczyć różnicę.\n\nŚnieg z dachu usunięty, krawędź bez nawisów. Na czas prac strefa pod dachem jest wygrodzona.\n\nOdśnieżamy dachy i usuwamy sople w Krakowie i okolicach.\n\nWycena? Napisz w DM albo zadzwoń: 797 584 863\n\n#odśnieżaniedachów #sople #zarządcanieruchomości #wspólnotamieszkaniowa #Kraków #BruClean"
+   }
+  },
+  "2026-12-13": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-dachy-plotki-1.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-dachy-plotki-1.jpg",
+   "fb_post": {
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/plotki-montaz-dach.jpg",
+     "https://brucleanservice.pl/images/social/feed/plotki-montaz-krawedz.jpg",
+     "https://brucleanservice.pl/images/social/feed/plotki-montaz-praca.jpg"
+    ],
+    "message": "Kilka zdjęć z montażu płotków śniegowych.\n\nMocowania montujemy tak, żeby obciążenie przenosiła konstrukcja dachu, a nie samo pokrycie. Dlatego płotki wytrzymują całą zimę, także przy dużym opadzie.\n\nPracujemy z pełnym zabezpieczeniem wysokościowym, w dni bez śniegu na dachu.\n\n📞 797 584 863 lub wiadomość prywatna. Odpowiadamy do 6 godzin.\n\n#płotkiśniegowe #płotkiprzeciwśniegowe #dach #zima #śnieg #Kraków #Małopolska #BruClean"
+   }
+  },
+  "2026-12-14": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-rynny-zapchane.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-rynny-zapchane.jpg",
+   "rynny_post": {
+    "network": "instagram",
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/rynny-realizacja-siatka.jpg"
+    ],
+    "text": "Wysoki budynek, wąskie przejście, brak miejsca na rusztowanie? Dla nas to nie problem.\n\nRynny na wysokości czyścimy z liny. Nie trzeba blokować chodnika ani stawiać rusztowań.\n\nPracujemy przy blokach, kamienicach i budynkach firmowych.\n\nWycena? Napisz w DM albo zadzwoń: 797 584 863\n\n#czyszczenierynien #rynny #ruryspustowe #zima #Kraków #Małopolska #BruClean"
+   }
+  },
+  "2026-12-15": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-odsniezanie-sople.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-odsniezanie-sople.jpg",
+   "fb_post": {
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/wysokosciowe-realizacja-lina.jpg"
+    ],
+    "message": "Kto odpowiada za śnieg i sople na dachu? Właściciel lub zarządca budynku.\n\nPrawo budowlane (art. 61) zobowiązuje go do zapewnienia bezpiecznego użytkowania obiektu, także przy intensywnych opadach śniegu. Dotyczy to też sopli nad chodnikiem i wejściem.\n\nJeśli zarządzają Państwo budynkiem, warto ustalić odśnieżanie, zanim przyjdzie duży opad.\n\n📞 797 584 863 lub wiadomość prywatna. Odpowiadamy do 6 godzin.\n\n#odśnieżaniedachów #sople #zarządcanieruchomości #wspólnotamieszkaniowa #Kraków #BruClean"
+   }
+  },
+  "2026-12-16": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-dachy-plotki-2.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-dachy-plotki-2.jpg",
+   "ig_post": {
+    "type": "image",
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/dachy-plotki-sniegowe-1.jpg"
+    ],
+    "caption": "Śnieg z dachu nie ostrzega.\n\nWystarczy odwilż albo słońce, żeby cała warstwa zsunęła się naraz. Na dole może być wejście, samochód albo rynna.\n\nPłotki śniegowe zatrzymują śnieg na dachu, a ten topnieje stopniowo. Montujemy je na istniejących dachach.\n\nWycena? Napisz w DM albo zadzwoń: 797 584 863\n\n#płotkiśniegowe #płotkiprzeciwśniegowe #dach #zima #śnieg #Kraków #Małopolska #BruClean"
+   }
+  },
+  "2026-12-17": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-rynny-sucha-elewacja.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-rynny-sucha-elewacja.jpg",
+   "rynny_post": {
+    "network": "facebook",
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/rynny-przed.jpg",
+     "https://brucleanservice.pl/images/social/feed/rynny-po.jpg"
+    ],
+    "text": "Ta sama rynna przed czyszczeniem i po.\n\nW środku był gęsty osad z liści i mchu, który trzyma wodę. Zimą taki osad zamarza i zamienia rynnę w lodową rynienkę, która przelewa się przy każdej odwilży.\n\nWycenę przygotujemy po zdjęciach.\n\n📞 797 584 863 lub wiadomość prywatna. Odpowiadamy do 6 godzin.\n\n#czyszczenierynien #rynny #ruryspustowe #zima #Kraków #Małopolska #BruClean"
+   }
+  },
+  "2026-12-18": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-odsniezanie-sople.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-odsniezanie-sople.jpg",
+   "ig_post": {
+    "type": "image",
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/odsniezanie-dach-plaski.jpg"
+    ],
+    "caption": "Duży opad śniegu? Wtedy wszyscy dzwonią naraz.\n\nNajprościej ustalić odśnieżanie wcześniej: znamy dach, dostęp i miejsca, gdzie tworzą się nawisy. Po opadzie wiemy, co robić, i nie tracimy czasu na oględziny.\n\nDotyczy to szczególnie hal, wspólnot i budynków z dużym ruchem pod dachem.\n\nWycena? Napisz w DM albo zadzwoń: 797 584 863\n\n#odśnieżaniedachów #sople #zarządcanieruchomości #wspólnotamieszkaniowa #Kraków #BruClean"
+   }
+  },
+  "2026-12-19": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-dachy-plotki-1.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-dachy-plotki-1.jpg",
+   "fb_post": {
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/dachy-plotki-sniegowe-2.jpg",
+     "https://brucleanservice.pl/images/social/feed/dachy-plotki-sniegowe-3.jpg"
+    ],
+    "message": "Gdzie płotki śniegowe są najbardziej potrzebne?\n\n• Nad wejściem do domu lub klatki schodowej.\n• Nad podjazdem, parkingiem i miejscem na auto.\n• Nad tarasem, zadaszeniem i oświetleniem.\n• Nad rynną, którą zsuwający się śnieg potrafi wyrwać.\n\nMożna zabezpieczyć tylko te fragmenty dachu albo całą połać.\n\n📞 797 584 863 lub wiadomość prywatna. Odpowiadamy do 6 godzin.\n\n#płotkiśniegowe #płotkiprzeciwśniegowe #dach #zima #śnieg #Kraków #Małopolska #BruClean"
+   }
+  },
+  "2026-12-20": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-rynny-przed-po.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-rynny-przed-po.jpg",
+   "rynny_post": {
+    "network": "instagram",
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/rynny-blacha-przed-po.jpg"
+    ],
+    "text": "Sople pod rynną wyglądają ładnie tylko na zdjęciach.\n\nNajczęściej oznaczają, że rynna jest zapchana albo rura spustowa zamarzła. Woda przelewa się przez krawędź i zamarza w powietrzu.\n\nCzyścimy rynny i rury spustowe, a sople usuwamy z liny.\n\nWycena? Napisz w DM albo zadzwoń: 797 584 863\n\n#czyszczenierynien #rynny #ruryspustowe #zima #Kraków #Małopolska #BruClean"
+   }
+  },
+  "2026-12-21": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-odsniezanie-sople.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-odsniezanie-sople.jpg",
+   "fb_post": {
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/odsniezanie-przed.jpg",
+     "https://brucleanservice.pl/images/social/feed/odsniezanie-po.jpg"
+    ],
+    "message": "Przed świętami warto spojrzeć w górę.\n\nNawisy śniegu i sople nad wejściem, chodnikiem lub parkingiem mogą spaść na ludzi i samochody. W okresie świątecznym ruch przy budynkach jest większy niż zwykle.\n\nUsuwamy śnieg i sople z dachów w Krakowie i w promieniu 100 km.\n\n📞 797 584 863 lub wiadomość prywatna. Odpowiadamy do 6 godzin.\n\n#odśnieżaniedachów #sople #zarządcanieruchomości #wspólnotamieszkaniowa #Kraków #BruClean"
+   }
+  },
+  "2026-12-22": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-dachy-plotki-2.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-dachy-plotki-2.jpg",
+   "ig_post": {
+    "type": "image",
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/plotki-haki-kolaz.jpg"
+    ],
+    "caption": "Haki śniegowe na dachu. Małe elementy, duże znaczenie.\n\nRozbijają warstwę śniegu, żeby nie zsunęła się w całości. Dobieramy je do pokrycia i rozstawiamy na całej połaci.\n\nMontujemy też płotki, jeśli dach jest nad wejściem lub podjazdem.\n\nWycena? Napisz w DM albo zadzwoń: 797 584 863\n\n#płotkiśniegowe #płotkiprzeciwśniegowe #dach #zima #śnieg #Kraków #Małopolska #BruClean"
+   }
+  },
+  "2026-12-23": {
+   "fb_story": "https://brucleanservice.pl/images/social/2026-10-10-rynny.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/2026-10-10-rynny.jpg",
+   "rynny_post": {
+    "network": "facebook",
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/rynny-siatka-kontrola.jpg"
+    ],
+    "text": "Jak często czyścić rynny? Przypominamy przed nowym rokiem.\n\n• Dom bez drzew w pobliżu: zwykle raz w roku, jesienią.\n• Drzewa obok domu: dwa razy: wiosną i jesienią.\n• Iglaki przy dachu: czasem częściej, bo igły spadają przez cały rok.\n\nJeśli jesienią nie zdążyliście, rynny można wyczyścić także zimą, w dni bez mrozu.\n\n📞 797 584 863 lub wiadomość prywatna. Odpowiadamy do 6 godzin.\n\n#czyszczenierynien #rynny #ruryspustowe #zima #Kraków #Małopolska #BruClean"
+   }
+  },
+  "2026-12-24": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-odsniezanie-sople.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-odsniezanie-sople.jpg",
+   "ig_post": {
+    "type": "image",
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/plotki-haki-snieg.jpg"
+    ],
+    "caption": "Wesołych Świąt!\n\nDziękujemy wszystkim klientom za zaufanie w tym roku. Życzymy spokojnych, ciepłych świąt w gronie najbliższych i dachu, który nie sprawia kłopotów.\n\nZespół BruClean Service\n\n#WesołychŚwiąt #BożeNarodzenie #Kraków #BruClean"
+   }
+  },
+  "2026-12-25": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-dachy-plotki-1.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-dachy-plotki-1.jpg",
+   "fb_post": {
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/plotki-sniegowe-montaz-kolaz.jpg"
+    ],
+    "message": "Spokojnych świąt!\n\nJeśli w te dni na dachu leży śnieg, warto zwrócić uwagę na jedno miejsce: krawędź nad wejściem. Tam najczęściej tworzą się nawisy i sople.\n\nPłotki śniegowe zatrzymują śnieg na połaci, zanim dotrze do krawędzi. Wycenę przygotujemy po świętach, po zdjęciach dachu.\n\n📞 797 584 863 lub wiadomość prywatna. Odpowiadamy do 6 godzin.\n\n#płotkiśniegowe #płotkiprzeciwśniegowe #dach #zima #śnieg #Kraków #Małopolska #BruClean"
+   }
+  },
+  "2026-12-26": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-rynny-zapchane.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-rynny-zapchane.jpg",
+   "rynny_post": {
+    "network": "instagram",
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/rynny-dachowka-przed-po.jpg"
+    ],
+    "text": "Spacer po świętach? Przy okazji spójrz na rynny.\n\n• Czy wiszą pod nimi sople?\n• Czy woda przelewa się przez krawędź przy odwilży?\n• Czy rura spustowa jest zamarznięta?\n\nJeśli tak, rynna jest pewnie zapchana. Wystarczy zdjęcie, żebyśmy przygotowali wycenę.\n\nWycena? Napisz w DM albo zadzwoń: 797 584 863\n\n#czyszczenierynien #rynny #ruryspustowe #zima #Kraków #Małopolska #BruClean"
+   }
+  },
+  "2026-12-27": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-odsniezanie-sople.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-odsniezanie-sople.jpg",
+   "fb_post": {
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/odsniezanie-dach-plaski.jpg"
+    ],
+    "message": "Śnieg na dachu hali to realne obciążenie dla konstrukcji.\n\nNa dachach płaskich śnieg nie zsuwa się sam. Każdy kolejny opad i każda odwilż, po której śnieg zamarza, dokłada ciężaru.\n\nOdśnieżamy dachy hal, magazynów i pawilonów. Ustalmy termin, zanim przyjdzie duży opad.\n\n📞 797 584 863 lub wiadomość prywatna. Odpowiadamy do 6 godzin.\n\n#odśnieżaniedachów #sople #zarządcanieruchomości #wspólnotamieszkaniowa #Kraków #BruClean"
+   }
+  },
+  "2026-12-28": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-dachy-plotki-2.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-dachy-plotki-2.jpg",
+   "ig_post": {
+    "type": "image",
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/dachy-plotki-sniegowe-3.jpg"
+    ],
+    "caption": "Jedna odwilż i rynna wisi na jednym haku.\n\nŚnieg zsuwający się całą warstwą uderza w krawędź dachu z dużą siłą. Płotki śniegowe zatrzymują go, zanim dotrze do rynny.\n\nMontujemy płotki i haki na istniejących dachach, w dni bez śniegu na połaci.\n\nWycena? Napisz w DM albo zadzwoń: 797 584 863\n\n#płotkiśniegowe #płotkiprzeciwśniegowe #dach #zima #śnieg #Kraków #Małopolska #BruClean"
+   }
+  },
+  "2026-12-29": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-rynny-sucha-elewacja.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-rynny-sucha-elewacja.jpg",
+   "rynny_post": {
+    "network": "facebook",
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/rynny-przed-zima-checklista.jpg"
+    ],
+    "text": "Odwilż to dobry moment, żeby sprawdzić rynny.\n\nGdy śnieg topnieje, od razu widać, czy woda spływa rurą spustową, czy przelewa się przez krawędź i leje po elewacji. Mokra elewacja zimą to ryzyko pęknięć tynku przy kolejnym mrozie.\n\nJeśli coś się przelewa, czyścimy rynny i rury spustowe, także z liny.\n\n📞 797 584 863 lub wiadomość prywatna. Odpowiadamy do 6 godzin.\n\n#czyszczenierynien #rynny #ruryspustowe #zima #Kraków #Małopolska #BruClean"
+   }
+  },
+  "2026-12-30": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-odsniezanie-sople.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-odsniezanie-sople.jpg",
+   "ig_post": {
+    "type": "image",
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/odsniezanie-przed.jpg"
+    ],
+    "caption": "Nowy rok, nowe opady. Odśnieżanie warto ustalić wcześniej.\n\nZnamy dach, dostęp i miejsca, gdzie tworzą się nawisy, więc po opadzie przyjeżdżamy i od razu wiemy, co robić.\n\nOdśnieżamy dachy domów, wspólnot, hal i budynków firmowych w Krakowie i okolicach.\n\nWycena? Napisz w DM albo zadzwoń: 797 584 863\n\n#odśnieżaniedachów #sople #zarządcanieruchomości #wspólnotamieszkaniowa #Kraków #BruClean"
+   }
+  },
+  "2026-12-31": {
+   "fb_story": "https://brucleanservice.pl/images/social/story-dachy-plotki-1.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-dachy-plotki-1.jpg",
+   "fb_post": {
+    "images": [
+     "https://brucleanservice.pl/images/social/feed/odsniezanie-po.jpg"
+    ],
+    "message": "Szczęśliwego Nowego Roku!\n\nDziękujemy za wszystkie zlecenia w 2026 roku: dachy, elewacje, rynny, kostkę i prace na wysokości. Życzymy Państwu bezpiecznego i spokojnego 2027 roku.\n\nDo zobaczenia w nowym roku!\n\nZespół BruClean Service\n\n#SzczęśliwegoNowegoRoku #NowyRok2027 #Kraków #BruClean"
+   }
+  }
+ }
+}
