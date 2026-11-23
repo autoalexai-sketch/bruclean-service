@@ -1,5 +1,5 @@
 {
- "_info": "BruClean social plan for December 2026. Continues the November rotation (owner rule 07.11.2026): 3 topics, one per day, rotating płotki śniegowe -> rynny -> odśnieżanie (01.12 płotki). Each day: fb_story + ig_story of the day topic and ONE post; the post network alternates daily (01.12 facebook, 02.12 instagram, ...). Rynny days use rynny_post, other days fb_post or ig_post. Holiday greetings on 24.12 (instagram) and 31.12 (facebook) replace that day's topic post; 25-26.12 posts are soft, without a hard sell. Published daily by the scheduled routine (09:07 Europe/Warsaw). Needs owner approval before merge.",
+ "_info": "BruClean social plan for December 2026. Continues the November rotation (owner rule 07.11.2026): 3 topics, one per day, rotating płotki śniegowe -> rynny -> odśnieżanie (01.12 płotki). Each day: fb_story + ig_story of the day topic and ONE post; the post network alternates daily (01.12 facebook, 02.12 instagram, ...). Rynny days use rynny_post, other days fb_post or ig_post. Holiday greetings on 24.12 (instagram) and 31.12 (facebook), with their own holiday graphics for the post and both stories, replace that day's topic post; 25-26.12 posts are soft, without a hard sell. Published daily by the scheduled routine (09:07 Europe/Warsaw). Needs owner approval before merge.",
  "fb_page": "1110808025459372",
  "ig_account": "17841409701924977",
  "days": {
@@ -257,12 +257,12 @@
    }
   },
   "2026-12-24": {
-   "fb_story": "https://brucleanservice.pl/images/social/story-odsniezanie-sople.jpg",
-   "ig_story": "https://brucleanservice.pl/images/social/story-odsniezanie-sople.jpg",
+   "fb_story": "https://brucleanservice.pl/images/social/story-swieta-2026.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-swieta-2026.jpg",
    "ig_post": {
     "type": "image",
     "images": [
-     "https://brucleanservice.pl/images/social/feed/plotki-haki-snieg.jpg"
+     "https://brucleanservice.pl/images/social/feed/swieta-2026.jpg"
     ],
     "caption": "Wesołych Świąt!\n\nDziękujemy wszystkim klientom za zaufanie w tym roku. Życzymy spokojnych, ciepłych świąt w gronie najbliższych i dachu, który nie sprawia kłopotów.\n\nZespół BruClean Service\n\n#WesołychŚwiąt #BożeNarodzenie #Kraków #BruClean"
    }
@@ -332,11 +332,11 @@
    }
   },
   "2026-12-31": {
-   "fb_story": "https://brucleanservice.pl/images/social/story-dachy-plotki-1.jpg",
-   "ig_story": "https://brucleanservice.pl/images/social/story-dachy-plotki-1.jpg",
+   "fb_story": "https://brucleanservice.pl/images/social/story-nowy-rok-2027.jpg",
+   "ig_story": "https://brucleanservice.pl/images/social/story-nowy-rok-2027.jpg",
    "fb_post": {
     "images": [
-     "https://brucleanservice.pl/images/social/feed/odsniezanie-po.jpg"
+     "https://brucleanservice.pl/images/social/feed/nowy-rok-2027.jpg"
     ],
     "message": "Szczęśliwego Nowego Roku!\n\nDziękujemy za wszystkie zlecenia w 2026 roku: dachy, elewacje, rynny, kostkę i prace na wysokości. Życzymy Państwu bezpiecznego i spokojnego 2027 roku.\n\nDo zobaczenia w nowym roku!\n\nZespół BruClean Service\n\n#SzczęśliwegoNowegoRoku #NowyRok2027 #Kraków #BruClean"
    }
